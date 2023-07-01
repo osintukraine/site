@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-01T16:03:22.005Z
+date: 2023-07-01T16:11:06.609Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -13,15 +13,16 @@ dateCreated: 2023-07-01T12:21:50.978Z
 ## OSINT tools to archive, document and debunk the Russian War against Ukraine
 
 
-Status 18-05-2023 All running smooth !  
+Status 1-07-2023 All running smooth !  
 
 > Status \- Automated translation 🟢 - Automated publication 🟢 - Automated media download 🟢 - Video Playback 🟢 - Image Display 🟢
 {.is-success}
 
+> Redeploying the video-only archive
+{.is-warning}
 
-## [HTML/Media Telegram Archives](https://osintukraine.com/#videos)
 
-[](https://ukraine.osintukraine.com/)
+## HTML/Media Telegram Archives
 
 ### [Archive of Ukraine Telegram 🇺🇦](https://ukraine.osintukraine.com/)
 
@@ -32,29 +33,34 @@ Ongoing project to archive video's from Telegram
 
 [Media Included](https://ukraine.osintukraine.com/)
 
- Current status 🟢
+>  Current status 🟢
+{.is-success}
 
-alpha version 100%
 
-Looking for a Frontend developer looking for volunteer contributions to refactor the current CSS layout or rework the jinja-html templates from scratch to build a modern frontend.
+> Looking for a Frontend developer looking for volunteer contributions to refactor the current CSS layout or rework the jinja-html templates from scratch to build a modern frontend.
+> 
+{.is-info}
 
-### [Video Only Aggregation](https://uavideos.osintukraine.com/)
 
-[](https://uavideos.osintukraine.com/)
 
-###### [Video only posts from 60+ 🇺🇦 telegram channels](https://uavideos.osintukraine.com/)
+## Video Only Aggregation
 
-TIPs :  
-NEW POSTS ARE AT THE BOTTOM OF EACH PAGE  
-On mobile, enable "desktop site" to be able to pinch zoom and scroll top to bottom fast.
+### [Video only posts from 60+ 🇺🇦 telegram channels](https://uavideos.osintukraine.com/)
 
-Current status 🟢
+> TIPs :  
+> NEW POSTS ARE AT THE BOTTOM OF EACH PAGE  
+> On mobile, enable "desktop site" to be able to pinch zoom and scroll top to bottom fast.
+
+> Current status 🟢
+{.is-success}
+
 
 Live 100%
 
-[Media Included](https://uavideos.osintukraine.com/)
+> [Media Included](https://uavideos.osintukraine.com/)
+{.is-info}
 
-[](https://russia.osintukraine.com/)
+
 
 ### [Archive of Russian Telegram 🇷🇺](https://russia.osintukraine.com/)
 
@@ -62,13 +68,17 @@ Ongoing project to download video's from Telegram and hunt for war crimes eviden
 90 telegram channels translated & archived with their media files.  
   
 
-[Media Included](https://russia.osintukraine.com/)
+> [Media Included](https://russia.osintukraine.com/)
+{.is-info}
 
-Current status 🟢
 
-alpha version 100%
+> Current status 🟢
+{.is-success}
 
-Looking for a Frontend developer looking for volunteer contributions to refactor the current CSS layout or rework the jinja-html templates from scratch to build a modern frontend.
+
+> Looking for a Frontend developer looking for volunteer contributions to refactor the current CSS layout or rework the jinja-html templates from scratch to build a modern frontend.
+> 
+{.is-info}
 
 ### [Video Only Aggregation](https://ruvideos.osintukraine.com/)
 
@@ -88,7 +98,9 @@ Live 100%
 
 ## [NTFY](https://osintukraine.com/#ntfy)
 
-Get notifications when New telegram posts are archived and browse the archive right in your browser without telegram.
+> Get notifications when New telegram posts are archived and browse the archive right in your browser without telegram.
+{.is-info}
+
 
 ##### [Full Archive 🇺🇦](https://ntfy.osintukraine.com/ukraine-telegram)
 
