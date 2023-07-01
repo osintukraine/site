@@ -2,35 +2,31 @@
 title: Roadmap of the project
 description: OSINTukraine roadmap
 published: true
-date: 2023-07-01T20:20:09.665Z
+date: 2023-07-01T20:27:30.231Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:38:32.732Z
 ---
 
+# Roadmap
+
+> This page is outdated and will be updated soon.
+> 
+{.is-info}
+
 ## [N8N Iteration](https://n8n.io/)
-
-Where can I see this iteration at work ?
-
--   [https://osintukraine.com/#ukrtelegram](https://osintukraine.com/#ukrtelegram)
--   [https://osintukraine.com/#rutelegram](https://osintukraine.com/#rutelegram)
--   [https://osintukraine.com/#databases](https://osintukraine.com/#databases)
 
 **Focus : Publishing and Visibility on social media & web**
 
-## [Python Iteration](https://git.osintukraine.com/OSINTukraine/tg-archive)
-
-Where can I see this iteration at work ?
-
--   [https://osintukraine.com/#videos](https://osintukraine.com/#videos)
+## [Python Iteration](https://github.com/OSINTukraine/tg-archive)
 
 **Focus : Archival of Video/Media files and accessibility outside of Telegram**
 
-### [0.1](https://amplifyukraine.eu/)
+### 0.1
 
 Live DeepL translations using N8N for translation, publication and auto sharing on Twitter, Discord, Telegram
 
-### [0.1.1](https://amplifyukraine.eu/google-static-translations/)
+### 0.1.1
 
 Add Belarus Updates
 
@@ -62,23 +58,22 @@ Provide a front-end for Baserow data after dedup process with built-in search, m
 
 Provide a Search interface able to search inside each video/media archive site.
 
-### [0.1](https://amplifyukraine.eu/google-static-translations/)
+### 0.1
 
 Listen to Telegram channels from the aggregated translated selection and archive them outside of telegram with media files.
 
-### [0.1.1](https://ukraine.amplifyukraine.eu/)
+### 0.1.1
 
 Functional Incremental Sync & Build
 
-### [O.1.2](https://uavideos.osintukraine.com)
+### O.1.2
 
 Provide a functional but ugly static HTML site generation with embedded video files and lazy loading of images files.
 
-### [O.1.2](https://uavideos.osintukraine.com)
-
+### O.1.2
 Provide an API to get access to the content. (using NocoDB) contact us if you’re interested to build with it.
 
-### [O.1.3](https://uavideos.osintukraine.com)
+### O.1.3
 
 Resync all media files to make sure each video have correct length/size and play/embed fine on any browser.
 
