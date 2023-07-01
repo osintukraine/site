@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-01T21:37:30.745Z
+date: 2023-07-01T21:40:31.767Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -115,9 +115,9 @@ Live 100%
 
 ![](OSINT%20Ukraine%20-%20OSINT%20Tools%20For%20Ukraine_files/2023-03-14_16-25.jpg)
 
-## Searchable Databases without Media
+# Searchable Databases without Media
 
-### [AmplifyUkraine 🇺🇦](https://db.osintukraine.com/public/grid/vw0suabvgKtxZQ5Na_Y9vQsa3mCzU3-Zq3rVRuU9UD4)
+## [AmplifyUkraine 🇺🇦](https://db.osintukraine.com/public/grid/vw0suabvgKtxZQ5Na_Y9vQsa3mCzU3-Zq3rVRuU9UD4)
 
 90 Ukrainian Telegram Channels aggregated and translated.  
 \- Search  
@@ -136,7 +136,7 @@ Beta phase 🟢
 
 [](https://db.osintukraine.com/public/grid/8NRIJOd7hT3V7NbjxRKivwc4Ypqgz0hI1nz3wZgrmT4)
 
-### [Telehunt 🇷🇺](https://db.osintukraine.com/public/grid/8NRIJOd7hT3V7NbjxRKivwc4Ypqgz0hI1nz3wZgrmT4)
+## [Telehunt 🇷🇺](https://db.osintukraine.com/public/grid/8NRIJOd7hT3V7NbjxRKivwc4Ypqgz0hI1nz3wZgrmT4)
 
 90 Russian Telegram Channels aggregated and translated.  
 \- Search  
@@ -147,15 +147,13 @@ Beta phase 🟢
 
 #### Update every 15 mins
 
-Beta phase 🟢
-
 > **Looking for :**
 > 
 > -   Volunteers to enrich the data, categorize it and add location, names, cities, units etc…
 {.is-info}
 
 
-## Searchable Database with Media
+# Searchable Database with Media
 
 
 ### [AmplifyUkraine 🇺🇦](https://geoint.osintukraine.com/public/grid/VduHBX7drdHQQXuFDruY846K6bcGUrAZUqF7-_im774)
@@ -232,15 +230,13 @@ Video posts bot posting Ukrainian Telegram archived/translated content on the fe
 
 [Telegram](https://t.me/amplifyukraine)
 
-[![amplifyukraine](OSINT%20Ukraine%20-%20OSINT%20Tools%20For%20Ukraine_files/amplifyukraine-e1653570770600.jpg "amplifyukraine")](https://t.me/amplifyukraine)
-
-Scan this QRcode to join the channel on Telegram !
+[amplifyukraine](https://t.me/amplifyukraine)
 
 Automated DeepL translations of Telegram posts shared by 30 Ukrainian channels (SMAT) translated to English
 
 Video embedded
 
-[Telegram](https://t.me/ukrainian_videos)
+[Telegram](https://t.me/uavideos)
 
 [![ukrainian-videos](OSINT%20Ukraine%20-%20OSINT%20Tools%20For%20Ukraine_files/ukrainian-videos-e1653570810436.jpg "ukrainian-videos")](https://t.me/ukrainian_videos)
 
@@ -250,7 +246,7 @@ A filtering put in place to segment “Video posts” out of the Ukrainian teleg
 
 Video embedded
 
-[Telegram](https://t.me/ukrainian_photos)
+[Telegram](https://t.me/uaphotos)
 
 [![ukrainian-photos](OSINT%20Ukraine%20-%20OSINT%20Tools%20For%20Ukraine_files/ukrainian-photos-e1653570835972.jpg "ukrainian-photos")](https://t.me/ukrainian_photos)
 
