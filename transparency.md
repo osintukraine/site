@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2023-07-01T15:58:21.545Z
+date: 2023-07-01T20:11:32.929Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -88,18 +88,16 @@ By sponsoring a membership Tier, you directly participate into securing the stab
 [Join !](https://ko-fi.com/cyberbenb/tiers)
 
 ## Credits  
- 
 
-![DeepL_Logo_darkBlue_v2](https://osintukraine.com/wp-content/uploads/2022/06/DeepL_Logo_darkBlue_v2.svg)
+### DEEPL
 
 big shout out to DeepL CEO contribution
 
 Without the generous offer of translation credit from DeepL CEO this project would not have been possible.
 
 DeepL 💗  
- 
 
-![cloudron](https://osintukraine.com/wp-content/uploads/elementor/thumbs/cloudron-pq2au8m4i43ufme5oo1ob93if9bfgtsvjvfb2kkktw.png)
+### CLOUDRON
 
 the Best self-hosting solution
 
@@ -107,10 +105,9 @@ Cloudron allowed this project to takeoff in one day and to put in place the firs
 
 Cloudron enable you or your project to operate without friction.
 
-![DigitalResistance](https://osintukraine.com/wp-content/uploads/elementor/thumbs/DigitalResistance-pnque82q9r77jwul7emqik08mm9ibt1fxi40egi54k.png)
+### OSINT COMMUNITY
 
 Thanks to the OSINT Community on Twitter, Discord
 
 Citizens and Expert OSINT researchers doing an amazing work at documenting, archiving and fact-checking the Russian War against Ukraine.
 
--   [Contact information](https://osintukraine.com/contact-information/)
