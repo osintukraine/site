@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2023-07-01T13:30:19.481Z
+date: 2023-07-01T13:30:37.608Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -27,7 +27,7 @@ My Personal recommendation goes to ComeBackAlive and Prytula Foundation.
 ## Storage – €104/month
 
 # Tabs {.tabset}
-## Hardware
+## Servers
 
 VPS 1
 
