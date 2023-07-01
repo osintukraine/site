@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-01T21:45:06.723Z
+date: 2023-07-01T21:45:16.486Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -44,7 +44,7 @@ Ongoing project to archive video's from Telegram
 
 # Video Only Aggregation 🇺🇦
 
-## [Video only posts from 60+ 🇺🇦 telegram channels](https://uavideos.osintukraine.com/)
+## [Video only posts from 60+ 🇺🇦 telegram channels](https://videosua.osintukraine.com/)
 
 > TIPs :  
 > NEW POSTS ARE AT THE BOTTOM OF EACH PAGE  
