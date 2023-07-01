@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-01T21:40:31.767Z
+date: 2023-07-01T21:41:54.487Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -238,7 +238,7 @@ Video embedded
 
 [Telegram](https://t.me/uavideos)
 
-[![ukrainian-videos](OSINT%20Ukraine%20-%20OSINT%20Tools%20For%20Ukraine_files/ukrainian-videos-e1653570810436.jpg "ukrainian-videos")](https://t.me/ukrainian_videos)
+[ukrainian-videos](https://t.me/ukrainian_videos)
 
 Scan this QRcode to join the channel on Telegram !
 
@@ -248,7 +248,7 @@ Video embedded
 
 [Telegram](https://t.me/uaphotos)
 
-[![ukrainian-photos](OSINT%20Ukraine%20-%20OSINT%20Tools%20For%20Ukraine_files/ukrainian-photos-e1653570835972.jpg "ukrainian-photos")](https://t.me/ukrainian_photos)
+[ukrainian-photos](https://t.me/uaphotos)
 
 Scan this QRcode to join the channel on Telegram !
 
@@ -256,7 +256,7 @@ A filtering put in place to segment “Photo posts” out of the 30 Ukrainian te
 
 Photo embedded
 
-## [🔴 Live Automated DeepL Translation Russia](https://osintukraine.com/#rutelegram)
+## 🔴 Live Automated DeepL Translation Russia
 
 Unlisted Unless you follow the account, the russian content is NOT being spread on the mastodon network, you have to specifically follow the account to get new posts on your feed, these are neither searchable on the network for obvious reasons.
 
@@ -283,7 +283,7 @@ Video posts bot posting Russian Telegram archived/translated content on the fedi
 [Russian Videos posts](https://osintua.eu/@ruvideos)
 
 
-## Telegram Channels with built-in translations
+# Telegram Channels with built-in translations
 
 [Full Translation & Archive](https://t.me/telehunt_watch)
 
@@ -300,7 +300,7 @@ A filtering put in place to segment “Video posts” out of the 90 Russian tele
 
 A filtering put in place to segment “Photo posts” out of the 90 Russian telegram channels we collect.
 
-## Media Tools
+# Media Tools
 
 
 ### [NewsWire](https://rss.osintukraine.com/)
