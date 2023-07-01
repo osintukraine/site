@@ -2,7 +2,7 @@
 title: About
 description: About OSINTukraine project
 published: true
-date: 2023-07-01T20:32:04.905Z
+date: 2023-07-01T20:33:34.418Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:30:32.140Z
@@ -18,7 +18,7 @@ dateCreated: 2023-07-01T12:30:32.140Z
 {.is-warning}
 
 
-> This first iteration evolved into the current set of [tools displayed on the front-page](https://osintukraine.com/), basically pushing the translations to different Discords, Telegram and Mastodon/Web channels with the intent to facilitate access, searching and archiving for **different reasons** : 
+> This first iteration evolved into the current set of [tools displayed on the front-page](https://osintukraine.com/), basically pushing the translations to different Discords, Telegram and [Mastodon](https://embed.osintukraine.com) and other platforms with the intent to facilitate access, searching and archiving for **different reasons** : 
 {.is-success}
 
 ## Why
