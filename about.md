@@ -2,22 +2,22 @@
 title: About
 description: About OSINTukraine project
 published: true
-date: 2023-07-01T20:33:34.418Z
+date: 2023-07-01T20:34:05.609Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:30:32.140Z
 ---
 
-# Who ?
+# Who 
 
 > My name is Ben, supporting Ukraine from Belgium, I’m a DevOps in the making but also have a quite diverse experience with all things digital, open source collaboration tools, self-hosting and information monitoring, automation;
 
-## How
+## When
 > On the 24th of February, I dropped everything I was doing to support Ukraine with information amplification, sourcing of good information sources, dashboards, after an initial deep dive into Telegram from mobile and manual translations, I wanted to find a solution to **ease the pain of following the invasion of Ukraine**, my first idea was to use Google Translate to ease translation process and [provide the resulting output on the open web](https://amplifyukraine.eu) without the need of a telegram account.   
 > This quickly evolved to a state where I’m able to host the [translation content along with the original context.](https://ruprop.ukrainewararchive.eu/)
 {.is-warning}
 
-
+## How
 > This first iteration evolved into the current set of [tools displayed on the front-page](https://osintukraine.com/), basically pushing the translations to different Discords, Telegram and [Mastodon](https://embed.osintukraine.com) and other platforms with the intent to facilitate access, searching and archiving for **different reasons** : 
 {.is-success}
 
