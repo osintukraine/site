@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-01T21:05:32.239Z
+date: 2023-07-01T21:35:48.992Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -13,7 +13,7 @@ dateCreated: 2023-07-01T12:21:50.978Z
 > This page is under reconstruction
 {.is-info}
 
-### OSINT tools to archive, document and debunk the Russian War against Ukraine
+## OSINT tools to archive, document and debunk the Russian War against Ukraine
 
 > Status \- Automated translation 🟢 - Automated publication 🟢 - Automated media download 🟢 - Video Playback 🟢 - Image Display 🟢
 {.is-success}
@@ -22,7 +22,7 @@ dateCreated: 2023-07-01T12:21:50.978Z
 {.is-warning}
 
 
-## HTML/Media Telegram Archives
+# HTML/Media Telegram Archives 🇺🇦
 
 ### [Archive of Ukraine Telegram 🇺🇦](https://ukraine.osintukraine.com/)
 
@@ -42,9 +42,9 @@ Ongoing project to archive video's from Telegram
 
 
 
-## Video Only Aggregation
+# Video Only Aggregation 🇺🇦
 
-### [Video only posts from 60+ 🇺🇦 telegram channels](https://uavideos.osintukraine.com/)
+## [Video only posts from 60+ 🇺🇦 telegram channels](https://uavideos.osintukraine.com/)
 
 > TIPs :  
 > NEW POSTS ARE AT THE BOTTOM OF EACH PAGE  
@@ -54,8 +54,6 @@ Ongoing project to archive video's from Telegram
 {.is-success}
 
 
-Live 100%
-
 > [Media Included](https://uavideos.osintukraine.com/)
 {.is-info}
 
@@ -63,7 +61,7 @@ Live 100%
 ---
 
 
-### [Archive of Russian Telegram 🇷🇺](https://russia.osintukraine.com/)
+# Archive of Russian Telegram 🇷🇺
 
 Ongoing project to download video's from Telegram and hunt for war crimes evidences.  
 90 telegram channels translated & archived with their media files.  
@@ -80,11 +78,10 @@ Ongoing project to download video's from Telegram and hunt for war crimes eviden
 > Looking for a Frontend developer looking for volunteer contributions to refactor the current CSS layout or rework the jinja-html templates from scratch to build a modern frontend.
 {.is-info}
 
-### [Video Only Aggregation](https://ruvideos.osintukraine.com/)
+# Video Only Aggregation 🇷🇺
 
-[](https://ruvideos.osintukraine.com/)
 
-###### [Video only posts from 80+ 🇷🇺 telegram channels](https://ruvideos.osintukraine.com/)
+## [Video only posts from 80+ 🇷🇺 telegram channels](https://ruvideos.osintukraine.com/)
 
 TIPs :  
 NEW POSTS ARE AT THE BOTTOM OF EACH PAGE  
@@ -96,19 +93,19 @@ Live 100%
 
 [Media Included](https://ruvideos.osintukraine.com/)
 
-## [NTFY](https://osintukraine.com/#ntfy)
+# NTFY
 
 > Get notifications when New telegram posts are archived and browse the archive right in your browser without telegram.
 {.is-info}
 
 
-##### [Full Archive 🇺🇦](https://ntfy.osintukraine.com/ukraine-telegram)
+#### [Full Archive 🇺🇦](https://ntfy.osintukraine.com/ukraine-telegram)
 
-##### [Videos Only 🇺🇦](https://ntfy.osintukraine.com/UA-videos)
+#### [Videos Only 🇺🇦](https://ntfy.osintukraine.com/UA-videos)
 
-##### [Full Archive 🇷🇺](https://ntfy.osintukraine.com/russia-telegram)
+#### [Full Archive 🇷🇺](https://ntfy.osintukraine.com/russia-telegram)
 
-##### [Videos Only 🇷🇺](https://ntfy.osintukraine.com/RU-videos)
+#### [Videos Only 🇷🇺](https://ntfy.osintukraine.com/RU-videos)
 
 > ### Setting Tips
 > -   Turn the Sound notification OFF
