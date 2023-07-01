@@ -2,7 +2,7 @@
 title: Sources
 description: Sources of the telegram channels used by the OSINTukraine project
 published: true
-date: 2023-07-01T16:43:56.122Z
+date: 2023-07-01T20:18:20.991Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:34:43.075Z
@@ -12,47 +12,42 @@ dateCreated: 2023-07-01T12:34:43.075Z
 
 ## Telegram Channel Sources
 
-## [Collection 🇺🇦](https://osintukraine.com/sources/#ukraine)
-
-#### Currently Archived channels 🇺🇦  
+### Collection 🇺🇦
+> 
+> Currently Archived channels 🇺🇦  
   
-[Full list](https://tracking.osintukraine.com/public/grid/M-9jlQ0YjorQ5aX_TNw8Dh3IA0L6ubvjyamuWp7lA_s)  
- 
+> [Full list](https://tracking.osintukraine.com/public/grid/M-9jlQ0YjorQ5aX_TNw8Dh3IA0L6ubvjyamuWp7lA_s)  
+{.is-info}
 
-##### Suggest a Telegram Channel to Archive
 
-  
-[Submit](https://tracking.osintukraine.com/form/wrAG05k8NRcVeGD7GZDKh4pHqljn7Yk6nR6cN1mxaSw)
+> ##### [Suggest](https://tracking.osintukraine.com/form/wrAG05k8NRcVeGD7GZDKh4pHqljn7Yk6nR6cN1mxaSw) a Telegram Channel to Archive
+{.is-danger}
 
-![](https://osintukraine.com/wp-content/uploads/2023/03/ukraine-telegram.jpg)
 
-Click the image to see the full list
+---
 
-## [Collection 🇷🇺](https://osintukraine.com/sources/#russia)
 
-![](https://osintukraine.com/wp-content/uploads/2023/03/russian-telegram-1024x733.jpg)
+### Collection 🇷🇺
 
-Click the image to see the full list
 
-#### Currently Archived channels 🇷🇺
+> Currently Archived channels 🇷🇺
+> 
 
-Work in Progress  
-We’re currently updating our sources and adding new channels to archive.  
-  
-[Full List](https://tracking.osintukraine.com/public/grid/fESxje9D9M-hXOvevUPERa8SHg8gykrXFkBLpd-sFaw)  
- 
-
-##### Suggest a Telegram Channel to Archive
+> Work in Progress  
+> We’re currently updating our sources and adding new channels to archive.  
+{.is-warning}
 
   
-[Submit](https://tracking.osintukraine.com/form/wrAG05k8NRcVeGD7GZDKh4pHqljn7Yk6nR6cN1mxaSw)  
- 
+> [Full List](https://tracking.osintukraine.com/public/grid/fESxje9D9M-hXOvevUPERa8SHg8gykrXFkBLpd-sFaw)  
+{.is-info}
 
-## Origin of Telegram sources & inherited Methodology
+> #### [Suggest](https://tracking.osintukraine.com/form/wrAG05k8NRcVeGD7GZDKh4pHqljn7Yk6nR6cN1mxaSw) a Telegram Channel to Archive
+{.is-danger}
 
-![](https://osintukraine.com/wp-content/uploads/2022/05/smat-full-1024x297.png)
+# Origin of Telegram sources & inherited Methodology
 
-Origin – Methodology
+
+## Origin – Methodology
 
   
 [Google Sheet Kremlin Hunting](https://docs.google.com/spreadsheets/d/11DsqXs0ks4RWGhZCgXBmslmYozXrXeKL3TT6yaPEeYk/edit#gid=0)  
@@ -62,4 +57,4 @@ Origin – Methodology
 > 
 > So as Russian chauvinism reaches a continued low with their invasion of Ukraine, we are seeking to uncover, and support you to uncover, more of these threads in our data.
 
-[Read More](https://blog.smat-app.com/p/kremlin-hunting)
+[Read More about SMAT](https://blog.smat-app.com/p/kremlin-hunting)
