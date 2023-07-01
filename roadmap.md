@@ -2,7 +2,7 @@
 title: Roadmap of the project
 description: OSINTukraine roadmap
 published: true
-date: 2023-07-01T20:27:30.231Z
+date: 2023-07-01T20:38:44.476Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:38:32.732Z
@@ -11,7 +11,6 @@ dateCreated: 2023-07-01T12:38:32.732Z
 # Roadmap
 
 > This page is outdated and will be updated soon.
-> 
 {.is-info}
 
 ## [N8N Iteration](https://n8n.io/)
