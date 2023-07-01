@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2023-07-01T13:30:37.608Z
+date: 2023-07-01T15:58:21.545Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -20,14 +20,12 @@ If you really want to contribute, Donate to
   
 My Personal recommendation goes to ComeBackAlive and Prytula Foundation.
 
-## Server – €62.92/month
 
-## Software – €60.20/month
 
-## Storage – €104/month
 
 # Tabs {.tabset}
 ## Servers
+### Server – €62.92/month
 
 VPS 1
 
@@ -40,6 +38,7 @@ VPS 3
 **Purpose : hosting, computation, scrapping and automation workflows, project management tools.**  
  
 ## Software Inoreader 
+### Software – €60.20/month
 
 1 x Pro account = 96,79 € / Year
 
@@ -51,7 +50,9 @@ Currently, Telehunt + AmplifyUkraine = 6x Pro
 
 **Purpose : Telegram Aggregation without handling API rate limits or burning account risk.**  
 
-## Video Storage  
+## Video Storage
+### Storage – €104/month
+
 10 TB – Video Storage Ukraine
 
 20 TB – Russian Video
