@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-01T20:57:51.731Z
+date: 2023-07-01T21:01:15.337Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -290,24 +290,20 @@ Video posts bot posting Russian Telegram archived/translated content on the fedi
 [Russian Videos posts](https://osintua.eu/@ruvideos)
 
 
-
 ## Telegram Channels with built-in translations
 
-[](https://t.me/telehunt_watch)
+[Full Translation & Archive](https://t.me/telehunt_watch)
 
-[![](OSINT%20Ukraine%20-%20OSINT%20Tools%20For%20Ukraine_files/telehunt_watch.jpg)](https://t.me/telehunt_watch)
 
 Main channel where the output of 90 aggregated Russian telegram channels are accessible on Telegram
 
-[](https://t.me/video_posts)
+[Videos Posts](https://t.me/video_posts)
 
-[![](OSINT%20Ukraine%20-%20OSINT%20Tools%20For%20Ukraine_files/video_posts.jpg)](https://t.me/video_posts)
 
 A filtering put in place to segment “Video posts” out of the 90 Russian telegram channels we collect.
 
-[](https://t.me/photo_posts)
+[Photos Posts](https://t.me/photo_posts)
 
-[![](OSINT%20Ukraine%20-%20OSINT%20Tools%20For%20Ukraine_files/photo_posts.jpg)](https://t.me/photo_posts)
 
 A filtering put in place to segment “Photo posts” out of the 90 Russian telegram channels we collect.
 
@@ -324,18 +320,17 @@ News tracker about relevant web sources about promoting Ukraine and the War in U
 Use this tool to download video's from hundreds of different platforms using the URL as source.
 
 
+---
 
-## [Do You want to Contribute ?](https://osintukraine.com/contact)
+
+## Do You want to Contribute ?
 
 Looking for developers with experience manipulating JSON data flows and experience coding using JavaScript/NodeJS/NPM & Python / Telegram API  
 
-[![](OSINT%20Ukraine%20-%20OSINT%20Tools%20For%20Ukraine_files/benb-fellas.webp)](https://osintukraine.com/contact)
 
-[Ben Borges](https://osintukraine.com/contact) [Devops/Maintainer](https://osintukraine.com/contact)
+*Ben Borges Devops/Maintainer* - [GitHub](https://github.com/osintukraine)
 
-[GitHub![gdnff5ar_400x400.jpg](/gdnff5ar_400x400.jpg)](https://github.com/osintukraine)
 
-Share this !
+---
 
-<kbd>
-OSINTukraine © 2022-2023-2024</kbd>
+<kbd>OSINTukraine © 2022-2023-2024</kbd>
