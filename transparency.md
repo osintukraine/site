@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2023-07-01T13:06:09.626Z
+date: 2023-07-01T13:30:19.481Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -11,7 +11,7 @@ dateCreated: 2023-07-01T12:37:02.630Z
 # Costs / Transparency / Contribute
 
 Crowdfunding costs  
-In the last 3 months, all the costs have been covered by personal funds or friends/supporters donations.  
+In the last few months, all the costs have been covered by personal funds or friends/supporters donations.  
   
 We don’t crowdfund publicly because there is no reason to divest funds that could Help Ukraine  
   
