@@ -2,7 +2,7 @@
 title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-02T18:12:22.620Z
+date: 2023-07-02T18:15:41.387Z
 tags: telegram, rss, inoreader, json, feeds
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
@@ -76,6 +76,15 @@ dateCreated: 2023-07-02T15:10:55.188Z
 
 > Each Telegram tab is an aggregation of 30 telegram channels in one spot
 {.is-info}
+
+> The State Media tab is an aggregation of Russian State Media news sources
+{.is-info}
+
+> The PMC tab is a Telegram aggregation of several Wagner/Concoord related telegram channels
+{.is-danger}
+
+> The DataXplorer tab is a monitoring/alert system built on top of the 3 Telegram (90 Channels) aggregated data, tuned to filter out posts related to the front, posted on this aggregate of russian telegram channels.
+{.is-warning}
 
 ### Telegram 1
 
