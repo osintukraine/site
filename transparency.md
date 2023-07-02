@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2023-07-02T19:11:27.442Z
+date: 2023-07-02T19:12:02.031Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -88,9 +88,9 @@ By sponsoring a membership Tier, you directly participate into securing the stab
 ---
 
 
-## Credits  
+# Credits  
 
-### DEEPL
+## DEEPL
 
 big shout out to DeepL CEO contribution
 
@@ -98,7 +98,7 @@ Without the generous offer of translation credit from DeepL CEO this project wou
 
 DeepL 💗  
 
-### CLOUDRON
+## CLOUDRON
 
 the Best self-hosting solution
 
@@ -106,7 +106,7 @@ Cloudron allowed this project to takeoff in one day and to put in place the firs
 
 Cloudron enable you or your project to operate without friction.
 
-### OSINT COMMUNITY
+## OSINT COMMUNITY
 
 Thanks to the OSINT Community on Twitter, Discord
 
