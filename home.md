@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-02T19:27:37.358Z
+date: 2023-07-02T19:28:32.887Z
 tags: tools, osint, ntfy, n8n, telegram, automation, translation, videos
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -274,7 +274,7 @@ Looking for developers with experience manipulating JSON data flows and experien
 
 *Ben Borges Devops/Maintainer* - [GitHub](https://github.com/osintukraine)
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'E1E2E81MW');kofiwidget2.draw();</script> 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E2E81MW)
 ---
 
 <kbd>OSINTukraine © 2022-2023-2024</kbd> <kbd> Status <a href="https://status.ukrainewararchive.eu/status/uptime
