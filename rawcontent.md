@@ -2,7 +2,7 @@
 title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-02T18:15:41.387Z
+date: 2023-07-02T18:17:43.419Z
 tags: telegram, rss, inoreader, json, feeds
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
@@ -110,12 +110,17 @@ Those feeds are **live** and meant to be reused by anyone
 
 
 ### PMC's Wagner / Concoord
+> This is being translated by osintukraine project https://t.me/osintwagner
+{.is-info}
 
 
 <iframe width="100%" height="800" src="https://www.inoreader.com/stream/user/1005520529/tag/PMC/view/html?t=PMC's%20related%20Telegram%20Channels&cs=m&lc=0xCC4128&sb=y" frameborder="0" tabindex="-1"></iframe>
 
 
 ### DataXplorer
+
+> This is being translated by osintukraine project https://t.me/DataXplorer
+{.is-info}
 
 > Monitoring Russian Telegram channels for specific keywords & locations
 > 
