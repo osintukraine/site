@@ -2,8 +2,8 @@
 title: About
 description: About OSINTukraine project
 published: true
-date: 2023-07-01T20:34:05.609Z
-tags: 
+date: 2023-07-02T09:38:15.830Z
+tags: ukraine, self-defense, nafo, russia is a terrorist state
 editor: markdown
 dateCreated: 2023-07-01T12:30:32.140Z
 ---
