@@ -2,8 +2,8 @@
 title: README
 description: 
 published: true
-date: 2023-07-01T16:59:44.389Z
-tags: 
+date: 2023-07-02T09:40:33.114Z
+tags: github, readme
 editor: markdown
 dateCreated: 2023-07-01T13:29:02.214Z
 ---
@@ -14,4 +14,4 @@ dateCreated: 2023-07-01T13:29:02.214Z
 - moved all the pages
 
 ## todo
-- bring some live information feeds 
+- bring some live information feeds: [stream](/stream)
