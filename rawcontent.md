@@ -2,7 +2,7 @@
 title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-02T18:17:43.419Z
+date: 2023-07-02T18:19:08.689Z
 tags: telegram, rss, inoreader, json, feeds
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
@@ -87,20 +87,29 @@ dateCreated: 2023-07-02T15:10:55.188Z
 {.is-warning}
 
 ### Telegram 1
+> This is being translated by osintukraine project https://t.me/telehuntwatch
+{.is-info}
+
 
 <iframe width="100%" height="800" src="https://www.inoreader.com/stream/user/1005324229/tag/Telegram/view/html?t=Telegram%201&cs=m&lc=0xCC3928&sb=y" frameborder="0" tabindex="-1"></iframe>
 
-Those feeds are **live** and meant to be reused by anyone
 - [RSS feed *RSS feed in Russian*](https://www.inoreader.com/stream/user/1005324229/tag/Telegram)
 - [JSS feed *JSON feed in Russian*](https://www.inoreader.com/stream/user/1005324229/tag/Telegram/view/json)
 {.links-list}
 
 
 ### Telegram 2
+> This is being translated by osintukraine project https://t.me/telehuntwatch
+{.is-info}
+
 <iframe width="100%" height="800" src="https://www.inoreader.com/stream/user/1004571328/tag/RussianTelegram/view/html?t=Telegram%202&cs=m&lc=0xCC4928&sb=y" frameborder="0" tabindex="-1"></iframe>
 
 
 ### Telegram 3
+
+> This is being translated by osintukraine project https://t.me/telehuntwatch
+{.is-info}
+
 
 <iframe width="100%" height="800" src="https://www.inoreader.com/stream/user/1005326388/tag/Militants/view/html?t=Telegram%203&cs=m&lc=0xCC4128&sb=y" frameborder="0" tabindex="-1"></iframe>
 
