@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-02T13:23:40.231Z
+date: 2023-07-02T13:25:48.495Z
 tags: tools, osint, ntfy, n8n, telegram, automation, translation, videos
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -70,8 +70,8 @@ Ongoing project to download video's from Telegram and hunt for war crimes eviden
 90 telegram channels translated & archived with their media files.  
   
 
-> [Media Included](https://russia.osintukraine.com/)
-{.is-info}
+- [Media Included *Rusian Telegram Archive*](https://russia.osintukraine.com/)
+{.links-list}
 
 
 > Current status 🟢
@@ -92,7 +92,9 @@ On mobile, enable "desktop site" to be able to pinch zoom and scroll top to bott
 
 Current status 🔴
 
-[Archive 2022 up to June 2023](https://ruvideos.osintukraine.com/)
+- [Video Only Posts *Archive 2022 up to June 2023*](https://ruvideos.osintukraine.com/)
+- [Video Only Posts *Russian Telegram Channel - Archive 2023*](https://videosrus.osintukraine.com/)
+{.links-list}
 
 # NTFY
 
