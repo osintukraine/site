@@ -2,7 +2,7 @@
 title: About
 description: About OSINTukraine project
 published: true
-date: 2023-07-02T19:35:00.788Z
+date: 2023-07-02T19:35:30.923Z
 tags: ukraine, self-defense, nafo, russia is a terrorist state
 editor: markdown
 dateCreated: 2023-07-01T12:30:32.140Z
@@ -36,5 +36,3 @@ dateCreated: 2023-07-01T12:30:32.140Z
 > 10.  **Weapons for Ukraine** because a genocidal war from a Terrorist State does not get stopped by wishful thinking for peace.
 {.is-info}
 
-
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support the project !', '#29abe0', 'E1E2E81MW');kofiwidget2.draw();</script> 
