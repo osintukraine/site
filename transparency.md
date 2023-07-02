@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2023-07-02T19:10:33.558Z
+date: 2023-07-02T19:11:27.442Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -84,6 +84,9 @@ In 2023 I’m trying to adapt for a marathon and finding balance to make the pro
 By sponsoring a membership Tier, you directly participate into securing the stability of the archive and if we can get enough sponsors, we can grow the number of Telegram channels we archive and the Video Storage capacity we have to archive Telegram videos.
 
 [Join !](https://ko-fi.com/cyberbenb/tiers)
+
+---
+
 
 ## Credits  
 
