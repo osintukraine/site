@@ -2,7 +2,7 @@
 title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-02T18:19:08.689Z
+date: 2023-07-02T18:19:44.776Z
 tags: telegram, rss, inoreader, json, feeds
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
@@ -32,15 +32,23 @@ dateCreated: 2023-07-02T15:10:55.188Z
 
 
 ### Telegram 1
+> This is being translated by osintukraine project https://t.me/amplifyukraine
+{.is-info}
 
 
 <iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005343511/tag/AmplifyUkraine/view/html?cs=m&sb=y" frameborder="0" tabindex="-1"></iframe>
 
 ### Telegram 2
+> This is being translated by osintukraine project https://t.me/amplifyukraine
+{.is-info}
+
 
 <iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005372069/tag/AmplifyUkraine/view/html?cs=m" frameborder="0" tabindex="-1"></iframe>
 
 ### Telegram 3
+
+> This is being translated by osintukraine project https://t.me/amplifyukraine
+{.is-info}
 
 <iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005520529/tag/Belarus/view/html?t=Belarus%20pro-Ukraine&cs=m&sb=y" frameborder="0" tabindex="-1"></iframe>
 
