@@ -2,7 +2,7 @@
 title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-02T15:18:50.681Z
+date: 2023-07-02T15:20:15.472Z
 tags: telegram
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
@@ -31,6 +31,10 @@ The 3 baskets of content aggregation that power up the rest of the workflows tha
 - [RSS feed *monitoring News about Ukraine*](https://www.inoreader.com/stream/user/1005324229/tag/News)
 - [JSON feed *monitoring News about Ukraine*](https://www.inoreader.com/stream/user/1005324229/tag/News/view/json)
 {.links-list}
+
+### Potential Disinfo
+
+<iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005324229/tag/Disinfo/view/html?t=Potential%20Disinfo&cs=m&lc=0xCC3128&sb=y" frameborder="0" tabindex="-1"></iframe>
 
 
 # Russia
