@@ -2,15 +2,13 @@
 title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-02T18:09:28.560Z
+date: 2023-07-02T18:09:35.162Z
 tags: telegram, rss, inoreader, json, feeds
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
 ---
 
 # Ukraine
-
-
 
 
 ## Tabs {.tabset}
