@@ -2,7 +2,7 @@
 title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-02T18:09:35.162Z
+date: 2023-07-02T18:11:15.275Z
 tags: telegram, rss, inoreader, json, feeds
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
@@ -25,7 +25,10 @@ dateCreated: 2023-07-02T15:10:55.188Z
 {.is-info}
 
 > The Google News tab is a Google powered News aggregation about Ukraine, some of the sources might not be trustworthy, but if they are listed it's because they reached mainstream News. 
-{.is-info}
+
+
+> Potential Disinfo is an aggregation of mostly US news sources spreading potential disinformation about Ukraine
+{.is-warning}
 
 
 ### Telegram 1
