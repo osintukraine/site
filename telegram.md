@@ -2,7 +2,7 @@
 title: Telegram
 description: Telegram Channels and their output on the openweb
 published: true
-date: 2023-07-02T14:56:34.259Z
+date: 2023-07-02T15:02:11.153Z
 tags: telegram, inoreader
 editor: markdown
 dateCreated: 2023-07-02T14:56:34.259Z
@@ -19,8 +19,6 @@ dateCreated: 2023-07-02T14:56:34.259Z
 
 Automated DeepL translations of Telegram posts shared by 30 Ukrainian channels (SMAT) translated to English
 
-<iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005343511/tag/AmplifyUkraine/view/html?cs=m&sb=y" frameborder="0" tabindex="-1"></iframe>
-
 ## Old Archive 2022
 
 [ukrainian-videos](https://t.me/ukrainian_videos)
@@ -28,7 +26,27 @@ Automated DeepL translations of Telegram posts shared by 30 Ukrainian channels (
 [Ukrainian photos posts](https://t.me/ukrainian_photos)
 
 
-## Russian Archive
+## Tabs {.tabset}
+### First Tab
+
+
+<iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005343511/tag/AmplifyUkraine/view/html?cs=m&sb=y" frameborder="0" tabindex="-1"></iframe>
+
+### Second Tab
+
+<iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005343511/tag/AmplifyUkraine/view/html?cs=m&sb=y" frameborder="0" tabindex="-1"></iframe>
+
+### Third Tab
+
+<iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005343511/tag/AmplifyUkraine/view/html?cs=m&sb=y" frameborder="0" tabindex="-1"></iframe>
+
+
+---
+
+
+
+
+# Russian Archive
 
 - [Full Translation & Archive *2022-2023*](https://t.me/telehunt_watch)
 - [Video posts only *2023* ](https://t.me/telehunt_video)
