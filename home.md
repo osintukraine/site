@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-02T13:25:48.495Z
+date: 2023-07-02T13:55:46.348Z
 tags: tools, osint, ntfy, n8n, telegram, automation, translation, videos
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -98,17 +98,20 @@ Current status 🔴
 
 # NTFY
 
+> This is just another "view" for the same data but using ntfy.sh, you can download the mobile app for android/iOS and add the links below to subscribe to new posts and get them right on your phone/tablet or desktop. 
+
 > Get notifications when New telegram posts are archived and browse the archive right in your browser without telegram.
 {.is-info}
 
 
-#### [Full Archive 🇺🇦](https://ntfy.osintukraine.com/ukraine-telegram)
+- [Full Archive 🇺🇦](https://ntfy.osintukraine.com/ukraine-telegram)
+- [Videos Only 🇺🇦](https://ntfy.osintukraine.com/UA-videos)
 
-#### [Videos Only 🇺🇦](https://ntfy.osintukraine.com/UA-videos)
+---
 
-#### [Full Archive 🇷🇺](https://ntfy.osintukraine.com/russia-telegram)
-
-#### [Videos Only 🇷🇺](https://ntfy.osintukraine.com/RU-videos)
+- [Full Archive 🇷🇺](https://ntfy.osintukraine.com/russia-telegram)
+- [Videos Only 🇷🇺](https://ntfy.osintukraine.com/RU-videos)
+{.links-list}
 
 > ### Setting Tips
 > -   Turn the Sound notification OFF
@@ -120,33 +123,34 @@ Current status 🔴
 
 # Searchable Databases without Media
 
-## [AmplifyUkraine 🇺🇦](https://db.osintukraine.com/public/grid/vw0suabvgKtxZQ5Na_Y9vQsa3mCzU3-Zq3rVRuU9UD4)
-
+## AmplifyUkraine 🇺🇦
 90 Ukrainian Telegram Channels aggregated and translated.  
-\- Search  
-\- Filter  
-\- Sort  
+- Search  
+- Filter  
+- Sort  
 
-[Media Not Included](https://db.osintukraine.com/public/grid/vw0suabvgKtxZQ5Na_Y9vQsa3mCzU3-Zq3rVRuU9UD4)
+---
+
+- [Ukraine Full Telegram Archive *Media Not Included*](https://db.osintukraine.com/public/grid/vw0suabvgKtxZQ5Na_Y9vQsa3mCzU3-Zq3rVRuU9UD4)
+{.links-list}
 
 #### Update every 15 mins
 
-Beta phase 🟢
-
 > **Looking for :**
 > 
-> -   Volunteers to enrich the data, categorize it and add location, names, cities, units etc…
+> - Volunteers to enrich the data, categorize it and add location, names, cities, units etc…
 
-[](https://db.osintukraine.com/public/grid/8NRIJOd7hT3V7NbjxRKivwc4Ypqgz0hI1nz3wZgrmT4)
-
-## [Telehunt 🇷🇺](https://db.osintukraine.com/public/grid/8NRIJOd7hT3V7NbjxRKivwc4Ypqgz0hI1nz3wZgrmT4)
+## Telehunt 🇷🇺
 
 90 Russian Telegram Channels aggregated and translated.  
-\- Search  
-\- Filter  
-\- Sort  
+- Search  
+- Filter  
+- Sort  
 
-[Media Not Included](https://db.osintukraine.com/public/grid/8NRIJOd7hT3V7NbjxRKivwc4Ypqgz0hI1nz3wZgrmT4)
+---
+
+- [Full Russian Telegram Archive database *Media Not Included*](https://db.osintukraine.com/public/grid/8NRIJOd7hT3V7NbjxRKivwc4Ypqgz0hI1nz3wZgrmT4)
+{.links-list}
 
 #### Update every 15 mins
 
@@ -159,21 +163,23 @@ Beta phase 🟢
 # Searchable Database with Media
 
 
-### [AmplifyUkraine 🇺🇦](https://geoint.osintukraine.com/public/grid/VduHBX7drdHQQXuFDruY846K6bcGUrAZUqF7-_im774)
+## AmplifyUkraine 🇺🇦
 
 Archive of 60 Ukrainian Telegram Channels aggregated and translated.  
-\- Search  
-\- Filter  
-\- Sort  
+- Search  
+- Filter  
+- Sort  
 
-[Media Included](https://geoint.osintukraine.com/public/grid/VduHBX7drdHQQXuFDruY846K6bcGUrAZUqF7-_im774)
+---
 
 
-### [Videos Only🇺🇦](https://geoint.osintukraine.com/public/grid/hOPtrD-RgQigx6XkABvmzyfrVvpSD9Isl9CKcz8pYFg)
+- [Full Archive *Media Included*](https://geoint.osintukraine.com/public/grid/VduHBX7drdHQQXuFDruY846K6bcGUrAZUqF7-_im774)
+- [UA Videos *Videos Only*](https://geoint.osintukraine.com/public/grid/hOPtrD-RgQigx6XkABvmzyfrVvpSD9Isl9CKcz8pYFg)
+{.links-list}
 
-An extraction filter of the entire collection, containing only Telegram posts with videos
 
-[Media Included](https://geoint.osintukraine.com/public/grid/hOPtrD-RgQigx6XkABvmzyfrVvpSD9Isl9CKcz8pYFg)
+> An extraction filter of the entire collection, containing only Telegram posts with videos
+{.is-info}
 
 
 #### Update every 15 mins
@@ -185,12 +191,13 @@ An extraction filter of the entire collection, containing only Telegram posts wi
 > -   This is bare bone for now, not teams are currently enriching
 
 
-### [Telehunt 🇷🇺](https://geoint.osintukraine.com/public/grid/R8mY5cFhG_IKl0ye-Re5F7sjd1WgB-jXVO5cWDmaFiU)
-
+## Telehunt 🇷🇺
 Archive of 90 Russian Telegram Channels aggregated and translated.  
-\- Search  
-\- Filter  
-\- Sort  
+- Search  
+- Filter  
+- Sort  
+
+---
 
 [Media Included](https://geoint.osintukraine.com/public/grid/R8mY5cFhG_IKl0ye-Re5F7sjd1WgB-jXVO5cWDmaFiU)
 
