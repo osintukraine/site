@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-02T14:10:25.688Z
+date: 2023-07-02T14:10:45.228Z
 tags: tools, osint, ntfy, n8n, telegram, automation, translation, videos
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -125,10 +125,12 @@ Current status 🔴
 # Searchable Databases without Media
 
 ## AmplifyUkraine 🇺🇦
-90 Ukrainian Telegram Channels aggregated and translated.  
-- Search  
-- Filter  
-- Sort  
+> 90 Ukrainian Telegram Channels aggregated and translated.  
+> - Search  
+> - Filter  
+> - Sort  
+{.is-info}
+
 
 ---
 
