@@ -2,8 +2,8 @@
 title: Sources
 description: Sources of the telegram channels used by the OSINTukraine project
 published: true
-date: 2023-07-01T20:18:20.991Z
-tags: 
+date: 2023-07-02T09:54:37.128Z
+tags: osint, telegram, research, disinformation, sources, curation
 editor: markdown
 dateCreated: 2023-07-01T12:34:43.075Z
 ---
