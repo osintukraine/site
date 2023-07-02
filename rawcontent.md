@@ -2,8 +2,8 @@
 title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-02T15:20:15.472Z
-tags: telegram
+date: 2023-07-02T17:12:32.304Z
+tags: telegram, rss, inoreader, json, feeds
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
 ---
@@ -52,8 +52,10 @@ Those feeds are **live** and meant to be reused by anyone
 
 ### Second Tab
 
-<iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005343511/tag/AmplifyUkraine/view/html?cs=m&sb=y" frameborder="0" tabindex="-1"></iframe>
 
 ### Third Tab
 
-<iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005343511/tag/AmplifyUkraine/view/html?cs=m&sb=y" frameborder="0" tabindex="-1"></iframe>
+
+### PMC's Wagner / Concoord
+
+<iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005520529/tag/PMC/view/html?t=PMC's%20related%20Telegram%20Channels&cs=m&lc=0xCC4128&sb=y" frameborder="0" tabindex="-1"></iframe>
