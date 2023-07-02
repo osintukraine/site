@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-02T14:10:45.228Z
+date: 2023-07-02T14:12:32.612Z
 tags: tools, osint, ntfy, n8n, telegram, automation, translation, videos
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -145,10 +145,11 @@ Current status 🔴
 
 ## Telehunt 🇷🇺
 
-90 Russian Telegram Channels aggregated and translated.  
-- Search  
-- Filter  
-- Sort  
+> 90 Russian Telegram Channels aggregated and translated.  
+> - Search  
+> - Filter  
+> - Sort  
+{.is-info}
 
 ---
 
@@ -168,13 +169,13 @@ Current status 🔴
 
 ## AmplifyUkraine 🇺🇦
 
-Archive of 60 Ukrainian Telegram Channels aggregated and translated.  
-- Search  
-- Filter  
-- Sort  
-
+> Archive of 60 Ukrainian Telegram Channels aggregated and translated.  
+> - Search  
+> - Filter  
+> - Sort  
+> 
+{.is-info}
 ---
-
 
 - [Full Archive *Media Included*](https://geoint.osintukraine.com/public/grid/VduHBX7drdHQQXuFDruY846K6bcGUrAZUqF7-_im774)
 - [UA Videos *Videos Only*](https://geoint.osintukraine.com/public/grid/hOPtrD-RgQigx6XkABvmzyfrVvpSD9Isl9CKcz8pYFg)
@@ -202,7 +203,7 @@ Archive of 90 Russian Telegram Channels aggregated and translated.
 
 ---
 
-- [ 🇷🇺 Full Russian Telegram Archive *Media Included](https://geoint.osintukraine.com/public/grid/R8mY5cFhG_IKl0ye-Re5F7sjd1WgB-jXVO5cWDmaFiU)
+- [ 🇷🇺 Full Russian Telegram Archive *Media Included*](https://geoint.osintukraine.com/public/grid/R8mY5cFhG_IKl0ye-Re5F7sjd1WgB-jXVO5cWDmaFiU)
 - [ 🇷🇺 Video Only filter *Telehunt Video*](https://geoint.osintukraine.com/public/grid/6QJmBR_ib5Jh-DCOvGol5X7caKtlmBnGvE8GvJcS6xE)
 {.links-list}
 
