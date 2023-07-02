@@ -1,8 +1,8 @@
 ---
-title: Raw content source feed
+title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-02T15:17:54.326Z
+date: 2023-07-02T15:18:12.401Z
 tags: telegram
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
