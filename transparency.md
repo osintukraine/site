@@ -2,8 +2,8 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2023-07-01T20:11:32.929Z
-tags: 
+date: 2023-07-02T10:15:30.734Z
+tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
 ---
@@ -19,8 +19,6 @@ If you really want to contribute, Donate to
 [Verified Charities](https://www.defendukraine.org/donate)  
   
 My Personal recommendation goes to ComeBackAlive and Prytula Foundation.
-
-
 
 
 # Tabs {.tabset}
