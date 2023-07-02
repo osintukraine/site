@@ -2,7 +2,7 @@
 title: Raw content source feed
 description: This is the raw content before translation
 published: true
-date: 2023-07-02T15:10:55.188Z
+date: 2023-07-02T15:14:50.380Z
 tags: telegram
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
@@ -37,6 +37,10 @@ The 3 baskets of content aggregation that power up the rest of the workflows tha
 ## Tabs {.tabset}
 ### First Tab
 
+Those feeds are **live** and meant to be reused by anyone
+- [RSS feed *RSS feed in Russian*](https://www.inoreader.com/stream/user/1005324229/tag/Telegram)
+- [JSS feed *JSON feed in Russian*](https://www.inoreader.com/stream/user/1005324229/tag/Telegram/view/json)
+{.links-list}
 
 <iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005324229/tag/Telegram/view/html?t=Telegram%201&cs=m&lc=0xCC3928&sb=y" frameborder="0" tabindex="-1"></iframe>
 
