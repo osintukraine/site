@@ -2,7 +2,7 @@
 title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-02T18:11:15.275Z
+date: 2023-07-02T18:12:22.620Z
 tags: telegram, rss, inoreader, json, feeds
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
@@ -69,9 +69,14 @@ dateCreated: 2023-07-02T15:10:55.188Z
 
 
 # Russia
-The 3 baskets of content aggregation that power up the rest of the workflows that output in different ways across the project. 
+
 
 ## Tabs {.tabset}
+### Lexicon
+
+> Each Telegram tab is an aggregation of 30 telegram channels in one spot
+{.is-info}
+
 ### Telegram 1
 
 <iframe width="100%" height="800" src="https://www.inoreader.com/stream/user/1005324229/tag/Telegram/view/html?t=Telegram%201&cs=m&lc=0xCC3928&sb=y" frameborder="0" tabindex="-1"></iframe>
