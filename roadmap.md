@@ -2,7 +2,7 @@
 title: Roadmap of the project
 description: OSINTukraine roadmap
 published: true
-date: 2023-07-02T09:46:48.013Z
+date: 2023-07-02T09:53:40.955Z
 tags: roadmap, ideas
 editor: markdown
 dateCreated: 2023-07-01T12:38:32.732Z
@@ -36,7 +36,7 @@ dateCreated: 2023-07-01T12:38:32.732Z
 mermaid
 
 graph TD
-  A[ Anyone ] -->|Can help | B( Go to https://github.com/osintukraine )
+  A[ Anyone ] -->|Can help | B( Go to github.com/osintukraine )
   B --> C{ How to contribute? }
   C --> D[ Reporting bugs ]
   C --> E[ Sharing ideas ]
