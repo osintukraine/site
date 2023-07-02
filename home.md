@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-02T14:08:04.006Z
+date: 2023-07-02T14:09:01.648Z
 tags: tools, osint, ntfy, n8n, telegram, automation, translation, videos
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -216,10 +216,10 @@ Archive of 90 Russian Telegram Channels aggregated and translated.
 
 # Mastodon
 
-[UA 🇺🇦](https://osintua.eu/@ua)
+
 
 #### Full Archive
-
+[UA 🇺🇦](https://osintua.eu/@ua)
 Mastodon bot posting Ukrainian Telegram archived/translated content on the fediverse.
 
 
@@ -229,11 +229,11 @@ Mastodon bot posting Ukrainian Telegram archived/translated content on the fediv
 
 Video posts bot posting Ukrainian Telegram archived/translated content on the fediverse.
 
+#### Full Archive
 
 Mastodon bot posting Russian Telegram archived/translated content on the fediverse.
 
 [Telehunt 🇷🇺](https://osintua.eu/@ru)
-
 
 
 #### Videos only posts
