@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-02T09:25:58.320Z
+date: 2023-07-02T10:19:42.330Z
 tags: tools, osint, ntfy, n8n, telegram, automation, translation, videos
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -324,4 +324,5 @@ Looking for developers with experience manipulating JSON data flows and experien
 
 ---
 
-<kbd>OSINTukraine © 2022-2023-2024</kbd>
+<kbd>OSINTukraine © 2022-2023-2024</kbd> <kbd> Status <a href="https://status.ukrainewararchive.eu/status/uptime
+" target="_blank"><u>Uptime</u></a> </kbd>
