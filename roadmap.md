@@ -1,14 +1,14 @@
 ---
-title: Roadmap of the project
+title: Roadmap
 description: OSINTukraine roadmap
 published: true
-date: 2023-07-02T10:29:04.252Z
+date: 2023-07-02T17:11:02.720Z
 tags: roadmap, ideas
 editor: markdown
 dateCreated: 2023-07-01T12:38:32.732Z
 ---
 
-# Roadmap
+# Roadmap of the project
 
 > This page is outdated and will be updated soon.
 {.is-info}
