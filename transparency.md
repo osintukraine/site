@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2023-07-02T10:15:30.734Z
+date: 2023-07-02T19:09:44.057Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -57,11 +57,13 @@ Currently, Telehunt + AmplifyUkraine = 6x Pro
 
 5 TB – Photo / Backup
 
+# Tabs {.tabset}
+
 ## CDN
 
 Content Delivery Network : 20 € / month
 
-## Time Estimation Cost 
+## Time
 
 The Project started on the 24th of February 2022 and have been operating ever since at the rate of an estimation of 10h/day, every day for 7 month straight, until a burnout led me to take a pause.
 
@@ -75,11 +77,8 @@ In 2023 I’m trying to adapt for a marathon and finding balance to make the pro
 
 <iframe id='kofiframe' src='https://ko-fi.com/cyberbenb/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='cyberbenb'></iframe>
 
- 
 
-#### Become a sponsor of the project !
-
-## Adopt a Tier, Help us fund the Archive
+## Sponsor
 
 By sponsoring a membership Tier, you directly participate into securing the stability of the archive and if we can get enough sponsors, we can grow the number of Telegram channels we archive and the Video Storage capacity we have to archive Telegram videos.
 
