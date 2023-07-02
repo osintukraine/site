@@ -2,7 +2,7 @@
 title: Roadmap of the project
 description: OSINTukraine roadmap
 published: true
-date: 2023-07-02T09:16:00.366Z
+date: 2023-07-02T09:46:48.013Z
 tags: roadmap, ideas
 editor: markdown
 dateCreated: 2023-07-01T12:38:32.732Z
@@ -32,3 +32,13 @@ dateCreated: 2023-07-01T12:38:32.732Z
 - [ ] Provide a database backend that can be plugged into any front-end (NocoDB or else)
 
 
+```kroki
+mermaid
+
+graph TD
+  A[ Anyone ] -->|Can help | B( Go to https://github.com/osintukraine )
+  B --> C{ How to contribute? }
+  C --> D[ Reporting bugs ]
+  C --> E[ Sharing ideas ]
+  C --> F[ Advocating ]
+```
