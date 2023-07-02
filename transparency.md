@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2023-07-02T19:09:44.057Z
+date: 2023-07-02T19:10:33.558Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -57,11 +57,12 @@ Currently, Telehunt + AmplifyUkraine = 6x Pro
 
 5 TB – Photo / Backup
 
-# Tabs {.tabset}
-
 ## CDN
 
 Content Delivery Network : 20 € / month
+
+
+# Tabs {.tabset}
 
 ## Time
 
