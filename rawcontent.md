@@ -2,16 +2,34 @@
 title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-02T18:04:39.114Z
+date: 2023-07-02T18:09:28.560Z
 tags: telegram, rss, inoreader, json, feeds
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
 ---
 
 # Ukraine
-The 3 baskets of content aggregation that power up the rest of the workflows that output in different ways across the project. 
+
+
+
 
 ## Tabs {.tabset}
+### Lexicon
+
+
+> Each Telegram tab is an aggregation of 30 telegram channels in one spot
+{.is-info}
+
+> The Newswire is a selection of Ukrainian News sources in English
+{.is-info}
+
+> Missing in Ukraine is the work of a Ukrainian Telegram channel dedicated to reporting missing people in Ukraine
+{.is-info}
+
+> The Google News tab is a Google powered News aggregation about Ukraine, some of the sources might not be trustworthy, but if they are listed it's because they reached mainstream News. 
+{.is-info}
+
+
 ### Telegram 1
 
 
