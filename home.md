@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-02T13:55:46.348Z
+date: 2023-07-02T14:06:25.938Z
 tags: tools, osint, ntfy, n8n, telegram, automation, translation, videos
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -199,13 +199,12 @@ Archive of 90 Russian Telegram Channels aggregated and translated.
 
 ---
 
-[Media Included](https://geoint.osintukraine.com/public/grid/R8mY5cFhG_IKl0ye-Re5F7sjd1WgB-jXVO5cWDmaFiU)
+- [ 🇷🇺 Full Russian Telegram Archive *Media Included](https://geoint.osintukraine.com/public/grid/R8mY5cFhG_IKl0ye-Re5F7sjd1WgB-jXVO5cWDmaFiU)
+- [ 🇷🇺 Video Only filter *Telehunt Video*](https://geoint.osintukraine.com/public/grid/6QJmBR_ib5Jh-DCOvGol5X7caKtlmBnGvE8GvJcS6xE)
+{.links-list}
 
-### [Telehunt Video 🇷🇺](https://geoint.osintukraine.com/public/grid/6QJmBR_ib5Jh-DCOvGol5X7caKtlmBnGvE8GvJcS6xE)
-
-An extraction filter of the entire collection, containing only Telegram posts with videos
-
-[Media Included](https://geoint.osintukraine.com/public/grid/6QJmBR_ib5Jh-DCOvGol5X7caKtlmBnGvE8GvJcS6xE)
+> An extraction filter of the entire collection, containing only Telegram posts with videos
+{.is-info}
 
 #### Update every 15 mins
 
@@ -215,100 +214,35 @@ An extraction filter of the entire collection, containing only Telegram posts wi
 > -   GEOint researchers, amateurs to enrich the data, categorize it and add location, names, cities, units etc…
 > -   This is bare bone for now, not teams are currently enriching
 
-## 🔴 Live Automated DeepL Translation Ukraine
+# Mastodon
 
-
-[AmplifyUkraine Dashboard](https://amplifyukraine.eu)
-
--   Google “static” Translation
--   Links to Telegram Channels
-
-[UA](https://osintua.eu/@ua)
+[UA 🇺🇦](https://osintua.eu/@ua)
 
 #### Full Archive
 
 Mastodon bot posting Ukrainian Telegram archived/translated content on the fediverse.
 
 
-[UAvideos](https://osintua.eu/@uavideos)
+[UAvideos 🇺🇦](https://osintua.eu/@uavideos)
 
 #### Videos only posts
 
 Video posts bot posting Ukrainian Telegram archived/translated content on the fediverse.
 
-## Telegram Channels with built-in translations
-
-[Telegram](https://t.me/amplifyukraine)
-
-[amplifyukraine](https://t.me/amplifyukraine)
-
-Automated DeepL translations of Telegram posts shared by 30 Ukrainian channels (SMAT) translated to English
-
-Video embedded
-
-[Telegram](https://t.me/uavideos)
-
-[ukrainian-videos](https://t.me/ukrainian_videos)
-
-Scan this QRcode to join the channel on Telegram !
-
-A filtering put in place to segment “Video posts” out of the Ukrainian telegram channels we collect.
-
-Video embedded
-
-[Telegram](https://t.me/uaphotos)
-
-[ukrainian-photos](https://t.me/uaphotos)
-
-Scan this QRcode to join the channel on Telegram !
-
-A filtering put in place to segment “Photo posts” out of the 30 Ukrainian telegram channels we collect.
-
-Photo embedded
-
-## 🔴 Live Automated DeepL Translation Russia
-
-Unlisted Unless you follow the account, the russian content is NOT being spread on the mastodon network, you have to specifically follow the account to get new posts on your feed, these are neither searchable on the network for obvious reasons.
-
-#### Full Archive
 
 Mastodon bot posting Russian Telegram archived/translated content on the fediverse.
 
-[Mastodon](https://osintua.eu/@ru)
+[Telehunt 🇷🇺](https://osintua.eu/@ru)
 
-[Old static archive](https://ruprop.ukrainewararchive.eu/)
-
-**Russian Disinformation Dashboard**
-
--   Google “static” Translations
--   Links to Telehunt Telegram Channels
-
-Unlisted Unless you follow the account, the russian content is NOT being spread on the mastodon network, you have to specifically follow the account to get new posts on your feed, these are neither searchable on the network for obvious reasons.
 
 
 #### Videos only posts
 
 Video posts bot posting Russian Telegram archived/translated content on the fediverse.
 
-[Russian Videos posts](https://osintua.eu/@ruvideos)
+[Russian Videos posts 🇷🇺](https://osintua.eu/@ruvideos)
 
 
-# Telegram Channels with built-in translations
-
-[Full Translation & Archive](https://t.me/telehunt_watch)
-
-
-Main channel where the output of 90 aggregated Russian telegram channels are accessible on Telegram
-
-[Videos Posts](https://t.me/video_posts)
-
-
-A filtering put in place to segment “Video posts” out of the 90 Russian telegram channels we collect.
-
-[Photos Posts](https://t.me/photo_posts)
-
-
-A filtering put in place to segment “Photo posts” out of the 90 Russian telegram channels we collect.
 
 # Media Tools
 
