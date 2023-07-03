@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2023-07-02T19:12:02.031Z
+date: 2023-07-03T10:41:36.200Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -112,3 +112,4 @@ Thanks to the OSINT Community on Twitter, Discord
 
 Citizens and Expert OSINT researchers doing an amazing work at documenting, archiving and fact-checking the Russian War against Ukraine.
 
+<a href='https://ko-fi.com/E1E2E81MW' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
