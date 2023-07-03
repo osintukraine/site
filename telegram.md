@@ -2,7 +2,7 @@
 title: Telegram
 description: Telegram Channels and their output on the openweb
 published: true
-date: 2023-07-02T15:05:13.230Z
+date: 2023-07-03T10:49:43.296Z
 tags: telegram, inoreader
 editor: markdown
 dateCreated: 2023-07-02T14:56:34.259Z
@@ -45,7 +45,7 @@ A filtering put in place to segment “Video posts” out of the 90 Russian tele
 A filtering put in place to segment “Photo posts” out of the 90 Russian telegram channels we collect.
 [Photos Posts](https://t.me/photo_posts)
 
-
+# Old Static version of this project
 
 ## 🔴 Live Automated DeepL Translation Ukraine
 
