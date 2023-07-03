@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2023-07-03T10:41:49.067Z
+date: 2023-07-03T10:58:09.089Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -16,7 +16,7 @@ In the last few months, all the costs have been covered by personal funds or fri
 We don’t crowdfund publicly because there is no reason to divest funds that could Help Ukraine  
   
 If you really want to contribute, Donate to  
-[Verified Charities](https://www.defendukraine.org/donate)  
+[Verified Charities](https://standforukraine.com/)  
   
 My Personal recommendation goes to ComeBackAlive and Prytula Foundation.
 
