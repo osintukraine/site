@@ -2,36 +2,64 @@
 title: Diagram
 description: Diagram of how the OSINTurkaine automation is currently setup
 published: true
-date: 2023-07-03T16:15:02.556Z
+date: 2023-07-03T16:19:59.824Z
 tags: n8n, automation, python, nocodb, rss
 editor: markdown
 dateCreated: 2023-07-02T09:30:31.826Z
 ---
 
 # Mindmap
+
 ```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
+```
 mindmap
-  root((OSINTukraine))
-    NoCode tools
-      N8N
-      ::icon(fa fa-sync)
-        automation
-      Baserow
-      ::icon(fa fa-database)
-        Searchable databases
-      Telegram API
-         Fetch posts
-         Download Media files
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
     Research
-      Disinformation
-      Material
+      On effectiveness<br/>and features
+      On Automatic creation
         Uses
-            OSINT
-            GeoLocation
-            Factchecking
-    Python code
-      sync & build
-      Media files
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+```
+
+
+```mermaid
+mindmap;
+  root((OSINTukraine));
+    NoCode tools;
+      N8N;
+        automation;
+      Baserow;
+        Searchable databases;
+      Telegram API;
+         Fetch posts;
+         Download Media files;
+    Research;
+      Disinformation;
+      Material;
+        Uses;
+            OSINT;
+            GeoLocation;
+            Factchecking;
+    Python code;
+      sync & build;
+      Media files;
 ```
 
 
