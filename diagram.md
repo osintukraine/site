@@ -2,7 +2,7 @@
 title: Diagram
 description: Diagram of how the OSINTurkaine automation is currently setup
 published: true
-date: 2023-07-03T16:19:59.824Z
+date: 2023-07-03T16:24:05.679Z
 tags: n8n, automation, python, nocodb, rss
 editor: markdown
 dateCreated: 2023-07-02T09:30:31.826Z
@@ -18,7 +18,7 @@ dateCreated: 2023-07-02T09:30:31.826Z
       C-->D;
 ```
 
-```
+```mermaid
 mindmap
   root((mindmap))
     Origins
