@@ -2,7 +2,7 @@
 title: Roadmap
 description: OSINTukraine roadmap
 published: true
-date: 2023-07-02T17:11:02.720Z
+date: 2023-07-03T10:45:57.452Z
 tags: roadmap, ideas
 editor: markdown
 dateCreated: 2023-07-01T12:38:32.732Z
@@ -12,6 +12,16 @@ dateCreated: 2023-07-01T12:38:32.732Z
 
 > This page is outdated and will be updated soon.
 {.is-info}
+
+- [ ] Fix Duplicates issues
+- [ ] Find ways to measure lengths of enclosure video media files
+- [ ] Resync all media files to make sure each video have correct length/size and play/embed fine on any browser.
+- [ ] Full revamp of the Static HTML/JS site templates so that we can provide responsiveness, lazy loading of media files, better pagination system
+- [ ] Move away from SQLite static database and migrate to live database with new table structure designed for OSINTukraine.
+- [ ] Provide a database backend that can be plugged into any front-end (NocoDB or else)
+
+---
+
 
 - [x] Live DeepL translations using N8N for translation, publication and auto sharing on Twitter, Discord, Telegram
 - [x] Provide an API to get access to the content. (get in touch)
@@ -24,12 +34,7 @@ dateCreated: 2023-07-01T12:38:32.732Z
 - [x] Checked task item
 - [x] Checked task item
 
-- [ ] Fix Duplicates issues
-- [ ] Find ways to measure lengths of enclosure video media files
-- [ ] Resync all media files to make sure each video have correct length/size and play/embed fine on any browser.
-- [ ] Full revamp of the Static HTML/JS site templates so that we can provide responsiveness, lazy loading of media files, better pagination system
-- [ ] Move away from SQLite static database and migrate to live database with new table structure designed for OSINTukraine.
-- [ ] Provide a database backend that can be plugged into any front-end (NocoDB or else)
+
 
 
 ```kroki
@@ -45,3 +50,4 @@ graph TD
   C --> H[ Triage & curation information ]
   C --> I[ Identify disinformation ]
 ```
+<a href='https://ko-fi.com/E1E2E81MW' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
