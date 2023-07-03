@@ -2,7 +2,7 @@
 title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-03T10:47:46.913Z
+date: 2023-07-03T10:48:39.110Z
 tags: telegram, rss, inoreader, json, feeds
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
@@ -147,7 +147,6 @@ dateCreated: 2023-07-02T15:10:55.188Z
 <iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005324229/tag/DataXplorer/view/html?t=DataXplorer&lc=0xFF3908&sb=y" frameborder="0" tabindex="-1"></iframe>
 
 
-
----
+# Support the project
 
 <a href='https://ko-fi.com/E1E2E81MW' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
