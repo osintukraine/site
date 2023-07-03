@@ -2,7 +2,7 @@
 title: Telegram
 description: Telegram Channels and their output on the openweb
 published: true
-date: 2023-07-03T10:49:43.296Z
+date: 2023-07-03T10:50:07.167Z
 tags: telegram, inoreader
 editor: markdown
 dateCreated: 2023-07-02T14:56:34.259Z
@@ -64,3 +64,7 @@ A filtering put in place to segment “Photo posts” out of the 90 Russian tele
 
 -   Google “static” Translations
 -   Links to Telehunt Telegram Channels
+
+
+---
+<a href='https://ko-fi.com/E1E2E81MW' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
