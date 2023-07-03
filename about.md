@@ -2,7 +2,7 @@
 title: About
 description: About OSINTukraine project
 published: true
-date: 2023-07-02T19:35:30.923Z
+date: 2023-07-03T10:40:52.475Z
 tags: ukraine, self-defense, nafo, russia is a terrorist state
 editor: markdown
 dateCreated: 2023-07-01T12:30:32.140Z
@@ -11,6 +11,8 @@ dateCreated: 2023-07-01T12:30:32.140Z
 # Who 
 
 > My name is Ben, supporting Ukraine from Belgium, I’m a DevOps in the making but also have a quite diverse experience with all things digital, open source collaboration tools, self-hosting and information monitoring, automation;
+
+<a href='https://ko-fi.com/E1E2E81MW' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## When
 > On the 24th of February, I dropped everything I was doing to support Ukraine with information amplification, sourcing of good information sources, dashboards, after an initial deep dive into Telegram from mobile and manual translations, I wanted to find a solution to **ease the pain of following the invasion of Ukraine**, my first idea was to use Google Translate to ease translation process and [provide the resulting output on the open web](https://amplifyukraine.eu) without the need of a telegram account.   
