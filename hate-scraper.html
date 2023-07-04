@@ -2,12 +2,1311 @@
 title: Hate Scraper
 description: The Hate scraper was a tool built on top of Twitter API to automatically find hate on twitter
 published: true
-date: 2023-07-04T12:11:39.367Z
+date: 2023-07-04T12:14:27.896Z
 tags: hate scraper
 editor: code
 dateCreated: 2023-07-04T12:11:22.435Z
 -->
 
+<!doctype html>
+<html lang="en-US">
+<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app210.us.archive.org';v.server_ms=304;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://osintukraine.com/hate-scraper/","20230323121647","https://web.archive.org/","web","/_static/",
+	      "1679573807");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<title>Hate Tweet Tracker &#x2d; OSINT Ukraine</title>
+
+<meta name="robots" content="max-snippet:-1,max-image-preview:large,max-video-preview:-1"/>
+<meta name="description" content="Scrap Twitter for Hate content to report every 10 minutes - monitor key hashtags such as #StandWithPutin and #StandWithRussia"/>
+<meta property="og:image" content="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/hate-tweet-tracker.jpg"/>
+<meta property="og:image:width" content="1201"/>
+<meta property="og:image:height" content="832"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Hate Tweet Tracker"/>
+<meta property="og:description" content="Scrap Twitter for Hate content to report every 10 minutes - monitor key hashtags such as #StandWithPutin and #StandWithRussia"/>
+<meta property="og:url" content="https://web.archive.org/web/20230323121647/https://osintukraine.com/hate-scraper/"/>
+<meta property="og:site_name" content="OSINT Ukraine"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@amplifyukraine"/>
+<meta name="twitter:creator" content="@benbvi3ws"/>
+<meta name="twitter:title" content="Hate Tweet Tracker"/>
+<meta name="twitter:description" content="Scrap Twitter for Hate content to report every 10 minutes - monitor key hashtags such as #StandWithPutin and #StandWithRussia"/>
+<meta name="twitter:image" content="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/hate-tweet-tracker.jpg"/>
+<link rel="shortlink" href="https://web.archive.org/web/20230323121647/https://osintukraine.com/?p=2247"/>
+<link rel="canonical" href="https://web.archive.org/web/20230323121647/https://osintukraine.com/hate-scraper/"/>
+<script type="application/ld+json">{"@context":"https://web.archive.org/web/20230323121647/https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://web.archive.org/web/20230323121647/https://osintukraine.com/","name":"OSINT Ukraine"}},{"@type":"ListItem","position":2,"item":{"@id":"https://web.archive.org/web/20230323121647/https://osintukraine.com/hate-scraper/","name":"Hate Tweet Tracker"}}]}</script>
+
+<link rel="alternate" type="application/rss+xml" title="OSINT Ukraine » Feed" href="https://web.archive.org/web/20230323121647/https://osintukraine.com/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="OSINT Ukraine » Comments Feed" href="https://web.archive.org/web/20230323121647/https://osintukraine.com/comments/feed/"/>
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/web.archive.org\/web\/20230323121647\/https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/web.archive.org\/web\/20230323121647\/https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/web.archive.org\/web\/20230323121647\/https:\/\/osintukraine.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+    :root {
+      --include-mastodon-feed-bg-light: rgba(100, 100, 100, 0.15);
+      --include-mastodon-feed-bg-dark: rgba(155, 155, 155, 0.15);
+      --include-mastodon-feed-accent-color: rgb(99, 100, 255);
+      --include-mastodon-feed-accent-font-color: rgb(255, 255, 255);
+      --include-mastodon-feed-border-radius: 0.25rem;
+    }
+
+    .include-mastodon-feed .status {
+      margin: 0.5rem 0 1.5rem;
+      border-radius: var(--include-mastodon-feed-border-radius);
+      padding: 0.5rem;
+      background: var(--include-mastodon-feed-bg-light);
+    }
+    .include-mastodon-feed .status a {
+      color: var(--include-mastodon-feed-accent-color);
+      text-decoration: none;
+    }
+    .include-mastodon-feed .status a:hover {
+      text-decoration: underline;
+    }
+    .include-mastodon-feed .avatar {
+      height: 1.25rem;
+      border-radius: var(--include-mastodon-feed-border-radius);
+      vertical-align: top;
+    }
+    .include-mastodon-feed .account {
+      font-size: 0.8rem;
+    }
+    .include-mastodon-feed .account a {
+      display: inline-block;
+    }
+    .include-mastodon-feed .account .booster {
+      float: right;
+      font-style: italic;
+    }
+    .include-mastodon-feed .boosted .account > a:first-child,
+    .include-mastodon-feed .contentWarning a {
+      border-radius: var(--include-mastodon-feed-border-radius);
+      padding: 0.15rem 0.5rem;
+      background: var(--include-mastodon-feed-accent-color);
+      color: var(--include-mastodon-feed-accent-font-color);
+    }
+    .include-mastodon-feed .boosted .account > a:first-child:hover,
+    .include-mastodon-feed .contentWarning a:hover {
+      border-radius: var(--include-mastodon-feed-border-radius);
+      padding: 0.15rem 0.5rem;
+      background: var(--include-mastodon-feed-accent-font-color);
+      color: var(--include-mastodon-feed-accent-color);
+      text-decoration: none;
+    }
+    .include-mastodon-feed .contentWrapper.boosted {
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      background: var(--include-mastodon-feed-bg-light);
+    }
+    .include-mastodon-feed .contentWarning {
+      text-align: center;
+      margin: 1rem;
+      padding: 1rem;
+    }
+    .include-mastodon-feed .contentWarning .title {
+      font-weight: bold;
+    }
+    .include-mastodon-feed img.emoji {
+      height: 1rem;
+    }
+    .include-mastodon-feed .content .invisible {
+      display: none;
+    }
+    .include-mastodon-feed .media {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 1rem;
+    }
+    .include-mastodon-feed .media .image {
+      font-size: 0.8rem;
+      font-weight: bold;
+      text-align: center;
+      flex-basis: calc(50% - 0.5rem);
+      flex-grow: 1;
+    }
+    .include-mastodon-feed .media .image img {
+      border-radius: var(--include-mastodon-feed-border-radius);
+      max-width: 100%;
+    }
+    .include-mastodon-feed .card {
+      border-radius: var(--include-mastodon-feed-border-radius);
+      margin: 1rem 0.5rem;
+    }
+    .include-mastodon-feed .card iframe {
+      border-radius: var(--include-mastodon-feed-border-radius);
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 2 / 1.25;
+    }
+    .include-mastodon-feed .card a {
+      border-radius: var(--include-mastodon-feed-border-radius);
+      display: block;
+      text-decoration: none;
+      color: #000;
+    }
+    .include-mastodon-feed.dark .card a {
+      color: #fff;
+    }
+    .include-mastodon-feed .card a:hover {
+      text-decoration: none;
+      background: var(--include-mastodon-feed-accent-color);
+      color: var(--include-mastodon-feed-accent-font-color);
+    }
+    .include-mastodon-feed .card .meta {
+      background: var(--include-mastodon-feed-bg-light);
+      font-size: 0.8rem;
+      padding: 1rem;
+    }
+    .include-mastodon-feed .card .image {
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .include-mastodon-feed .card .image img {
+      max-width: 75%;
+    }
+    .include-mastodon-feed .card .title {
+      font-weight: bold;
+    }
+  
+
+
+    .include-mastodon-feed.dark .status,
+    .include-mastodon-feed.dark .contentWrapper.boosted,
+    .include-mastodon-feed.dark .card {
+      background: var(--include-mastodon-feed-bg-dark);
+    }
+  </style>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="hello-elementor-theme-style-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/themes/hello-elementor/theme.min.css?ver=2.6.1" media="all"/>
+<link rel="stylesheet" id="elementor-frontend-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.11.5" media="all"/>
+<link rel="stylesheet" id="eael-general-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.6.1" media="all"/>
+<link rel="stylesheet" id="eael-1092-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/uploads/essential-addons-elementor/eael-1092.css?ver=1673279066" media="all"/>
+<link rel="stylesheet" id="wp-block-library-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1" media="all"/>
+<style id="mamaduka-bookmark-card-style-inline-css">
+.wp-block-mamaduka-bookmark-card{background:#fff;border:1px solid #e2e8f0;border-radius:8px;box-shadow:0 1px 2px 0 rgba(0,0,0,.05);font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5;margin:0;overflow:hidden}.bookmark-card{color:currentColor;display:flex;flex-direction:column;position:relative;text-decoration:none!important}.bookmark-card:hover{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity));text-decoration:none!important}.bookmark-card .bookmark-card__image img{display:block;height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.bookmark-card__content{padding:16px}.bookmark-card__title{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity));font-size:18px;font-weight:600;line-height:1.3;margin-bottom:4px}.bookmark-card__description{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity));font-size:16px;margin-bottom:8px}.bookmark_card__meta{display:flex;font-size:14px;line-height:16px}.bookmark_card__meta-icon{height:16px;margin-right:8px;width:16px}.bookmark_card__meta-publisher{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}@media(min-width:600px){.is-style-horizontal .bookmark-card{flex-direction:row-reverse}.is-style-horizontal .bookmark-card__image{flex:0 0 160px}.is-style-horizontal .bookmark-card__content{display:flex;flex:3 1 0;flex-direction:column;overflow:hidden}.is-style-horizontal .bookmark-card__title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.is-style-horizontal .bookmark-card__description{-webkit-box-orient:vertical;-webkit-line-clamp:2;display:-webkit-box;overflow:hidden}.is-style-horizontal .bookmark_card__meta{margin-top:auto}.is-style-horizontal.has-media-on-the-left .bookmark-card{flex-direction:row}}
+
+</style>
+<link rel="stylesheet" id="classic-theme-styles-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-includes/css/classic-themes.min.css?ver=1" media="all"/>
+<style id="global-styles-inline-css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('/web/20230323121647im_/https://osintukraine.com/hate-scraper/#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('/web/20230323121647im_/https://osintukraine.com/hate-scraper/#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('/web/20230323121647im_/https://osintukraine.com/hate-scraper/#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('/web/20230323121647im_/https://osintukraine.com/hate-scraper/#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('/web/20230323121647im_/https://osintukraine.com/hate-scraper/#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('/web/20230323121647im_/https://osintukraine.com/hate-scraper/#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('/web/20230323121647im_/https://osintukraine.com/hate-scraper/#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('/web/20230323121647im_/https://osintukraine.com/hate-scraper/#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="hello-elementor-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/themes/hello-elementor/style.min.css?ver=2.6.1" media="all"/>
+<link rel="stylesheet" id="elementor-post-9-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/uploads/elementor/css/post-9.css?ver=1678788942" media="all"/>
+<link rel="stylesheet" id="eael-2247-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/uploads/essential-addons-elementor/eael-2247.css?ver=1673279066" media="all"/>
+<link rel="stylesheet" id="swiper-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6" media="all"/>
+<link rel="stylesheet" id="elementor-pro-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.6.5" media="all"/>
+<link rel="stylesheet" id="elementor-global-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/uploads/elementor/css/global.css?ver=1678788943" media="all"/>
+<link rel="stylesheet" id="elementor-post-2247-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/uploads/elementor/css/post-2247.css?ver=1678815010" media="all"/>
+<link rel="stylesheet" id="elementor-post-1092-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/uploads/elementor/css/post-1092.css?ver=1678792899" media="all"/>
+<link rel="stylesheet" id="elementor-post-494-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/uploads/elementor/css/post-494.css?ver=1678796082" media="all"/>
+<style id="google-fonts-1-css" media="all">@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/roboto/v30/KFOiCnqEu92Fr1Mu51QrEzAdKg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TjASc6CsE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu51xIIzc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51S7ACc6CsE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TzBic6CsE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TLBCc6CsE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgVxIIzc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 100;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISmb2Rm.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 500;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmb2Rm.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 600;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmb2Rm.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 800;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2Rm.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 900;
+  src: url(/web/20230323121647im_/https://osintukraine.com/fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOmb2Rm.ttf) format('truetype');
+}
+</style>
+<link rel="preconnect" href="https://web.archive.org/web/20230323121647/https://fonts.gstatic.com/" crossorigin><script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://osintukraine.com/wp-json/"/><link rel="alternate" type="application/json" href="https://web.archive.org/web/20230323121647/https://osintukraine.com/wp-json/wp/v2/pages/2247"/><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://osintukraine.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://osintukraine.com/wp-includes/wlwmanifest.xml"/>
+<link rel="alternate" type="application/json+oembed" href="https://web.archive.org/web/20230323121647/https://osintukraine.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fosintukraine.com%2Fhate-scraper%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="https://web.archive.org/web/20230323121647/https://osintukraine.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fosintukraine.com%2Fhate-scraper%2F&amp;format=xml"/>
+<script type="text/javascript">
+		function wpmautic_send(){
+			if ('undefined' === typeof mt) {
+				if (console !== undefined) {
+					console.warn('WPMautic: mt not defined. Did you load mtc.js ?');
+				}
+				return false;
+			}
+			// Add the mt('send', 'pageview') script with optional tracking attributes.
+			mt('send', 'pageview');
+		}
+
+			(function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
+			w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
+			m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://web.archive.org/web/20230323121647/https://email.osintukraine.com/mtc.js','mt');
+
+		wpmautic_send();
+			</script>
+<meta name="generator" content="Elementor 3.11.5; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<meta name="theme-color" content="#C1C0C0">
+<link rel="icon" href="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/04/cropped-DigitalResistance-1-32x32.png" sizes="32x32"/>
+<link rel="icon" href="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/04/cropped-DigitalResistance-1-192x192.png" sizes="192x192"/>
+<link rel="apple-touch-icon" href="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/04/cropped-DigitalResistance-1-180x180.png"/>
+<meta name="msapplication-TileImage" content="https://osintukraine.com/wp-content/uploads/2022/04/cropped-DigitalResistance-1-270x270.png"/>
+</head>
+<body class="page-template-default page page-id-2247 wp-custom-logo elementor-default elementor-kit-9 elementor-page elementor-page-2247">
+ 
+<main id="content" class="site-main post-2247 page type-page status-publish has-post-thumbnail hentry" role="main">
+<header class="page-header">
+<h1 class="entry-title">Hate Tweet Tracker</h1> </header>
 <h1 id="the-hate-scraper" class="toc-header"> the Hate Scraper</h1>
 <p>this tool is not available anymore, due to Twitter shuting down the API<br>
 an Archive of the tool itself is still available <a href="https://web.archive.org/web/20230323121647/https://osintukraine.com/hate-scraper/" class="is-external-link" target="_blank" rel="noreferrer">here</a></p>
+  
+<div class="page-content">
+<div data-elementor-type="wp-page" data-elementor-id="2247" class="elementor elementor-2247">
+<div class="elementor-element elementor-element-1941174 e-con-boxed e-con" data-id="1941174" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-c1fc7eb elementor-widget elementor-widget-alert" data-id="c1fc7eb" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.11.5 - 14-03-2023 */
+.elementor-alert{padding:15px;border-left:5px solid transparent;position:relative;text-align:left}.elementor-alert .elementor-alert-title{display:block;font-weight:700}.elementor-alert .elementor-alert-description{font-size:13px}.elementor-alert button.elementor-alert-dismiss{position:absolute;right:var(--dismiss-icon-horizontal-position,10px);top:var(--dismiss-icon-vertical-position,10px);padding:3px;font-size:var(--dismiss-icon-size,20px);line-height:1;background:transparent;color:var(--dismiss-icon-normal-color,inherit);border:none;cursor:pointer;transition-duration:var(--dismiss-icon-hover-transition-duration,.3s)}.elementor-alert button.elementor-alert-dismiss:hover{color:var(--dismiss-icon-hover-color,inherit)}.elementor-alert button.elementor-alert-dismiss svg{width:var(--dismiss-icon-size,20px);height:var(--dismiss-icon-size,20px);fill:var(--dismiss-icon-normal-color,currentColor);transition-duration:var(--dismiss-icon-hover-transition-duration,.3s)}.elementor-alert button.elementor-alert-dismiss svg:hover{fill:var(--dismiss-icon-hover-color,currentColor)}.elementor-alert.elementor-alert-info{color:#31708f;background-color:#d9edf7;border-color:#bcdff1}.elementor-alert.elementor-alert-success{color:#3c763d;background-color:#dff0d8;border-color:#cae6be}.elementor-alert.elementor-alert-warning{color:#8a6d3b;background-color:#fcf8e3;border-color:#f9f0c3}.elementor-alert.elementor-alert-danger{color:#a94442;background-color:#f2dede;border-color:#e8c4c4}@media (max-width:767px){.elementor-alert{padding:10px}.elementor-alert button.elementor-alert-dismiss{right:7px;top:7px}}</style> <div class="elementor-alert elementor-alert-danger" role="alert">
+<span class="elementor-alert-title">This project is on hold due to Elon Musk censorship of @AmplifyUkraine and @Telehuntwatch</span>
+<span class="elementor-alert-description">it's too risky to use Twitter API apparently to do the work Twitter wasn't doing properly BEFORE and after Musk.
+<br>
+<br>
+Join the #fediverse !</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-e06453e e-con-boxed e-con" data-id="e06453e" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-91e4285 e-con-full e-con" data-id="91e4285" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-a69a7b4 elementor-widget__width-initial elementor-widget elementor-widget-alert" data-id="a69a7b4" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-warning" role="alert">
+<span class="elementor-alert-title">Scrape Twitter for potential Hate content every hour</span>
+<span class="elementor-alert-description">Use the Source link to check and report hate content on Twitter.</span>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-205f5b5 e-con-full e-con" data-id="205f5b5" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-5895bbd elementor-widget elementor-widget-text-editor" data-id="5895bbd" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.11.5 - 14-03-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style> <p>If you notice new hate terms being used in your national information ecosystem that could be added to your country&#8217;s Table, <a href="https://web.archive.org/web/20230323121647/https://osintukraine.com/contact-information/">contact us</a> !</p><p><strong>Click on each flag to explore each Table and Report hate !</strong></p> </div>
+</div>
+</div>
+<div class="elementor-element elementor-element-5382afc e-con-boxed e-con" data-id="5382afc" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-fc267f9 elementor-widget elementor-widget-alert" data-id="fc267f9" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-danger" role="alert">
+<span class="elementor-alert-title">Context is everything</span>
+<span class="elementor-alert-description">Analyze the tweet before reporting, the list may contain false positives. </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-5ee92d9 e-con-boxed e-con" data-id="5ee92d9" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-b7d1eaf elementor-widget elementor-widget-heading" data-id="b7d1eaf" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.11.5 - 14-03-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Localized hate against Ukraine &amp; Ukrainians</h2> </div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-b134b06 e-con-boxed e-con" data-id="b134b06" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-8fab346 e-con-full e-con" data-id="8fab346" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-a510ad4 elementor-widget elementor-widget-menu-anchor" data-id="a510ad4" data-element_type="widget" data-widget_type="menu-anchor.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.11.5 - 14-03-2023 */
+body.elementor-page .elementor-widget-menu-anchor{margin-bottom:0}</style> <div id="usa" class="elementor-menu-anchor"></div>
+</div>
+</div>
+<div class="elementor-element elementor-element-a24e3eb elementor-widget elementor-widget-heading" data-id="a24e3eb" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default"><a href="#usa">English</a></h4> </div>
+</div>
+<div class="elementor-element elementor-element-8cc0f09 elementor-widget elementor-widget-image" data-id="8cc0f09" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.11.5 - 14-03-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style> <figure class="wp-caption">
+<a href="https://web.archive.org/web/20230323121647/https://db.osintukraine.com/public/grid/EfjKSkzcAEYNm4rptKAhPAT1yvgB3FyRcpoRBD_NGDk" target="_blank">
+<img decoding="async" width="640" height="480" src="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/gb.svg" class="attachment-full size-full wp-image-2561" alt="" loading="lazy"/> </a>
+<figcaption class="widget-image-caption wp-caption-text"></figcaption>
+</figure>
+</div>
+</div>
+<div class="elementor-element elementor-element-a4c3052 elementor-widget elementor-widget-alert" data-id="a4c3052" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-info" role="alert">
+<span class="elementor-alert-title">Search Query</span>
+<span class="elementor-alert-description">Ukronazis OR Ukrops OR hohols OR khokhol OR Kohols -filter:retweets lang:en</span>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-349413f elementor-widget elementor-widget-alert" data-id="349413f" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-warning" role="alert">
+<span class="elementor-alert-title">Looking for suggestions</span>
+<span class="elementor-alert-description">Contact us with legit localized keywords suggestions to track</span>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-cef4647 e-con-full e-con" data-id="cef4647" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-19e9ccb elementor-widget elementor-widget-menu-anchor" data-id="19e9ccb" data-element_type="widget" data-widget_type="menu-anchor.default">
+<div class="elementor-widget-container">
+<div id="deu" class="elementor-menu-anchor"></div>
+</div>
+</div>
+<div class="elementor-element elementor-element-b6292cd elementor-widget elementor-widget-heading" data-id="b6292cd" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default"><a href="#deu">German</a></h4> </div>
+</div>
+<div class="elementor-element elementor-element-4fc951d elementor-widget elementor-widget-image" data-id="4fc951d" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<figure class="wp-caption">
+<a href="https://web.archive.org/web/20230323121647/https://db.osintukraine.com/public/grid/Jw3-fEISqUKZGqtn_eY8yW-qvNb4vRNB_z8bvp2PxGI" target="_blank">
+<img decoding="async" width="640" height="480" src="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/de.svg" class="attachment-large size-large wp-image-2255" alt="" loading="lazy"/> </a>
+<figcaption class="widget-image-caption wp-caption-text"></figcaption>
+</figure>
+</div>
+</div>
+<div class="elementor-element elementor-element-419f744 elementor-widget elementor-widget-alert" data-id="419f744" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-info" role="alert">
+<span class="elementor-alert-title">Search Query</span>
+<span class="elementor-alert-description">Ukra OR Ukras OR "blau gelbe Maden" -filter:retweets lang:de</span>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-e09159c elementor-widget elementor-widget-alert" data-id="e09159c" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-warning" role="alert">
+<span class="elementor-alert-title">Looking for suggestions</span>
+<span class="elementor-alert-description">Contact us with legit localized keywords suggestions to track</span>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-2ba9486 e-con-full e-con" data-id="2ba9486" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-5621d47 elementor-widget elementor-widget-menu-anchor" data-id="5621d47" data-element_type="widget" data-widget_type="menu-anchor.default">
+<div class="elementor-widget-container">
+<div id="fra" class="elementor-menu-anchor"></div>
+</div>
+</div>
+<div class="elementor-element elementor-element-dd742ff elementor-widget elementor-widget-heading" data-id="dd742ff" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default"><a href="#fra">French</a></h4> </div>
+</div>
+<div class="elementor-element elementor-element-84f059a elementor-widget elementor-widget-image" data-id="84f059a" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<figure class="wp-caption">
+<a href="https://web.archive.org/web/20230323121647/https://db.osintukraine.com/public/grid/poCLRGZQ9PN5fpcTKkpJB6fEKeoafgHMvfDYMKRaTL4" target="_blank">
+<img decoding="async" width="640" height="480" src="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/fr.svg" class="attachment-large size-large wp-image-2256" alt="" loading="lazy"/> </a>
+<figcaption class="widget-image-caption wp-caption-text"></figcaption>
+</figure>
+</div>
+</div>
+<div class="elementor-element elementor-element-b20e662 elementor-widget elementor-widget-alert" data-id="b20e662" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-info" role="alert">
+<span class="elementor-alert-title">Search Query</span>
+<span class="elementor-alert-description">Ukronazis OR Ukrops OR hohols OR khokhol OR Kohols OR "junte de kiev" OR "Ukro Nazi" OR "nazis d'Azov" -filter:retweets lang:fr</span>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-a5fef26 e-con-full e-con" data-id="a5fef26" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-711dff2 elementor-widget elementor-widget-menu-anchor" data-id="711dff2" data-element_type="widget" data-widget_type="menu-anchor.default">
+<div class="elementor-widget-container">
+<div id="esp" class="elementor-menu-anchor"></div>
+</div>
+</div>
+<div class="elementor-element elementor-element-6620d6c elementor-widget elementor-widget-heading" data-id="6620d6c" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default"><a href="#esp">Spanish</a></h4> </div>
+</div>
+<div class="elementor-element elementor-element-31cfc31 elementor-widget elementor-widget-image" data-id="31cfc31" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<figure class="wp-caption">
+<a href="https://web.archive.org/web/20230323121647/https://db.osintukraine.com/public/grid/JEJgk8ovGLebAWcQV5zUhJI3de3fCvT6IoVhBkoAq6g" target="_blank">
+<img decoding="async" width="640" height="480" src="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/es.svg" class="attachment-large size-large wp-image-2254" alt="" loading="lazy"/> </a>
+<figcaption class="widget-image-caption wp-caption-text"></figcaption>
+</figure>
+</div>
+</div>
+<div class="elementor-element elementor-element-d3db28c elementor-widget elementor-widget-alert" data-id="d3db28c" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-info" role="alert">
+<span class="elementor-alert-title">Search Query</span>
+<span class="elementor-alert-description">Ucros OR Ucronazis OR Ucranazis OR Ukranazis OR Ukronazis lang:es -filter:retweets</span>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-ae15c7d e-con-full e-con" data-id="ae15c7d" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-cb6ef97 elementor-widget elementor-widget-menu-anchor" data-id="cb6ef97" data-element_type="widget" data-widget_type="menu-anchor.default">
+<div class="elementor-widget-container">
+<div id="ind" class="elementor-menu-anchor"></div>
+</div>
+</div>
+<div class="elementor-element elementor-element-fc4c762 elementor-widget elementor-widget-heading" data-id="fc4c762" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default"><a href="#ind">Hindi</a></h4> </div>
+</div>
+<div class="elementor-element elementor-element-dc62548 elementor-widget elementor-widget-image" data-id="dc62548" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<figure class="wp-caption">
+<a href="https://web.archive.org/web/20230323121647/https://db.osintukraine.com/public/grid/DWFe1iugAIkxGE9dej0bCn_1Irp45DC5Inaa38tK-L0" target="_blank">
+<img decoding="async" width="640" height="480" src="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/in.svg" class="attachment-large size-large wp-image-2253" alt="" loading="lazy"/> </a>
+<figcaption class="widget-image-caption wp-caption-text"></figcaption>
+</figure>
+</div>
+</div>
+<div class="elementor-element elementor-element-983ed17 elementor-widget elementor-widget-alert" data-id="983ed17" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-info" role="alert">
+<span class="elementor-alert-title">Search Query</span>
+<span class="elementor-alert-description">Ukronazis OR Ukrops OR hohols OR khokhol OR Kohols -filter:retweets lang:in</span>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-69b1d15 elementor-widget elementor-widget-alert" data-id="69b1d15" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-warning" role="alert">
+<span class="elementor-alert-title">Looking for suggestions</span>
+<span class="elementor-alert-description">Contact us with legit localized keywords suggestions to track</span>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-4ba0f6a e-con-full e-con" data-id="4ba0f6a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-2a347dc elementor-widget elementor-widget-menu-anchor" data-id="2a347dc" data-element_type="widget" data-widget_type="menu-anchor.default">
+<div class="elementor-widget-container">
+<div id="cze" class="elementor-menu-anchor"></div>
+</div>
+</div>
+<div class="elementor-element elementor-element-653bad3 elementor-widget elementor-widget-heading" data-id="653bad3" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default"><a href="#cze">Czech</a></h4> </div>
+</div>
+<div class="elementor-element elementor-element-401ec15 elementor-widget elementor-widget-image" data-id="401ec15" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<figure class="wp-caption">
+<a href="https://web.archive.org/web/20230323121647/https://db.osintukraine.com/public/grid/I9rUBsnydzF8IAZVN_AZuGqYiBg4OVSD9xwy9cOdl0U" target="_blank">
+<img decoding="async" width="640" height="480" src="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/cz.svg" class="attachment-large size-large wp-image-2257" alt="" loading="lazy"/> </a>
+<figcaption class="widget-image-caption wp-caption-text"></figcaption>
+</figure>
+</div>
+</div>
+<div class="elementor-element elementor-element-43bc4a5 elementor-widget elementor-widget-alert" data-id="43bc4a5" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-info" role="alert">
+<span class="elementor-alert-title">Search Query</span>
+<span class="elementor-alert-description">ukronáckové OR ukronacisté OR ukronacisti OR ukronacistů OR ukronacistický OR ukronacistický OR ukronacistické OR ukronacističtí OR ukronacistickou OR ukronacistickému OR ukronacistického OR ukronacistickým OR ukronacistickými -filter:retweets</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-9da7343 e-con-boxed e-con" data-id="9da7343" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-55693de e-con-full e-con" data-id="55693de" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-7ee19f0 elementor-widget elementor-widget-menu-anchor" data-id="7ee19f0" data-element_type="widget" data-widget_type="menu-anchor.default">
+<div class="elementor-widget-container">
+<div id="rus" class="elementor-menu-anchor"></div>
+</div>
+</div>
+<div class="elementor-element elementor-element-ecff250 elementor-widget elementor-widget-heading" data-id="ecff250" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default"><a href="#rus">Russian</a></h4> </div>
+</div>
+<div class="elementor-element elementor-element-09234a2 elementor-widget elementor-widget-image" data-id="09234a2" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<figure class="wp-caption">
+<a href="https://web.archive.org/web/20230323121647/https://db.osintukraine.com/public/grid/tj0SoQv0R01v9rZ9DxKnagMJ-yoe58Qn9KskpA6y3xQ" target="_blank">
+<img decoding="async" width="640" height="480" src="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/ru.svg" class="attachment-full size-full wp-image-2493" alt="" loading="lazy"/> </a>
+<figcaption class="widget-image-caption wp-caption-text"></figcaption>
+</figure>
+</div>
+</div>
+<div class="elementor-element elementor-element-04cbeba elementor-widget elementor-widget-alert" data-id="04cbeba" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-info" role="alert">
+<span class="elementor-alert-title">Search Query</span>
+<span class="elementor-alert-description"> хохлы OR хохлов OR хохла OR хохлушка OR пиндосы OR укропы OR укры OR укронацыки -filter:retweets lang:ru</span>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-13b7d40 e-con-full e-con" data-id="13b7d40" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-5269bfa elementor-widget elementor-widget-menu-anchor" data-id="5269bfa" data-element_type="widget" data-widget_type="menu-anchor.default">
+<div class="elementor-widget-container">
+<div id="pol" class="elementor-menu-anchor"></div>
+</div>
+</div>
+<div class="elementor-element elementor-element-e35d78e elementor-widget elementor-widget-heading" data-id="e35d78e" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default"><a href="#pol">Polish</a></h4> </div>
+</div>
+<div class="elementor-element elementor-element-e76aa5f elementor-widget elementor-widget-image" data-id="e76aa5f" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<figure class="wp-caption">
+<a href="https://web.archive.org/web/20230323121647/https://db.osintukraine.com/public/grid/p777tXFNQaSz-ZFaiKOnovN6fld5VmVtL_srgthmFk0" target="_blank">
+<img decoding="async" width="640" height="480" src="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/pl.svg" class="attachment-large size-large wp-image-2494" alt="" loading="lazy"/> </a>
+<figcaption class="widget-image-caption wp-caption-text"></figcaption>
+</figure>
+</div>
+</div>
+<div class="elementor-element elementor-element-abd9aa3 elementor-widget elementor-widget-alert" data-id="abd9aa3" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-info" role="alert">
+<span class="elementor-alert-title">Search Query</span>
+<span class="elementor-alert-description">ukrop OR chachły OR ukropolin OR ukronaziści OR banderowcy OR -filter:retweets lang:pl</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-2bcc34e e-con-boxed e-con" data-id="2bcc34e" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-c037dcb elementor-widget elementor-widget-spacer" data-id="c037dcb" data-element_type="widget" data-widget_type="spacer.default">
+<div class="elementor-widget-container">
+<style>/*! elementor - v3.11.5 - 14-03-2023 */
+.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}</style> <div class="elementor-spacer">
+<div class="elementor-spacer-inner"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-fa314e6 e-con-boxed e-con" data-id="fa314e6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-142c5eb elementor-widget elementor-widget-eael-fancy-text" data-id="142c5eb" data-element_type="widget" data-widget_type="eael-fancy-text.default">
+<div class="elementor-widget-container">
+<div class="eael-fancy-text-container style-1" data-fancy-text-id="142c5eb" data-fancy-text="|Russophobia|Russophobic|Russophobe" data-fancy-text-transition-type="typing" data-fancy-text-speed="50" data-fancy-text-delay="2500" data-fancy-text-cursor="yes" data-fancy-text-loop="yes">
+<span class="eael-fancy-text-prefix">There is no such thing as </span>
+<span id="eael-fancy-text-142c5eb" class="eael-fancy-text-strings solid-color">
+<noscript>
+					Russophobia, Russophobic, Russophobe				</noscript>
+</span>
+<span class="eael-fancy-text-suffix"> in reality.</span>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-dcb5bd3 e-con-boxed e-con" data-id="dcb5bd3" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-10f2a05 elementor-widget elementor-widget-spacer" data-id="10f2a05" data-element_type="widget" data-widget_type="spacer.default">
+<div class="elementor-widget-container">
+<div class="elementor-spacer">
+<div class="elementor-spacer-inner"></div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-761af9c elementor-widget elementor-widget-heading" data-id="761af9c" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default"><a href="https://web.archive.org/web/20230323121647/https://en.wikipedia.org/wiki/Vatnik_(slang)">Global Vatniks</a></h2> </div>
+</div>
+<div class="elementor-element elementor-element-70a5faf elementor-widget elementor-widget-spacer" data-id="70a5faf" data-element_type="widget" data-widget_type="spacer.default">
+<div class="elementor-widget-container">
+<div class="elementor-spacer">
+<div class="elementor-spacer-inner"></div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-62f7492 elementor-widget elementor-widget-text-editor" data-id="62f7492" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<strong>Click on each image to explore each Table and Report <a href="https://web.archive.org/web/20230323121647/https://en.wikipedia.org/wiki/Vatnik_(slang)" target="_blank" rel="noopener">Vatniks</a>
+</strong> </div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-93706fe e-con-boxed e-con" data-id="93706fe" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-2b01c38 e-con-full e-con" data-id="2b01c38" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-71ab2d6 elementor-widget elementor-widget-text-editor" data-id="71ab2d6" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Claims of &#8220;<a href="https://web.archive.org/web/20230323121647/https://spa.ukma.edu.ua/en/analytics/what-is-behind-the-russophobia-that-russia-accuses-the-whole-world-of/" target="_blank" rel="noopener">Russophobia</a>&#8221; and other content related to Russians playing the victims supported by useful idiots.</p> </div>
+</div>
+</div>
+<div class="elementor-element elementor-element-9cf214a e-con-full e-con" data-id="9cf214a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-4092966 elementor-widget elementor-widget-text-editor" data-id="4092966" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Monitoring the #StandWithPutin hashtag</p> </div>
+</div>
+<div class="elementor-element elementor-element-16955ba elementor-widget elementor-widget-alert" data-id="16955ba" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-warning" role="alert">
+<span class="elementor-alert-title">Might contain false-positive</span>
+<span class="elementor-alert-description">Context is everything, analyse consequently and report if necessary.</span>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-e64a3c5 e-con-full e-con" data-id="e64a3c5" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-61b342c elementor-widget elementor-widget-text-editor" data-id="61b342c" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Monitoring the #StandWithRussia hashtag</p> </div>
+</div>
+<div class="elementor-element elementor-element-29344d9 elementor-widget elementor-widget-alert" data-id="29344d9" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-warning" role="alert">
+<span class="elementor-alert-title">Might contain false-positive</span>
+<span class="elementor-alert-description">Context is everything, analyse consequently and report if necessary.</span>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-9fb0c79 e-con-full e-con" data-id="9fb0c79" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-3c17086 elementor-widget elementor-widget-image" data-id="3c17086" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="https://web.archive.org/web/20230323121647/https://db.osintukraine.com/public/grid/KdSVk_zikE9JRqkrt1bdcPLhM8i2xDlAN1sIQf6I_7c" target="_blank">
+<img decoding="async" width="300" height="300" src="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/WaKKdJKp_400x400-300x300.jpg" class="attachment-medium size-medium wp-image-2374" alt="" loading="lazy" srcset="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/WaKKdJKp_400x400-300x300.jpg 300w, https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/WaKKdJKp_400x400-150x150.jpg 150w, https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/WaKKdJKp_400x400.jpg 400w" sizes="(max-width: 300px) 100vw, 300px"/> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-61d7d9b elementor-widget elementor-widget-alert" data-id="61d7d9b" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-info" role="alert">
+<span class="elementor-alert-title">Query</span>
+<span class="elementor-alert-description">"anti-Russian" OR russophobia OR russophobic OR russophobe OR "blame Russia" OR "Russia hoax" -filter:retweets</span>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-c99be35 e-con-full e-con" data-id="c99be35" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-08c8550 elementor-widget elementor-widget-image" data-id="08c8550" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="https://web.archive.org/web/20230323121647/https://db.osintukraine.com/public/grid/z8vABQPWZWyM78LiSEJS_rXT-zay01VpVp0gv9WovD8" target="_blank">
+<img decoding="async" width="211" height="300" src="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/watrix-211x300.webp" class="attachment-medium size-medium wp-image-2336" alt="" loading="lazy" srcset="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/watrix-211x300.webp 211w, https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/watrix.webp 506w" sizes="(max-width: 211px) 100vw, 211px"/> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-a0adf91 elementor-widget elementor-widget-alert" data-id="a0adf91" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-info" role="alert">
+<span class="elementor-alert-title">Query</span>
+<span class="elementor-alert-description">#StandWithPutin</span>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-fca81b2 e-con-full e-con" data-id="fca81b2" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-0d25eeb elementor-widget elementor-widget-image" data-id="0d25eeb" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="https://web.archive.org/web/20230323121647/https://db.osintukraine.com/public/grid/G0x5mh5OY-YySeQioXZ877KWzmKvSczWeHanmtI00sc" target="_blank">
+<img decoding="async" width="300" height="300" src="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/standwithrussia-300x300.webp" class="attachment-medium size-medium wp-image-2338" alt="" loading="lazy" srcset="https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/standwithrussia-300x300.webp 300w, https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/standwithrussia-150x150.webp 150w, https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/uploads/2022/08/standwithrussia.webp 768w" sizes="(max-width: 300px) 100vw, 300px"/> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-cfed7a6 elementor-widget elementor-widget-alert" data-id="cfed7a6" data-element_type="widget" data-widget_type="alert.default">
+<div class="elementor-widget-container">
+<div class="elementor-alert elementor-alert-info" role="alert">
+<span class="elementor-alert-title">Query</span>
+<span class="elementor-alert-description">#StandWithRussia</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-73592ff e-con-boxed e-con" data-id="73592ff" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-e8f314b elementor-widget elementor-widget-spacer" data-id="e8f314b" data-element_type="widget" data-widget_type="spacer.default">
+<div class="elementor-widget-container">
+<div class="elementor-spacer">
+<div class="elementor-spacer-inner"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="shariff shariff-align-center shariff-widget-align-center" style="display:none"><div class="ShariffHeadline">Share this !</div><ul class="shariff-buttons theme-white orientation-horizontal buttonsize-small"><li class="shariff-button twitter shariff-nocustomcolor" style="background-color:#32bbf5"><a href="https://web.archive.org/web/20230323121647/https://twitter.com/share?url=https%3A%2F%2Fosintukraine.com%2Fhate-scraper%2F&amp;text=Hate%20Tweet%20Tracker&amp;via=benbvi3ws" title="Share on Twitter" aria-label="Share on Twitter" role="button" rel="noopener nofollow" class="shariff-link" style="; background-color:#55acee; color:#55acee" target="_blank"><span class="shariff-icon" style="fill:#55acee"><svg width="32px" height="20px" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 32"><path fill="#55acee" d="M29.7 6.8q-1.2 1.8-3 3.1 0 0.3 0 0.8 0 2.5-0.7 4.9t-2.2 4.7-3.5 4-4.9 2.8-6.1 1q-5.1 0-9.3-2.7 0.6 0.1 1.5 0.1 4.3 0 7.6-2.6-2-0.1-3.5-1.2t-2.2-3q0.6 0.1 1.1 0.1 0.8 0 1.6-0.2-2.1-0.4-3.5-2.1t-1.4-3.9v-0.1q1.3 0.7 2.8 0.8-1.2-0.8-2-2.2t-0.7-2.9q0-1.7 0.8-3.1 2.3 2.8 5.5 4.5t7 1.9q-0.2-0.7-0.2-1.4 0-2.5 1.8-4.3t4.3-1.8q2.7 0 4.5 1.9 2.1-0.4 3.9-1.5-0.7 2.2-2.7 3.4 1.8-0.2 3.5-0.9z"/></svg></span><span class="shariff-text" style="color:#55acee">tweet</span>&nbsp;</a></li><li class="shariff-button facebook shariff-nocustomcolor" style="background-color:#4273c8"><a href="https://web.archive.org/web/20230323121647/https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fosintukraine.com%2Fhate-scraper%2F" title="Share on Facebook" aria-label="Share on Facebook" role="button" rel="nofollow" class="shariff-link" style="; background-color:#3b5998; color:#3b5998" target="_blank"><span class="shariff-icon" style="fill:#3b5998"><svg width="32px" height="20px" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 18 32"><path fill="#3b5998" d="M17.1 0.2v4.7h-2.8q-1.5 0-2.1 0.6t-0.5 1.9v3.4h5.2l-0.7 5.3h-4.5v13.6h-5.5v-13.6h-4.5v-5.3h4.5v-3.9q0-3.3 1.9-5.2t5-1.8q2.6 0 4.1 0.2z"/></svg></span><span class="shariff-text" style="color:#3b5998">share</span>&nbsp;</a></li><li class="shariff-button linkedin shariff-nocustomcolor" style="background-color:#1488bf"><a href="https://web.archive.org/web/20230323121647/https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fosintukraine.com%2Fhate-scraper%2F" title="Share on LinkedIn" aria-label="Share on LinkedIn" role="button" rel="noopener nofollow" class="shariff-link" style="; background-color:#0077b5; color:#0077b5" target="_blank"><span class="shariff-icon" style="fill:#0077b5"><svg width="32px" height="20px" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 27 32"><path fill="#0077b5" d="M6.2 11.2v17.7h-5.9v-17.7h5.9zM6.6 5.7q0 1.3-0.9 2.2t-2.4 0.9h0q-1.5 0-2.4-0.9t-0.9-2.2 0.9-2.2 2.4-0.9 2.4 0.9 0.9 2.2zM27.4 18.7v10.1h-5.9v-9.5q0-1.9-0.7-2.9t-2.3-1.1q-1.1 0-1.9 0.6t-1.2 1.5q-0.2 0.5-0.2 1.4v9.9h-5.9q0-7.1 0-11.6t0-5.3l0-0.9h5.9v2.6h0q0.4-0.6 0.7-1t1-0.9 1.6-0.8 2-0.3q3 0 4.9 2t1.9 6z"/></svg></span><span class="shariff-text" style="color:#0077b5">share</span>&nbsp;</a></li><li class="shariff-button reddit shariff-nocustomcolor" style="background-color:#ff5700"><a href="https://web.archive.org/web/20230323121647/https://www.reddit.com/submit?url=https%3A%2F%2Fosintukraine.com%2Fhate-scraper%2F" title="Share on Reddit" aria-label="Share on Reddit" role="button" rel="noopener nofollow" class="shariff-link" style="; background-color:#ff4500; color:#ff4500" target="_blank"><span class="shariff-icon" style="fill:#ff4500"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path fill="#ff4500" d="M440.3 203.5c-15 0-28.2 6.2-37.9 15.9-35.7-24.7-83.8-40.6-137.1-42.3L293 52.3l88.2 19.8c0 21.6 17.6 39.2 39.2 39.2 22 0 39.7-18.1 39.7-39.7s-17.6-39.7-39.7-39.7c-15.4 0-28.7 9.3-35.3 22l-97.4-21.6c-4.9-1.3-9.7 2.2-11 7.1L246.3 177c-52.9 2.2-100.5 18.1-136.3 42.8-9.7-10.1-23.4-16.3-38.4-16.3-55.6 0-73.8 74.6-22.9 100.1-1.8 7.9-2.6 16.3-2.6 24.7 0 83.8 94.4 151.7 210.3 151.7 116.4 0 210.8-67.9 210.8-151.7 0-8.4-.9-17.2-3.1-25.1 49.9-25.6 31.5-99.7-23.8-99.7zM129.4 308.9c0-22 17.6-39.7 39.7-39.7 21.6 0 39.2 17.6 39.2 39.7 0 21.6-17.6 39.2-39.2 39.2-22 .1-39.7-17.6-39.7-39.2zm214.3 93.5c-36.4 36.4-139.1 36.4-175.5 0-4-3.5-4-9.7 0-13.7 3.5-3.5 9.7-3.5 13.2 0 27.8 28.5 120 29 149 0 3.5-3.5 9.7-3.5 13.2 0 4.1 4 4.1 10.2.1 13.7zm-.8-54.2c-21.6 0-39.2-17.6-39.2-39.2 0-22 17.6-39.7 39.2-39.7 22 0 39.7 17.6 39.7 39.7-.1 21.5-17.7 39.2-39.7 39.2z"/></svg></span><span class="shariff-text" style="color:#ff4500">share</span>&nbsp;</a></li><li class="shariff-button telegram shariff-nocustomcolor" style="background-color:#4084A6"><a href="https://web.archive.org/web/20230323121647/https://telegram.me/share/url?url=https%3A%2F%2Fosintukraine.com%2Fhate-scraper%2F&amp;text=Hate%20Tweet%20Tracker" title="Share on Telegram" aria-label="Share on Telegram" role="button" rel="noopener nofollow" class="shariff-link" style="; background-color:#0088cc; color:#0088cc" target="_blank"><span class="shariff-icon" style="fill:#0088cc"><svg width="32px" height="20px" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"><path fill="#0088cc" d="M30.8 6.5l-4.5 21.4c-.3 1.5-1.2 1.9-2.5 1.2L16.9 24l-3.3 3.2c-.4.4-.7.7-1.4.7l.5-7L25.5 9.2c.6-.5-.1-.8-.9-.3l-15.8 10L2 16.7c-1.5-.5-1.5-1.5.3-2.2L28.9 4.3c1.3-.5 2.3.3 1.9 2.2z"/></svg></span><span class="shariff-text" style="color:#0088cc">share</span>&nbsp;</a></li><li class="shariff-button whatsapp shariff-nocustomcolor shariff-mobile" style="background-color:#5cbe4a"><a href="https://web.archive.org/web/20230323121647/https://api.whatsapp.com/send?text=https%3A%2F%2Fosintukraine.com%2Fhate-scraper%2F%20Hate%20Tweet%20Tracker" title="Share on Whatsapp" aria-label="Share on Whatsapp" role="button" rel="noopener nofollow" class="shariff-link" style="; background-color:#34af23; color:#34af23" target="_blank"><span class="shariff-icon" style="fill:#34af23"><svg width="32px" height="20px" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"><path fill="#34af23" d="M17.6 17.4q0.2 0 1.7 0.8t1.6 0.9q0 0.1 0 0.3 0 0.6-0.3 1.4-0.3 0.7-1.3 1.2t-1.8 0.5q-1 0-3.4-1.1-1.7-0.8-3-2.1t-2.6-3.3q-1.3-1.9-1.3-3.5v-0.1q0.1-1.6 1.3-2.8 0.4-0.4 0.9-0.4 0.1 0 0.3 0t0.3 0q0.3 0 0.5 0.1t0.3 0.5q0.1 0.4 0.6 1.6t0.4 1.3q0 0.4-0.6 1t-0.6 0.8q0 0.1 0.1 0.3 0.6 1.3 1.8 2.4 1 0.9 2.7 1.8 0.2 0.1 0.4 0.1 0.3 0 1-0.9t0.9-0.9zM14 26.9q2.3 0 4.3-0.9t3.6-2.4 2.4-3.6 0.9-4.3-0.9-4.3-2.4-3.6-3.6-2.4-4.3-0.9-4.3 0.9-3.6 2.4-2.4 3.6-0.9 4.3q0 3.6 2.1 6.6l-1.4 4.2 4.3-1.4q2.8 1.9 6.2 1.9zM14 2.2q2.7 0 5.2 1.1t4.3 2.9 2.9 4.3 1.1 5.2-1.1 5.2-2.9 4.3-4.3 2.9-5.2 1.1q-3.5 0-6.5-1.7l-7.4 2.4 2.4-7.2q-1.9-3.2-1.9-6.9 0-2.7 1.1-5.2t2.9-4.3 4.3-2.9 5.2-1.1z"/></svg></span><span class="shariff-text" style="color:#34af23">share</span>&nbsp;</a></li></ul></div> <div class="post-tags">
+</div>
+</div>
+<section id="comments" class="comments-area">
+</section>
+</main>
+<div data-elementor-type="footer" data-elementor-id="494" class="elementor elementor-494 elementor-location-footer">
+<div class="elementor-element elementor-element-de69a12 e-con-boxed e-con" data-id="de69a12" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_lazyload&quot;:&quot;yes&quot;,&quot;background_slideshow_ken_burns&quot;:&quot;yes&quot;,&quot;background_slideshow_ken_burns_zoom_direction&quot;:&quot;out&quot;,&quot;content_width&quot;:&quot;boxed&quot;,&quot;background_slideshow_gallery&quot;:[],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-3b207ec elementor-widget elementor-widget-shortcode" data-id="3b207ec" data-element_type="widget" data-widget_type="shortcode.default">
+<div class="elementor-widget-container">
+<div class="elementor-shortcode"><script async defer data-website-id="8b934579-5762-4413-b16f-e930663b6e51" src="https://web.archive.org/web/20230323121647js_/https://stats.osintukraine.com/umami.js"></script></div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-5235696 e-con-boxed e-con" data-id="5235696" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-7430073 e-con-full e-con" data-id="7430073" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-ccfff70 elementor-widget elementor-widget-text-editor" data-id="ccfff70" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p><a href="https://web.archive.org/web/20230323121647/https://stats.osintukraine.com/share/jHOVC9Je/OSINTukraine.com" target="_blank" rel="noopener">Stats</a></p> </div>
+</div>
+</div>
+<div class="elementor-element elementor-element-524db1a e-con-full e-con" data-id="524db1a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-63ff350 elementor-widget elementor-widget-text-editor" data-id="63ff350" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>OSINTukraine © 2022-2023-2024</p> </div>
+</div>
+</div>
+<div class="elementor-element elementor-element-2bed9b0 e-con-full e-con" data-id="2bed9b0" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+<div class="elementor-element elementor-element-359e223 elementor-widget elementor-widget-shortcode" data-id="359e223" data-element_type="widget" data-widget_type="shortcode.default">
+<div class="elementor-widget-container">
+<div class="elementor-shortcode"><script async defer data-website-id="8b934579-5762-4413-b16f-e930663b6e51" src="https://web.archive.org/web/20230323121647js_/https://stats.osintukraine.com/umami.js"></script></div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-6cc4f9b e-con-full e-con" data-id="6cc4f9b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+</div>
+</div>
+</div>
+</div>
+<script>
+
+    const mastodonFeedCreateElement = function(type, className = null) {
+      let element = document.createElement(type);
+      if(null !== className) {
+        element.className = className;
+      }
+      return element;
+    }
+
+    const mastodonFeedCreateElementAccountLink = function(account) {
+      let accountLinkElem = mastodonFeedCreateElement('a');
+      accountLinkElem.href = account.url;
+
+      let accountImageElem = mastodonFeedCreateElement('img', 'avatar');
+      accountImageElem.src = account.avatar_static;
+
+      accountLinkElem.addEventListener('mouseover', (event) => {
+        accountLinkElem.querySelector('.avatar').src = account.avatar;
+      });
+      accountLinkElem.addEventListener('mouseout', (event) => {
+        accountLinkElem.querySelector('.avatar').src = account.avatar_static;
+      });
+
+      accountLinkElem.appendChild(accountImageElem);
+      // inject emojis
+      let displayName = account.display_name;
+      if(account.emojis.length > 0) {
+        account.emojis.forEach(function(emoji) {
+          displayName = mastodonFeedInjectEmoji(displayName, emoji);
+        });
+      }
+      accountLinkElem.innerHTML += ' ' + displayName;
+      return accountLinkElem;
+    }
+
+    const mastodonFeedCreateElementPermalink = function(status, label) {
+      let linkElem = mastodonFeedCreateElement('a');
+      linkElem.href = status.url;
+      linkElem.appendChild(document.createTextNode(label));
+      return linkElem;
+    }
+
+    const mastodonFeedCreateElementMediaAttachments = function(status, options) {
+      let attachments = status.media_attachments;
+      let mediaWrapperElem = mastodonFeedCreateElement('div', 'media');
+      for(let mediaIndex = 0; mediaIndex < attachments.length; mediaIndex++) {
+        let media = attachments[mediaIndex];
+        let mediaElem = mastodonFeedCreateElement('div', 'image');
+        if('image' == media.type) {
+          let mediaElemImgLink = mastodonFeedCreateElement('a');
+          mediaElemImgLink.href = status.url;
+          let mediaElemImg = mastodonFeedCreateElement('img');
+          if(null === media.remote_url) {
+            mediaElemImg.src = media.preview_url;
+          }
+          else {
+            mediaElemImg.src = media.remote_url;
+          }
+          if(null !== media.description) {
+            mediaElemImg.title = media.description;
+          }
+          mediaElemImgLink.appendChild(mediaElemImg);
+          mediaElem.appendChild(mediaElemImgLink);
+        }
+        else if('gifv' == media.type) {
+          let mediaElemGifvLink = mastodonFeedCreateElement('a');
+          mediaElemGifvLink.href = status.url;
+          let mediaElemGifv = mastodonFeedCreateElement('video', 'requiresInteraction');
+          if(null === media.remote_url) {
+            mediaElemGifv.src = media.url;
+          }
+          else {
+            mediaElemGifv.src = media.remote_url;
+          }
+          mediaElemGifv.loop = true;
+          if(null !== media.description) {
+            mediaElemGifv.title = media.description;
+          }
+          mediaElemGifvLink.appendChild(mediaElemGifv);
+          mediaElem.appendChild(mediaElemGifvLink);
+
+          "click mouseover".split(" ").forEach(function(e){
+            mediaElemGifv.addEventListener(e, (event) => {
+              let promise = document.querySelector('.include-mastodon-feed .requiresInteraction').play();
+              if (promise !== undefined) {
+                  promise.then(_ => {
+                    mediaElemGifv.play();
+                    mediaElemGifv.style.cursor = 'auto';
+                  }).catch(error => {
+                      mediaElemGifv.style.cursor = 'pointer';
+                  });
+              }
+            });
+          });
+          mediaElemGifv.addEventListener('mouseout', (event) => {
+            mediaElemGifv.pause();
+            mediaElemGifv.currentTime = 0;
+          });
+        }
+        else {
+          // TODO implement support for other media types
+          //      currently only image and gifv support implemented
+          mediaElem.innerHTML = 'Stripped ' + media.type + ' - only available on instance<br />';
+          let permalinkElem = mastodonFeedCreateElement('span', 'permalink');
+          permalinkElem.appendChild(mastodonFeedCreateElementPermalink(status, options.text.viewOnInstance));
+          mediaElem.appendChild(permalinkElem);
+        }
+        mediaWrapperElem.appendChild(mediaElem);
+      }
+      return mediaWrapperElem;
+    }
+
+    const mastodonFeedCreateElementPreviewCard = function(card)  {
+      let cardElem = mastodonFeedCreateElement('div', 'card');
+          
+      if(null === card.html || card.html.length < 1) {
+        let cardElemMeta = mastodonFeedCreateElement('div', 'meta');
+
+        if(null !== card.image) {
+          let cardElemImageWrapper = mastodonFeedCreateElement('div', 'image');
+          let cardElemImage = mastodonFeedCreateElement('img');
+          cardElemImage.src = card.image;
+          cardElemImageWrapper.appendChild(cardElemImage);
+          cardElemMeta.appendChild(cardElemImageWrapper);
+        }
+
+        let cardElemTitle = mastodonFeedCreateElement('div', 'title');
+        cardElemTitle.innerHTML = card.title;
+        cardElemMeta.appendChild(cardElemTitle);
+
+        let cardElemDescription = mastodonFeedCreateElement('div', 'description');
+        cardElemDescription.innerHTML = card.description;
+        cardElemMeta.appendChild(cardElemDescription);
+        
+        if(card.url === null) {
+          cardElem.appendChild(cardElemMeta);
+        }
+        else {
+          let cardElemLink = mastodonFeedCreateElement('a');
+          cardElemLink.href = card.url;
+          cardElemLink.appendChild(cardElemMeta);
+          cardElem.appendChild(cardElemLink);
+        }
+      }
+      else {
+        cardElem.innerHTML = card.html;
+      }
+      return cardElem;
+    }
+
+    const mastodonFeedCreateElementTimeinfo = function(status, options, url = false) {
+      let createdInfo = mastodonFeedCreateElement('span', 'permalink');
+      createdInfo.innerHTML = ' on ';
+      if(false === url) {
+        createdInfo.innerHTML += new Date(status.created_at).toLocaleString(options.localization.date.locale, options.localization.date.options);
+      }
+      else {
+        createdInfo.appendChild(mastodonFeedCreateElementPermalink(status, new Date(status.created_at).toLocaleString(options.localization.date.locale, options.localization.date.options)));
+      }
+      if(null !== status.edited_at) {
+        createdInfo.innerHTML += ' (edited)';
+      }
+      return createdInfo;
+    }
+
+    const mastodonFeedInjectEmoji = function(string, emoji) {
+      return string.replace(':' + emoji.shortcode + ':', '<img class="emoji" src="' + emoji.url + '" title="' + emoji.shortcode + '" />');
+    }
+
+    const mastodonFeedRenderStatuses = function(statuses, rootElem, options) {
+      for(let i = 0; i < statuses.length; i++) {
+        let status = statuses[i];
+        let isEdited = (null === status.edited_at ? true : false);
+        let isReblog = (null === status.reblog ? false : true);
+
+        let statusElem = mastodonFeedCreateElement('div', 'status');
+
+        // add account meta info
+        let accountElem = mastodonFeedCreateElement('div', 'account');
+
+        if(isReblog) {
+          let boosterElem = mastodonFeedCreateElement('span', 'booster');
+          boosterElem.appendChild(document.createTextNode( options.text.boosted ));
+          accountElem.appendChild(boosterElem);
+        }
+        accountElem.appendChild(mastodonFeedCreateElementAccountLink(status.account));
+        accountElem.appendChild(mastodonFeedCreateElementTimeinfo(status, options, (isReblog ? false : status.url)));
+        
+        statusElem.appendChild(accountElem);
+
+        // prepare content rendering
+        let showStatus = status;
+        if(isReblog) {
+          showStatus = status.reblog;
+        }
+        let contentWrapperElem = mastodonFeedCreateElement('div', 'contentWrapper' + (isReblog ? ' boosted' : ''));
+
+        // add boosted post meta info
+        if(isReblog) {
+          let boostElem = mastodonFeedCreateElement('div', 'account');
+          let boostAccountLink = mastodonFeedCreateElementAccountLink(showStatus.account);
+          boostElem.appendChild(boostAccountLink);
+          boostElem.appendChild(mastodonFeedCreateElementTimeinfo(showStatus, options, showStatus.url));
+
+          contentWrapperElem.appendChild(boostElem);
+        }
+
+        let contentElem = mastodonFeedCreateElement('div', 'content');
+
+        // handle content warnings
+        if(showStatus.sensitive || showStatus.spoiler_text.length > 0) {
+          let cwElem = mastodonFeedCreateElement('div', 'contentWarning');
+
+          if(showStatus.spoiler_text.length > 0) {
+            let cwTitleElem = mastodonFeedCreateElement('div', 'title');
+            cwTitleElem.innerHTML = showStatus.spoiler_text;
+            cwElem.appendChild(cwTitleElem);
+          }
+
+          let cwLinkElem = mastodonFeedCreateElement('a');
+          cwLinkElem.href = '#';
+          cwLinkElem.onclick = function() {
+            this.parentElement.style = 'display: none;';
+            this.parentElement.nextSibling.style = 'display: block;';
+            return false;
+          }
+          cwLinkElem.innerHTML = options.text.showContent;
+          cwElem.appendChild(cwLinkElem);
+
+          contentWrapperElem.appendChild(cwElem);
+          contentElem.style = 'display: none;';
+        }
+
+        // add regular content
+        let renderContent = showStatus.content;
+        // inject emojis
+        if(showStatus.emojis.length > 0) {
+          showStatus.emojis.forEach(function(emoji) {
+            renderContent = mastodonFeedInjectEmoji(renderContent, emoji);
+          });
+        }
+        contentElem.innerHTML += renderContent;
+
+        // handle media attachments
+        if(showStatus.media_attachments.length > 0) {
+          let mediaAttachmentsElem = mastodonFeedCreateElementMediaAttachments(showStatus, options);
+          contentElem.appendChild(mediaAttachmentsElem);
+        }
+
+        // handle preview card
+        if(showStatus.card != null) {
+          let cardElem = mastodonFeedCreateElementPreviewCard(showStatus.card);
+          contentElem.appendChild(cardElem);
+        }
+
+        contentWrapperElem.appendChild(contentElem);
+        statusElem.appendChild(contentWrapperElem);
+        rootElem.appendChild(statusElem);
+      }
+      if('_self' != options.linkTarget) {
+        rootElem.querySelectorAll('a').forEach(function(e) {
+          e.target = options.linkTarget;
+        });
+      }
+    }
+
+    const mastodonFeedLoad = function(url, elementId, options) {
+      const xhr = new XMLHttpRequest();
+      xhr.open('GET', url, true);
+      xhr.responseType = 'json';
+      xhr.onload = function() {
+        const statuses = xhr.response;
+        const rootElem = document.getElementById(elementId);
+        rootElem.innerHTML = '';
+                if (xhr.status === 200) {
+                    mastodonFeedRenderStatuses(statuses, rootElem, options);
+        }
+        else {
+                    rootElem.appendChild(document.createTextNode(xhr.response.error));
+        }
+      };
+      xhr.send();
+    }
+  </script>
+<div class="eael-ext-scroll-to-top-wrap scroll-to-top-hide"><span class="eael-ext-scroll-to-top-button"><svg class="e-font-icon-svg e-fas-chevron-up" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"></path></svg></span></div> <noscript>
+		<img src="https://web.archive.org/web/20230323121647im_/https://email.osintukraine.com/mtracking.gif?d=YTo0OntzOjg6Imxhbmd1YWdlIjtzOjU6ImVuX1VTIjtzOjg6InBhZ2VfdXJsIjtzOjU5OiJodHRwczovL29zaW50dWtyYWluZS5jb20vaGF0ZS1zY3JhcGVyP3BhZ2VuYW1lPWhhdGUtc2NyYXBlciI7czoxMDoicGFnZV90aXRsZSI7czozOToiSGF0ZSBUd2VldCBUcmFja2VyICYjeDJkOyBPU0lOVCBVa3JhaW5lIjtzOjg6InJlZmVycmVyIjtzOjU5OiJodHRwczovL29zaW50dWtyYWluZS5jb20vaGF0ZS1zY3JhcGVyP3BhZ2VuYW1lPWhhdGUtc2NyYXBlciI7fQ%3D%3D" style="display:none;" alt="Mautic Tags"/>
+	</noscript>
+<link rel="stylesheet" id="elementor-icons-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.18.0" media="all"/>
+<style id="elementor-icons-inline-css">
+
+		.elementor-add-new-section .elementor-add-templately-promo-button{
+            background-color: #5d4fff;
+            background-image: url(https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-left: 5px;
+            position: relative;
+            bottom: 5px;
+        }
+
+		.elementor-add-new-section .elementor-add-templately-promo-button{
+            background-color: #5d4fff;
+            background-image: url(https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-left: 5px;
+            position: relative;
+            bottom: 5px;
+        }
+
+		.elementor-add-new-section .elementor-add-templately-promo-button{
+            background-color: #5d4fff;
+            background-image: url(https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-left: 5px;
+            position: relative;
+            bottom: 5px;
+        }
+
+		.elementor-add-new-section .elementor-add-templately-promo-button{
+            background-color: #5d4fff;
+            background-image: url(https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-left: 5px;
+            position: relative;
+            bottom: 5px;
+        }
+
+		.elementor-add-new-section .elementor-add-templately-promo-button{
+            background-color: #5d4fff;
+            background-image: url(https://web.archive.org/web/20230323121647im_/https://osintukraine.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-left: 5px;
+            position: relative;
+            bottom: 5px;
+        }
+</style>
+<link rel="stylesheet" id="shariffcss-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/plugins/shariff/css/shariff.min.css?ver=4.6.9" media="all"/>
+<link rel="stylesheet" id="eael-scroll-to-top-css" href="https://web.archive.org/web/20230323121647cs_/https://osintukraine.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/scroll-to-top.min.css?ver=5.6.1" media="all"/>
+<script id="eael-general-js-extra">
+var localize = {"ajaxurl":"https:\/\/web.archive.org\/web\/20230323121647\/https:\/\/osintukraine.com\/wp-admin\/admin-ajax.php","nonce":"4313d2013b","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping"},"page_permalink":"https:\/\/web.archive.org\/web\/20230323121647\/https:\/\/osintukraine.com\/hate-scraper\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
+</script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.6.1" id="eael-general-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-content/uploads/essential-addons-elementor/eael-1092.js?ver=1673279066" id="eael-1092-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=1.0.0" id="hello-theme-frontend-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-content/uploads/essential-addons-elementor/eael-2247.js?ver=1673279066" id="eael-2247-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/scroll-to-top.min.js?ver=5.6.1" id="eael-scroll-to-top-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.6.5" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.11.5" id="elementor-webpack-runtime-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.11.5" id="elementor-frontend-modules-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9" id="regenerator-runtime-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5" id="wp-hooks-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/web.archive.org\/web\/20230323121647\/https:\/\/osintukraine.com\/wp-admin\/admin-ajax.php","nonce":"bbea8d858f","urls":{"assets":"https:\/\/web.archive.org\/web\/20230323121647\/https:\/\/osintukraine.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/web.archive.org\/web\/20230323121647\/https:\/\/osintukraine.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/web.archive.org\/web\/20230323121647\/https:\/\/osintukraine.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.6.5" id="elementor-pro-frontend-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.11.5","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"e_font_icon_svg":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"landing-pages":true,"kit-elements-defaults":true,"page-transitions":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/web.archive.org\/web\/20230323121647\/https:\/\/osintukraine.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"logo","hello_header_menu_layout":"horizontal"},"post":{"id":2247,"title":"Hate%20Tweet%20Tracker%20-%20OSINT%20Ukraine","excerpt":"","featuredImage":"https:\/\/web.archive.org\/web\/20230323121647\/https:\/\/osintukraine.com\/wp-content\/uploads\/2022\/08\/hate-tweet-tracker-1024x709.jpg"}};
+</script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.11.5" id="elementor-frontend-js"></script>
+<script src="https://web.archive.org/web/20230323121647js_/https://osintukraine.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.6.5" id="pro-elements-handlers-js"></script>
+<script defer src="https://web.archive.org/web/20230323121647js_/https://static.cloudflareinsights.com/beacon.min.js/vb26e4fa9e5134444860be286fd8771851679335129114" integrity="" data-cf-beacon="{&quot;rayId&quot;:&quot;7ac69b8a4d52823f&quot;,&quot;version&quot;:&quot;2023.3.0&quot;,&quot;b&quot;:1,&quot;token&quot;:&quot;21d456d6434a4882bd19df16a6207939&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 12:16:47 Mar 23, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:08:02 Jul 04, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 160.216 (11)
+  exclusion.robots: 0.235
+  exclusion.robots.policy: 0.221
+  cdx.remote: 0.094
+  esindex: 0.011
+  LoadShardBlock: 97.093 (3)
+  PetaboxLoader3.datanode: 106.339 (4)
+  load_resource: 127.643
+  PetaboxLoader3.resolve: 94.049
+-->
