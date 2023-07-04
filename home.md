@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2023-07-04T10:35:01.434Z
+date: 2023-07-04T10:56:35.354Z
 tags: tools, osint, ntfy, n8n, telegram, automation, translation, videos
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -33,7 +33,7 @@ dateCreated: 2023-07-01T12:21:50.978Z
 
 # Track / Subscribe
 
-- [Track *Use ntfy.sh to subscribe to new content in different channels*](/track)
+- [Track *Use ntfy.sh or mastodon to subscribe to new content from different channels*](/track)
 - [Raw feed *feeds before translations & other sources of information*](/rawcontent)
 - [Stream *Preview the content as shared in different platforms*](/stream)
 - [Telegram *our data right into Telegram with built-in translations*](/telegram)
