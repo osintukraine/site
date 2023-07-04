@@ -2,13 +2,15 @@
 title: Search
 description: Research the Archive in different ways
 published: true
-date: 2023-07-04T10:22:58.940Z
+date: 2023-07-04T10:58:11.710Z
 tags: osint, telegram, media, search
 editor: markdown
 dateCreated: 2023-07-04T10:22:58.940Z
 ---
 
 # Searchable Databases without Media
+
+we use Baserow to host the telegram posts and enable search inside the database. 
 
 ## AmplifyUkraine 🇺🇦
 > 90 Ukrainian Telegram Channels aggregated and translated.  
@@ -63,8 +65,8 @@ dateCreated: 2023-07-04T10:22:58.940Z
 {.is-info}
 ---
 
-- [Full Archive *Media Included*](https://geoint.osintukraine.com/public/grid/VduHBX7drdHQQXuFDruY846K6bcGUrAZUqF7-_im774)
-- [UA Videos *Videos Only*](https://geoint.osintukraine.com/public/grid/hOPtrD-RgQigx6XkABvmzyfrVvpSD9Isl9CKcz8pYFg)
+- [ 🇺🇦 Full Archive *Media Included*](https://geoint.osintukraine.com/public/grid/VduHBX7drdHQQXuFDruY846K6bcGUrAZUqF7-_im774)
+- [ 🇺🇦 UA Videos *Videos Only*](https://geoint.osintukraine.com/public/grid/hOPtrD-RgQigx6XkABvmzyfrVvpSD9Isl9CKcz8pYFg)
 {.links-list}
 
 
