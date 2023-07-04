@@ -2,7 +2,7 @@
 title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-03T10:48:39.110Z
+date: 2023-07-04T13:32:56.753Z
 tags: telegram, rss, inoreader, json, feeds
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
@@ -52,6 +52,8 @@ dateCreated: 2023-07-02T15:10:55.188Z
 
 <iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005520529/tag/Belarus/view/html?t=Belarus%20pro-Ukraine&cs=m&sb=y" frameborder="0" tabindex="-1"></iframe>
 
+# Other news feed
+## Tabs {.tabset}
 
 ### Newswire
 
@@ -121,6 +123,8 @@ dateCreated: 2023-07-02T15:10:55.188Z
 
 <iframe width="100%" height="800" src="https://www.inoreader.com/stream/user/1005326388/tag/Militants/view/html?t=Telegram%203&cs=m&lc=0xCC4128&sb=y" frameborder="0" tabindex="-1"></iframe>
 
+# Other news feed
+## Tabs {.tabset}
 
 ### Russian State Media
 <iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005324229/tag/Russia-State/view/html?t=Russian%20State%20Media&cs=m&lc=0xCC3128&sb=y" frameborder="0" tabindex="-1"></iframe>
