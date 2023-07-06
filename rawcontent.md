@@ -2,7 +2,7 @@
 title: Raw
 description: This is the raw content before translation
 published: true
-date: 2023-07-06T16:35:16.767Z
+date: 2023-07-06T16:38:52.249Z
 tags: telegram, rss, inoreader, json, feeds
 editor: markdown
 dateCreated: 2023-07-02T15:10:55.188Z
@@ -127,6 +127,10 @@ dateCreated: 2023-07-02T15:10:55.188Z
 ## Tabs {.tabset}
 
 ### Russian State Media
+
+- [Translate this feed](https://www.inoreader.com/stream/user/1005324229/tag/Russia-State/view/html?t=Russian%20State%20Media&cs=m&lc=0xCC3128&sb=y&_x_tr_sl=auto&_x_tr_tl=en-US&_x_tr_hl=en-US)
+{.links-list}
+
 <iframe width="670" height="800" src="https://www.inoreader.com/stream/user/1005324229/tag/Russia-State/view/html?t=Russian%20State%20Media&cs=m&lc=0xCC3128&sb=y" frameborder="0" tabindex="-1"></iframe>
 
 
@@ -155,11 +159,17 @@ dateCreated: 2023-07-02T15:10:55.188Z
 ## Tabs {.tabset}
 ### Belarus Opposition
 
+- [Translate this feed](https://www.inoreader.com/stream/user/1005520529/tag/Belarus/view/html?t=Belarus&cs=m&sb=y&_x_tr_sl=auto&_x_tr_tl=en-US&_x_tr_hl=en-US)
+{.links-list}
+
 <iframe width="100%" height="800" src="https://www.inoreader.com/stream/user/1005520529/tag/Belarus/view/html?t=Belarus&cs=m&sb=y" frameborder="0" tabindex="-1"></iframe>
 
 # Russian Opposition
 ## Tabs {.tabset}
 ### Protiv @protiv@osintua.eu
+
+- [Translate this feed](https://www-inoreader-com.translate.goog/stream/user/1005324229/tag/RussianOpposition/view/html?t=Russian+Opposition+Media&cs=m&sb=y&_x_tr_sl=auto&_x_tr_tl=en-US&_x_tr_hl=en-US)
+{.links-list}
 
 <iframe width="100%" height="800" src="https://www.inoreader.com/stream/user/1005324229/tag/RussianOpposition/view/html?t=Russian%20Opposition%20Media&cs=m&sb=y" frameborder="0" tabindex="-1"></iframe>
 
