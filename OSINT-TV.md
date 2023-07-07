@@ -2,7 +2,7 @@
 title: OSINT-TV
 description: 
 published: true
-date: 2023-07-07T10:19:30.599Z
+date: 2023-07-07T10:20:19.890Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T10:14:34.038Z
@@ -18,7 +18,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCk1qkuAJZWxzGxwP961nsog
 
 # Past Episodes
 <h3>Video Only RSS</h3>
-<iframe width="100%" height="515" src="//rss2html.osintukraine.com/?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCk1qkuAJZWxzGxwP961nsog
+<iframe width="100%" height="515" src="https://rss2html.osintukraine.com/?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCk1qkuAJZWxzGxwP961nsog
 &detail=25&showtitle=false&type=html"></iframe>
 
 # Zabby Live
