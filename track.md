@@ -1,8 +1,8 @@
 ---
-title: Tracking
+title: Subscribe / Track
 description: Use these tools to track new items added to the Archive
 published: true
-date: 2023-07-04T10:25:25.285Z
+date: 2023-07-07T09:58:48.016Z
 tags: telegram, notifications, tracking, news
 editor: markdown
 dateCreated: 2023-07-04T10:25:25.285Z
@@ -58,3 +58,21 @@ Video posts bot posting Russian Telegram archived/translated content on the fedi
 > -   Turn the Sound notification OFF
 > -   You can use the 3 dots menu to unsubscribe from the topics anytime
 {.is-info}
+
+# Bluesky
+<p>Some of the output on Bluesky, you need an account to see, contact us for an invite!</p>
+<p>Follow : <a href="https://benbo.bsky.social" target="_blank"><u>BenB on Bluesky (news only)</u></a></p>
+<p>Follow : <a href="https://ukrainetg.bsky.social" target="_blank"><u>Ukrainian Telegram Channels</u></a></p>
+
+# Tumblr
+<p>News only (no telegram posts)</p>
+<p>Check out : <a href="https://www.tumblr.com/cyberbenb" target="_blank"><u>BenB Tumblr</u></a></p>
+
+# Reddit
+<p>Curration from our Newswire and Google News to Reddit</p>
+<p>Check out : <a href="https://reddit.com/r/osintukraine" target="_blank"><u>r/OSINTukraine</u></a></p>
+
+# Twitter
+
+https://twitter.com/benbnews
+https://twitter.com/intoxvsinfo/lists/1511638291736576001
