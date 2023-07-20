@@ -2,7 +2,7 @@
 title: About
 description: About OSINTukraine project
 published: true
-date: 2023-07-04T10:52:36.243Z
+date: 2023-07-20T13:10:23.072Z
 tags: ukraine, self-defense, nafo, russia is a terrorist state
 editor: markdown
 dateCreated: 2023-07-01T12:30:32.140Z
@@ -10,7 +10,7 @@ dateCreated: 2023-07-01T12:30:32.140Z
 
 # Who 
 
-> My name is Ben, supporting Ukraine from Belgium, I’m a DevOps in the making but also have a quite diverse experience with all things digital, open source collaboration tools, self-hosting and information monitoring, automation;
+> My name is Ben, supporting Ukraine from Belgium, I’m a Solution Architect with 20 years of experience with information monitoring, automation, building tailored custom monitoring solutions on different platforms. 
 
 <a href='https://ko-fi.com/E1E2E81MW' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
