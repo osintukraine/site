@@ -2,7 +2,7 @@
 title: Telegram Archive
 description: the Telegram Archive with Video and media files on the open web
 published: true
-date: 2023-07-04T10:20:53.958Z
+date: 2023-07-28T14:37:31.200Z
 tags: telegram, videos, archive, media, images
 editor: markdown
 dateCreated: 2023-07-04T10:20:53.958Z
@@ -76,8 +76,21 @@ TIPs :
 NEW POSTS ARE AT THE BOTTOM OF EACH PAGE  
 On mobile, enable "desktop site" to be able to pinch zoom and scroll top to bottom fast.
 
-Current status 🔴
+Current status 🟢
 
 - [Video Only Posts *Archive 2022 up to June 2023*](https://ruvideos.osintukraine.com/)
 - [Video Only Posts *Russian Telegram Channel - Archive 2023*](https://videosrus.osintukraine.com/)
+{.links-list}
+
+---
+
+# Individual Archives
+
+
+## Archive from very specific Telegram channels
+
+> Auto-update twice a day
+> 
+- [BigSac Archive *Russian warcrimes*](https://bigsac.ukrainewararchive.eu/)
+- [Spookboys *Hand Counting of Russian Casualities*](https://spookboys.ukrainewararchive.eu/)
 {.links-list}
