@@ -2,7 +2,7 @@
 title: Vision
 description: If we had unlimited means and funds to push OSINTukraine further, where could it go ?
 published: true
-date: 2023-08-10T08:37:55.411Z
+date: 2023-08-10T08:42:35.039Z
 tags: ideas, vision, potentiality
 editor: markdown
 dateCreated: 2023-08-10T08:07:01.494Z
@@ -20,7 +20,7 @@ dateCreated: 2023-08-10T08:07:01.494Z
 ## Data [Enrichment](/research)
 - Flag disinformation using ML & human supervision
 - Tag data rows with location, units, equipment
-- 
+- Define a set of OSINT markers that could be used to train a AI model to enrich the data and provide an interface to use the resulting output
 
 ## Interface [Design](/archive)
 
@@ -30,8 +30,11 @@ dateCreated: 2023-08-10T08:07:01.494Z
 
 ## Architecture [diagram](/diagram) 
 - redesign everything from scratch, use code where necessary coupled with nocode solution (as of now) but better integrated and with duplicates detection, better redundancy, less technical debt, better documentation etc..
+- build an iteration of this project tuned to be deployed on other usecases
 
-
+## Service
+- Allow the system to enable users configuration such as custom alerts, custom webhoook to forward a segment of the data to different third-party service. 
+- Provide a full fledged API to build other tools on top of the data
 
 
 
