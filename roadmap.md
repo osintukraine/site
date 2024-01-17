@@ -2,7 +2,7 @@
 title: Roadmap
 description: OSINTukraine roadmap
 published: true
-date: 2023-07-03T10:45:57.452Z
+date: 2024-01-17T22:10:34.120Z
 tags: roadmap, ideas
 editor: markdown
 dateCreated: 2023-07-01T12:38:32.732Z
@@ -13,8 +13,8 @@ dateCreated: 2023-07-01T12:38:32.732Z
 > This page is outdated and will be updated soon.
 {.is-info}
 
-- [ ] Fix Duplicates issues
-- [ ] Find ways to measure lengths of enclosure video media files
+- [x] Fix Duplicates issues (partially fixed)
+- [ ] ~~Find ways to measure lengths of enclosure video media files~~
 - [ ] Resync all media files to make sure each video have correct length/size and play/embed fine on any browser.
 - [ ] Full revamp of the Static HTML/JS site templates so that we can provide responsiveness, lazy loading of media files, better pagination system
 - [ ] Move away from SQLite static database and migrate to live database with new table structure designed for OSINTukraine.
