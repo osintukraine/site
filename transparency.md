@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2023-07-03T11:47:12.561Z
+date: 2024-01-17T22:03:46.964Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -23,15 +23,17 @@ My Personal recommendation goes to ComeBackAlive and Prytula Foundation.
 
 # Tabs {.tabset}
 ## Servers
-### Server – €62.92/month
+### Server – €160/month
 
 VPS 1
 
-10 vCPU Cores  
-60 GB RAM
+24 Core "AMD EPYC 7282 16-Core Processor"
+126.61 GB RAM 
 
 VPS 2
-VPS 3
+10 Core "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz"
+67.42 GB RAM
+
 
 **Purpose : hosting, computation, scrapping and automation workflows, project management tools.**  
  
