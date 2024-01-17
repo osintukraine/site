@@ -2,7 +2,7 @@
 title: Telegram
 description: Telegram Channels and their output on the openweb
 published: true
-date: 2023-07-03T10:50:07.167Z
+date: 2024-01-17T22:05:58.283Z
 tags: telegram, inoreader
 editor: markdown
 dateCreated: 2023-07-02T14:56:34.259Z
@@ -12,9 +12,9 @@ dateCreated: 2023-07-02T14:56:34.259Z
 
 ## Ukrainian Archive 
 
-- [Full Ukrainian Telegram *2022-2023*](https://t.me/amplifyukraine)
-- [Photos posts only *2023*](https://t.me/uaphotos)
-- [Video posts only *2023*](https://t.me/uavideos)
+- [Full Ukrainian Telegram *2022-2023-2024*](https://t.me/amplifyukraine)
+- [Photos posts only *2023-2024*](https://t.me/uaphotos)
+- [Video posts only *2023-2024*](https://t.me/uavideos)
 {.links-list}
 
 Automated DeepL translations of Telegram posts shared by 30 Ukrainian channels (SMAT) translated to English
@@ -31,9 +31,9 @@ Automated DeepL translations of Telegram posts shared by 30 Ukrainian channels (
 
 # Russian Archive
 
-- [Full Translation & Archive *2022-2023*](https://t.me/telehunt_watch)
-- [Video posts only *2023* ](https://t.me/telehunt_video)
-- [Photos posts only *2023*](https://t.me/telehunt_photo)
+- [Full Translation & Archive *2022-2023-2024*](https://t.me/telehunt_watch)
+- [Video posts only *2023-2024* ](https://t.me/telehunt_video)
+- [Photos posts only *2023-2024*](https://t.me/telehunt_photo)
 {.links-list}
 
 Main channel where the output of 90 aggregated Russian telegram channels are accessible on Telegram
