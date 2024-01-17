@@ -2,7 +2,7 @@
 title: Diagram
 description: Diagram of how the OSINTurkaine automation is currently setup
 published: true
-date: 2024-01-17T21:51:45.707Z
+date: 2024-01-17T21:52:33.164Z
 tags: n8n, automation, python, nocodb, rss
 editor: markdown
 dateCreated: 2023-07-02T09:30:31.826Z
@@ -41,6 +41,7 @@ dateCreated: 2023-07-02T09:30:31.826Z
 
 
 ## Diagram flow
+
 
 ```mermaid
   graph TD;
