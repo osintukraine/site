@@ -2,13 +2,18 @@
 title: Telegram
 description: Telegram Channels and their output on the openweb
 published: true
-date: 2024-01-17T22:05:58.283Z
+date: 2024-05-26T17:07:34.396Z
 tags: telegram, inoreader
 editor: markdown
 dateCreated: 2023-07-02T14:56:34.259Z
 ---
 
 # Telegram Channels with built-in translations
+
+
+- [Click here to Add *all our Telegram Channels at once*](https://t.me/addlist/EMwTEWJzfX5iYjVk)
+{.links-list}
+
 
 ## Ukrainian Archive 
 
@@ -18,13 +23,6 @@ dateCreated: 2023-07-02T14:56:34.259Z
 {.links-list}
 
 Automated DeepL translations of Telegram posts shared by 30 Ukrainian channels (SMAT) translated to English
-
-## Old Archive 2022
-
-[ukrainian-videos](https://t.me/ukrainian_videos)
-
-[Ukrainian photos posts](https://t.me/ukrainian_photos)
-
 
 ---
 
@@ -44,6 +42,17 @@ A filtering put in place to segment “Video posts” out of the 90 Russian tele
 
 A filtering put in place to segment “Photo posts” out of the 90 Russian telegram channels we collect.
 [Photos Posts](https://t.me/photo_posts)
+
+---
+
+## Old Archive 2022
+
+[ukrainian-videos](https://t.me/ukrainian_videos)
+
+[Ukrainian photos posts](https://t.me/ukrainian_photos)
+
+---
+
 
 # Old Static version of this project
 
