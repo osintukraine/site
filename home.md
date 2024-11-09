@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2024-05-26T16:51:16.579Z
+date: 2024-11-09T14:26:27.505Z
 tags: tools, osint, ntfy, n8n, telegram, automation, translation, videos
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -12,10 +12,18 @@ dateCreated: 2023-07-01T12:21:50.978Z
 > OSINT tools to archive, document and debunk the Russian War against Ukraine
 > This project is a Telegram Archive, a News aggregator & publishing engine designed to support Ukraine and keep Ukraine information in the News cycle. 
 
+> As of 2025 OsintUkraine.com archive will be sunsetted, I cannot afford the telegram data aggregation cost, at least in the way it is setup now, we are looking for a Ukrainian interested person/organisation/ngo interested to get a copy of the Archive
+{.is-warning}
+
+> This project is going to be shutdown in early 2025f
+{.is-danger}
+
+
+
 > As you can notice, this is the same data represented in different ways, it might feel a lot, but the goal here is to go around some limitations of the project and providing the ability to search/filter and better explore the overall collection.
 {.is-info}
 
-> All Services running smooth ! 05-26-2024
+> All Services running smooth ! 11-09-2024
 {.is-success}
 
 
