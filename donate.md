@@ -2,7 +2,7 @@
 title: Donate
 description: Contribute to OSINTukraine by any donation you can
 published: true
-date: 2024-12-10T17:52:40.788Z
+date: 2024-12-10T17:52:49.026Z
 tags: costs, transparency, donation
 editor: markdown
 dateCreated: 2023-07-02T19:03:50.420Z
@@ -33,5 +33,3 @@ dateCreated: 2023-07-02T19:03:50.420Z
 
 
 <iframe id='kofiframe' src='https://ko-fi.com/cyberbenb/?hidefeed=false&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='cyberbenb'></iframe>
-
-![f0bqgl7xwairnpf.jpeg](/f0bqgl7xwairnpf.jpeg)
