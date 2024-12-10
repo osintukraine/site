@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2024-12-10T17:58:50.254Z
+date: 2024-12-10T18:02:38.718Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -44,25 +44,27 @@ VPS 2
 
 includes 21% VAT
 
-Currently, Telehunt + AmplifyUkraine + Drones = 8x Pro
+Currently, Telehunt + AmplifyUkraine + Drones = 8x Pro Accounts
 
 774.32 € / Year
 
 **Purpose : Telegram Aggregation without handling API rate limits or burning account risk.**  
 
 ## Telegram Video Storage
-### Storage – €104/month
+### Storage – €1260 / Year
+#### 105€ per month
+includes 21% VAT
 
-- 10 TB – Video Storage Ukraine
-- 20 TB – Russian Video
-- 20 TB - Russian Data (Need Now)
-- 5 TB – Photo / Backup
+- 10 TB – Video Storage Ukraine 20€ per month
+- 20 TB – Russian Video 40 € per month
+- 20 TB - Russian Data (Need Now) 40 € per month
+- 5 TB – Photo / Backup 10 € per month
 
 
 ## CDN
 
 Content Delivery Network : 20 € / month
-
+includes 21% VAT
 
 # Tabs {.tabset}
 
