@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2024-12-10T18:04:16.660Z
+date: 2024-12-10T19:02:00.531Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -38,7 +38,7 @@ VPS 2
 **Purpose : hosting, computation, scrapping and automation workflows, project management tools.**  
  
 ## Software Inoreader 
-### Software – €60.20/month
+### Software – €64.50/month
 
 1 x Pro account = 96,79 € / Year
 
