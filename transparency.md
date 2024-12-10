@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2024-12-10T18:02:38.718Z
+date: 2024-12-10T18:04:16.660Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -75,6 +75,8 @@ The Project started on the 24th of February 2022 and have been operating ever si
 Depending on the daily hours given to move the project forward, this is more than 1200h of work from February to September 2022, from a conservative estimation.
 
 In 2023 I’m trying to adapt for a marathon and finding balance to make the project sustainable and finding volunteers to bring this project to its Version 2 while keeping the current iteration afloat and operational, the amount of work range from a few minutes every day to a few hours.
+
+In 2024 I'm spending a few hours per week to maintain the archive, fix issues with automation, verify the integrity of the system and do general maintenance work.
 
 [One Time Donation via Paypal](https://www.paypal.com/paypalme/osintukraine) 
 
