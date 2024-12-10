@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2024-12-10T19:02:00.531Z
+date: 2024-12-10T19:04:38.692Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -22,6 +22,12 @@ My Personal recommendation goes to ComeBackAlive and Prytula Foundation.
 
 
 # Tabs {.tabset}
+## Total Costs
+All included : 
+
+Per year: €3,954.32
+Per month: €329.53
+
 ## Servers
 ### Server – €160/month
 
