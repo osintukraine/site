@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2024-12-10T19:04:38.692Z
+date: 2024-12-11T23:39:08.730Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -36,10 +36,13 @@ VPS 1
 24 Core "AMD EPYC 7282 16-Core Processor"
 126.61 GB RAM 
 
+this server is looking for a core sponsor 
+
 VPS 2
 10 Core "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz"
 67.42 GB RAM
 
+this server costs is already secured but donations to help welcome ✅
 
 **Purpose : hosting, computation, scrapping and automation workflows, project management tools.**  
  
@@ -54,6 +57,9 @@ Currently, Telehunt + AmplifyUkraine + Drones = 8x Pro Accounts
 
 774.32 € / Year
 
+Half of this cost is already sponsored by one of our core contributor ✅
+more contributions welcome, we hope to cut this costs for the project in the future
+
 **Purpose : Telegram Aggregation without handling API rate limits or burning account risk.**  
 
 ## Telegram Video Storage
@@ -61,12 +67,9 @@ Currently, Telehunt + AmplifyUkraine + Drones = 8x Pro Accounts
 #### 105€ per month
 includes 21% VAT
 
-- 10 TB – Video Storage Ukraine 20€ per month
-- 20 TB – Russian Video 40 € per month
-- 20 TB - Russian Data (Need Now) 40 € per month
-- 5 TB – Photo / Backup 10 € per month
-
-
+- 20 TB – 2022-202x - Video Storage Ukraine 40€ per month (looking for a sponsor)
+- 20 TB – 2022-2024 - Archive Russian Video 40 € per month (looking for a sponsor)
+- 20 TB - 2024-202x - Russian Data 40 € per month ✅ (secured for a year)
 ## CDN
 
 Content Delivery Network : 20 € / month
