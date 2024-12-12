@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2024-12-12T19:32:36.117Z
+date: 2024-12-12T19:33:04.960Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -11,7 +11,7 @@ dateCreated: 2023-07-01T12:37:02.630Z
 # Costs / Transparency / Contribute
 
 Crowdfunding costs  
-In the last few months, all the costs have been covered by personal funds or friends/supporters donations.  
+Since 2022, all the costs have been covered by personal funds and/or friends/supporters donations.  
   
 We try to avoid to crowdfund publicly because there is no reason to divest funds that could Help Ukraine but a few times a year we do raise funds to keep this project alive.  
   
