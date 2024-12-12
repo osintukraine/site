@@ -2,7 +2,7 @@
 title: Donate
 description: Contribute to OSINTukraine by any donation you can
 published: true
-date: 2024-12-12T19:43:14.812Z
+date: 2024-12-12T19:45:06.190Z
 tags: costs, transparency, donation
 editor: markdown
 dateCreated: 2023-07-02T19:03:50.420Z
@@ -15,6 +15,10 @@ dateCreated: 2023-07-02T19:03:50.420Z
 - Aggregation of data
 - Storage Disk
 - Servers
+
+
+> Goal Reached for this year !
+{.is-info}
 
 > Current urgent need : open a new Storage box to host the Russian Telegram data we archive from a selection of 100+ Telegram channels, if 4 people give a recurring donation of 10 € we can archive data for another 2 years !
 {.is-success}
