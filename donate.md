@@ -2,7 +2,7 @@
 title: Donate
 description: Contribute to OSINTukraine by any donation you can
 published: true
-date: 2024-12-10T17:53:32.295Z
+date: 2024-12-12T19:27:26.286Z
 tags: costs, transparency, donation
 editor: markdown
 dateCreated: 2023-07-02T19:03:50.420Z
@@ -16,14 +16,14 @@ dateCreated: 2023-07-02T19:03:50.420Z
 - Storage Disk
 - Servers 
 
-> Current urgent need : open a new Storage box to host the Russian Telegram data we archive from a selection of 100+ Telegram channels, if 4 people give a recurring donation of 10 € we can archive data for another 2 years !
-{.is-danger}
+> ~~Current urgent need : open a new Storage box to host the Russian Telegram data we archive from a selection of 100+ Telegram channels, if 4 people give a recurring donation of 10 € we can archive data for another 2 years !~~
+{.is-success}
 
 
 > 8 euro per month allow us to pay for one month of Telegram aggregation, 96 euro allow us to aggregate 30 telegram channels for a year !
 {.is-warning}
 
-> Server costs are stable and can keep up for years to come
+> Server costs are stable and can keep up for 1 year to come
 {.is-success}
 
 ## Give with Paypal or Kofi
