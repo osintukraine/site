@@ -2,7 +2,7 @@
 title: Subscribe / Track
 description: Use these tools to track new items added to the Archive
 published: true
-date: 2023-07-07T09:58:48.016Z
+date: 2024-12-12T19:25:50.636Z
 tags: telegram, notifications, tracking, news
 editor: markdown
 dateCreated: 2023-07-04T10:25:25.285Z
@@ -61,8 +61,8 @@ Video posts bot posting Russian Telegram archived/translated content on the fedi
 
 # Bluesky
 <p>Some of the output on Bluesky, you need an account to see, contact us for an invite!</p>
-<p>Follow : <a href="https://benbo.bsky.social" target="_blank"><u>BenB on Bluesky (news only)</u></a></p>
-<p>Follow : <a href="https://ukrainetg.bsky.social" target="_blank"><u>Ukrainian Telegram Channels</u></a></p>
+<p>Follow : <a href="https://bsky.app/profile/benborges.xyz" target="_blank"><u>BenB on Bluesky (news only)</u></a></p>
+<p>Follow : <a href="https://bsky.app/profile/videos.osintukraine.com" target="_blank"><u>Ukrainian Telegram Channels</u></a></p>
 
 # Tumblr
 <p>News only (no telegram posts)</p>
@@ -74,5 +74,4 @@ Video posts bot posting Russian Telegram archived/translated content on the fedi
 
 # Twitter
 
-https://twitter.com/benbnews
-https://twitter.com/intoxvsinfo/lists/1511638291736576001
+Xodus to Bluesky
