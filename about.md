@@ -2,7 +2,7 @@
 title: About
 description: About OSINTukraine project
 published: true
-date: 2024-12-10T17:55:06.199Z
+date: 2024-12-12T19:33:37.149Z
 tags: ukraine, self-defense, nafo, russia is a terrorist state
 editor: markdown
 dateCreated: 2023-07-01T12:30:32.140Z
@@ -19,12 +19,6 @@ dateCreated: 2023-07-01T12:30:32.140Z
 > This quickly evolved to a state where I’m able to host the [translation content along with the original context.](https://ruprop.ukrainewararchive.eu/)
 {.is-warning}
 
-## How
-> This first iteration evolved into the current set of [tools displayed on the front-page](https://osintukraine.com/), basically pushing the translations to different Discords, Telegram and [Mastodon](https://embed.osintukraine.com) and other platforms with the intent to facilitate access, searching and archiving for **different reasons** : 
-{.is-success}
-
-<iframe width="100%" height="515" src="https://www.youtube-nocookie.com/embed/S7un8GqwIDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ## Why
 > 1.  **To eliminate the language barrier issue** as much as possible with the current state of machine translation, I still remember 2014 and how the invasion of Crimea & Donbass left Ukraine voiceless.
 > 2.  Provide **a solution for** [**newsrooms,**](https://rss.osintukraine.com) **journalists, activists and basically everyone to have an easier access to this information** for certainly, one of the defining moment of our generation in Europe and the global impact the War on Ukraine unleashed.
@@ -37,4 +31,12 @@ dateCreated: 2023-07-01T12:30:32.140Z
 > 9.  **Pressure Western Governments** **and allies** to Officially designate **Russia as a Terrorist State.**
 > 10.  **Weapons for Ukraine** because a genocidal war from a Terrorist State does not get stopped by wishful thinking for peace.
 {.is-info}
+
+## How
+> This first iteration evolved into the current set of [tools displayed on the front-page](https://osintukraine.com/), basically pushing the translations to different Discords, Telegram and [Mastodon](https://embed.osintukraine.com) and other platforms with the intent to facilitate access, searching and archiving for **different reasons** : 
+{.is-success}
+
+<iframe width="100%" height="515" src="https://www.youtube-nocookie.com/embed/S7un8GqwIDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 
