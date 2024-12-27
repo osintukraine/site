@@ -2,7 +2,7 @@
 title: Telegram Archive
 description: the Telegram Archive with Video and media files on the open web
 published: true
-date: 2024-12-27T11:29:11.977Z
+date: 2024-12-27T11:30:27.717Z
 tags: telegram, videos, archive, media, images
 editor: markdown
 dateCreated: 2023-07-04T10:20:53.958Z
@@ -42,8 +42,8 @@ Ongoing project to archive video's from Telegram
 {.is-success}
 
 
-- [Video Only Posts *Ukraine Telegram Channel - Archive 2022-2023*](https://uavideos.osintukraine.com/)
 - [Video Only Posts *Ukraine Telegram Channel - Archive 2023-2024-2025*](https://videosua.osintukraine.com/)
+- [Video Only Posts *Ukraine Telegram Channel - Archive 2022-2023*](https://uavideos.osintukraine.com/)
 {.links-list}
 
 
@@ -80,8 +80,8 @@ On mobile, enable "desktop site" to be able to pinch zoom and scroll top to bott
 Current status 🟢
 
 - [Video Only Posts *Archive 2025*](https://videos.osintukraine.com/)
-- [Video Only Posts *Archive 2022 up to June 2023*](https://ruvideos.osintukraine.com/)
 - [Video Only Posts *Russian Telegram Channel - Archive 2022-2023-2024*](https://videosrus.osintukraine.com/)
+- [Video Only Posts *Archive 2022 up to June 2023*](https://ruvideos.osintukraine.com/)
 {.links-list}
 
 ---
