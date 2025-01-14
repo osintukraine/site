@@ -2,7 +2,7 @@
 title: Diagram
 description: Diagram of how the OSINTurkaine automation is currently setup
 published: true
-date: 2025-01-14T22:57:36.759Z
+date: 2025-01-14T23:03:57.820Z
 tags: n8n, automation, python, nocodb, rss
 editor: markdown
 dateCreated: 2023-07-02T09:30:31.826Z
@@ -19,24 +19,28 @@ plantuml
 @startuml
 !define RECTANGLE_RECT <<Rectangle>>
 
-package "Telegram Workflow" {
-  rectangle "Python: Listen to Telegram Channels (Ukraine & Russia)" as Python1
-  rectangle "DeepL: Translation" as DeepL
-  rectangle "Telegram: Ukraine Channels" as Telegram_Ukraine
-  rectangle "Telegram: Russia Channels" as Telegram_Russia
-  
-  rectangle "Ukraine News (Text + Photos)" as Ukraine_Text_Photos
-  rectangle "Ukraine Videos" as Ukraine_Videos
-  rectangle "Russia News (Text + Photos)" as Russia_Text_Photos
-  rectangle "Russia Videos" as Russia_Videos
-  
-  rectangle "Python: Fetch Telegram Messages" as Python2
-  rectangle "Process Text + Photos" as Process_Text_Photos
-  rectangle "Process Videos" as Process_Videos
+skinparam backgroundColor White
 
-  rectangle "Archive Locally" as Archive
-  rectangle "Move Media Files to Storage Boxes" as Storage
-  rectangle "Publish Messages as Static HTML Website" as StaticSite
+package "Telegram Workflow" {
+  rectangle "Python: Listen to Telegram Channels (Ukraine & Russia)" as Python1 #LightGreen
+  rectangle "DeepL: Translation" as DeepL #LightGray
+
+  rectangle "Telegram: Ukraine Channels" as Telegram_Ukraine #LightBlue
+  rectangle "Telegram: Russia Channels" as Telegram_Russia #LightCoral
+
+  rectangle "Ukraine News (Text + Photos)" as Ukraine_Text_Photos #LightBlue
+  rectangle "Ukraine Videos" as Ukraine_Videos #Gold
+
+  rectangle "Russia News (Text + Photos)" as Russia_Text_Photos #Red
+  rectangle "Russia Videos" as Russia_Videos #Black
+
+  rectangle "Python: Fetch Telegram Messages" as Python2 #MediumSpringGreen
+  rectangle "Process Text + Photos" as Process_Text_Photos #PaleGreen
+  rectangle "Process Videos" as Process_Videos #PaleGreen
+
+  rectangle "Archive Locally" as Archive #LightGray
+  rectangle "Move Media Files to Storage Boxes" as Storage #LightGray
+  rectangle "Publish Messages as Static HTML Website" as StaticSite #LightGray
 }
 
 Python1 --> DeepL
@@ -65,15 +69,16 @@ Process_Videos --> Archive
 
 ' Extend Workflow with Publishing
 package "Publishing Workflow" {
-  rectangle "RSS: Ukraine News (Text + Photos)" as RSS_Ukraine_Text_Photos
-  rectangle "RSS: Ukraine Videos" as RSS_Ukraine_Videos
-  rectangle "RSS: Russia News (Text + Photos)" as RSS_Russia_Text_Photos
-  rectangle "RSS: Russia Videos" as RSS_Russia_Videos
+  rectangle "RSS: Ukraine News (Text + Photos)" as RSS_Ukraine_Text_Photos #LightBlue
+  rectangle "RSS: Ukraine Videos" as RSS_Ukraine_Videos #Gold
 
-  rectangle "Baserow: Search Database" as Baserow
-  rectangle "Bluesky, Mastodon: Publish Titles + Links" as SocialMedia
-  rectangle "Discord, Matrix: Publish Video Posts" as ChatApps
-  rectangle "Main Website: Display RSS Feed" as MainWebsite
+  rectangle "RSS: Russia News (Text + Photos)" as RSS_Russia_Text_Photos #Red
+  rectangle "RSS: Russia Videos" as RSS_Russia_Videos #Black
+
+  rectangle "Baserow: Search Database" as Baserow #LightGray
+  rectangle "Bluesky, Mastodon: Publish Titles + Links" as SocialMedia #LightGray
+  rectangle "Discord, Matrix: Publish Video Posts" as ChatApps #LightGray
+  rectangle "Main Website: Display RSS Feed" as MainWebsite #LightGray
 }
 
 StaticSite --> RSS_Ukraine_Text_Photos
