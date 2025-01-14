@@ -2,7 +2,7 @@
 title: Diagram
 description: Diagram of how the OSINTurkaine automation is currently setup
 published: true
-date: 2024-01-17T21:54:33.933Z
+date: 2025-01-14T22:21:30.178Z
 tags: n8n, automation, python, nocodb, rss
 editor: markdown
 dateCreated: 2023-07-02T09:30:31.826Z
@@ -17,51 +17,4 @@ dateCreated: 2023-07-02T09:30:31.826Z
 
 ## Objectives
 
-
-```mermaid
-  graph TD;
-      OSINTukraineArchive-->Actions;
-      Actions-->Research;
-      Research-->Disinformation;
-      Research-->WarCrimes;
-      Research-->FactChecking;
-      Actions-->OSINT;
-      OSINT-->GeoLocation;
-      OSINT-->FactChecking;
-      OSINT-->Disinformation;
-      Actions-->Newsrooms;
-      Actions-->Journalism;
-      Actions-->Publishing;
-```
-
-
-## Diagram flow
-
-
-```mermaid
-  graph TD;
-      Telegram-->InoReader;
-      InoReader-->Webhook;
-      Webhook-->N8N;
-      N8N-->DeepL;
-      DeepL-->Telegram2;
-      DeepL-->N8N2
-      N8N2-->Baserow;
-      N8N2-->Telegram2;
-      Telegram2-->Python;
-      Python-->SQL;
-      Python-->Media;
-      Media-->StaticSite;
-      SQL-->StaticSite;
-      StaticSite-->RSS;
-      RSS-->Inoreader2;
-      Inoreader2-->Webhook2;
-      Webhook2-->Baserow2;
-      RSS-->N8N3;
-      N8N3-->Mastodon;
-      N8N3-->Twitter;
-      N8N3-->Discord;
-      N8N3-->Matrix;
-      RSS-->Bluesky;
-      RSS-->Tumblr;
-```
+![screenshot_from_2025-01-14_23-20-04.png](/screenshot_from_2025-01-14_23-20-04.png)
