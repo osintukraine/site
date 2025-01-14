@@ -2,24 +2,16 @@
 title: Diagram
 description: Diagram of how the OSINTurkaine automation is currently setup
 published: true
-date: 2025-01-14T22:24:45.741Z
+date: 2025-01-14T22:30:33.306Z
 tags: n8n, automation, python, nocodb, rss
 editor: markdown
 dateCreated: 2023-07-02T09:30:31.826Z
 ---
 
 # Tabs {.tabset}
-## Visual Schema 
 
-![signal-2023-03-04-084145_002.png](/signal-2023-03-04-084145_002.png){.align-center}
+## Current design 2025
 
-<a href='https://ko-fi.com/E1E2E81MW' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-
-## Objectives
-
-![screenshot_from_2025-01-14_23-20-04.png](/screenshot_from_2025-01-14_23-20-04.png)
-
-## UML
 
 ```kroki
 plantuml
@@ -70,6 +62,45 @@ Archive --> Storage
 Storage --> StaticSite
 
 Process_Videos --> Archive
-@enduml
 
+' Extend Workflow with Publishing
+package "Publishing Workflow" {
+  rectangle "RSS: Ukraine News (Text + Photos)" as RSS_Ukraine_Text_Photos
+  rectangle "RSS: Ukraine Videos" as RSS_Ukraine_Videos
+  rectangle "RSS: Russia News (Text + Photos)" as RSS_Russia_Text_Photos
+  rectangle "RSS: Russia Videos" as RSS_Russia_Videos
+
+  rectangle "Baserow: Search Database" as Baserow
+  rectangle "Bluesky, Mastodon: Publish Titles + Links" as SocialMedia
+  rectangle "Discord, Matrix: Publish Video Posts" as ChatApps
+  rectangle "Main Website: Display RSS Feed" as MainWebsite
+}
+
+StaticSite --> RSS_Ukraine_Text_Photos
+StaticSite --> RSS_Ukraine_Videos
+StaticSite --> RSS_Russia_Text_Photos
+StaticSite --> RSS_Russia_Videos
+
+RSS_Ukraine_Text_Photos --> Baserow
+RSS_Ukraine_Text_Photos --> SocialMedia
+RSS_Ukraine_Videos --> ChatApps
+RSS_Ukraine_Videos --> MainWebsite
+
+RSS_Russia_Text_Photos --> Baserow
+RSS_Russia_Text_Photos --> SocialMedia
+RSS_Russia_Videos --> ChatApps
+RSS_Russia_Videos --> MainWebsite
+@enduml
 ```
+
+## Old Diagram (2022-2024) 
+
+![signal-2023-03-04-084145_002.png](/signal-2023-03-04-084145_002.png){.align-center}
+
+<a href='https://ko-fi.com/E1E2E81MW' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+## Objectives
+
+![screenshot_from_2025-01-14_23-20-04.png](/screenshot_from_2025-01-14_23-20-04.png)
+
+## To Improve
