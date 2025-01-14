@@ -2,7 +2,7 @@
 title: Diagram
 description: Diagram of how the OSINTurkaine automation is currently setup
 published: true
-date: 2025-01-14T22:21:30.178Z
+date: 2025-01-14T22:24:02.906Z
 tags: n8n, automation, python, nocodb, rss
 editor: markdown
 dateCreated: 2023-07-02T09:30:31.826Z
@@ -18,3 +18,16 @@ dateCreated: 2023-07-02T09:30:31.826Z
 ## Objectives
 
 ![screenshot_from_2025-01-14_23-20-04.png](/screenshot_from_2025-01-14_23-20-04.png)
+
+## UML
+
+```kroki
+mermaid
+
+graph TD
+  A[ Anyone ] -->|Can help | B( Go to github.com/yuzutech/kroki )
+  B --> C{ How to contribute? }
+  C --> D[ Reporting bugs ]
+  C --> E[ Sharing ideas ]
+  C --> F[ Advocating ]
+```
