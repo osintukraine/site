@@ -2,7 +2,7 @@
 title: Diagram
 description: Diagram of how the OSINTurkaine automation is currently setup
 published: true
-date: 2025-01-14T22:51:12.819Z
+date: 2025-01-14T22:51:44.387Z
 tags: n8n, automation, python, nocodb, rss
 editor: markdown
 dateCreated: 2023-07-02T09:30:31.826Z
@@ -102,6 +102,8 @@ RSS_Russia_Videos --> MainWebsite
 ## To Improve
 
 ```kroki
+graphviz
+
 digraph TelegramWorkflow {
   rankdir=TB; // Top-to-Bottom layout
   node [shape=box];
