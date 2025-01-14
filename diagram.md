@@ -2,7 +2,7 @@
 title: Diagram
 description: Diagram of how the OSINTurkaine automation is currently setup
 published: true
-date: 2025-01-14T23:03:57.820Z
+date: 2025-01-14T23:05:09.574Z
 tags: n8n, automation, python, nocodb, rss
 editor: markdown
 dateCreated: 2023-07-02T09:30:31.826Z
@@ -32,7 +32,7 @@ package "Telegram Workflow" {
   rectangle "Ukraine Videos" as Ukraine_Videos #Gold
 
   rectangle "Russia News (Text + Photos)" as Russia_Text_Photos #Red
-  rectangle "Russia Videos" as Russia_Videos #Black
+  rectangle "Russia Videos" as Russia_Videos #DarkGray
 
   rectangle "Python: Fetch Telegram Messages" as Python2 #MediumSpringGreen
   rectangle "Process Text + Photos" as Process_Text_Photos #PaleGreen
@@ -73,7 +73,7 @@ package "Publishing Workflow" {
   rectangle "RSS: Ukraine Videos" as RSS_Ukraine_Videos #Gold
 
   rectangle "RSS: Russia News (Text + Photos)" as RSS_Russia_Text_Photos #Red
-  rectangle "RSS: Russia Videos" as RSS_Russia_Videos #Black
+  rectangle "RSS: Russia Videos" as RSS_Russia_Videos #DarkGray
 
   rectangle "Baserow: Search Database" as Baserow #LightGray
   rectangle "Bluesky, Mastodon: Publish Titles + Links" as SocialMedia #LightGray
