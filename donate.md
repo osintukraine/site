@@ -2,7 +2,7 @@
 title: Donate
 description: Contribute to OSINTukraine by any donation you can
 published: true
-date: 2025-04-15T05:09:50.447Z
+date: 2025-05-30T09:59:17.617Z
 tags: costs, transparency, donation
 editor: markdown
 dateCreated: 2023-07-02T19:03:50.420Z
@@ -27,8 +27,12 @@ dateCreated: 2023-07-02T19:03:50.420Z
 > 8 euro per month allow us to pay for one month of Telegram aggregation, 96 euro allow us to aggregate 30 telegram channels for a year !
 {.is-success}
 
-> Server costs are stable and can keep up for 1 year to come
-{.is-success}
+> May 30th 2025
+{.is-info}
+
+> Projects costs are stable but we have only 4 months of expenses secured, as of May 30th 2025
+{.is-warning}
+
 
 ## Give with Paypal or Kofi
 
