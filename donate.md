@@ -2,7 +2,7 @@
 title: Donate
 description: Contribute to OSINTukraine by any donation you can
 published: true
-date: 2025-05-30T09:59:17.617Z
+date: 2025-05-30T10:01:04.376Z
 tags: costs, transparency, donation
 editor: markdown
 dateCreated: 2023-07-02T19:03:50.420Z
@@ -12,10 +12,11 @@ dateCreated: 2023-07-02T19:03:50.420Z
 
 ## Type of costs : 
 
-- Aggregation of data
-- Storage Disk
-- Servers
+- Aggregation of Telegram data
+- Storage Boxes
+- Hosting & Computation Servers
 - Maintenance of the archive
+- Cold Storage costs
 
 > we're now archiving even more than before, thanks for your continued support !
 {.is-info}
