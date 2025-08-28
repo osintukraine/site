@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2025-08-28T10:01:14.133Z
+date: 2025-08-28T10:02:36.013Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -85,6 +85,8 @@ Your support ensures that this work can continue without losing years of preciou
 
 
 ## Donate
+
+if you can't see the form below, here's the [link](https://ko-fi.com/cyberbenb)
 
 <iframe id='kofiframe' src='https://ko-fi.com/cyberbenb/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='cyberbenb'></iframe>
 
