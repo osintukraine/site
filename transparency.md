@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2025-08-28T20:55:20.532Z
+date: 2025-08-28T21:02:57.861Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -69,7 +69,35 @@ Without continuous funding, old archives risk being lost.
 
 ## CDN
 Content Delivery Network: **20 €/month**  
-(incl. 21% VAT)  
+(incl. 21% VAT) 
+
+## Costs Reduction
+
+### How I Cut Costs by Replacing Inoreader with a Custom Python Solution
+Previously, I relied on eight Inoreader accounts (each costing €96 per year) to aggregate data from Telegram channels. Inoreader’s limitations—such as a 30-channel cap per account—meant I needed multiple subscriptions to cover all the channels I wanted to archive. The total annual cost was €768, not including the overhead of managing multiple accounts and dealing with their restrictions.
+
+### The Problem:
+
+High Cost: €768/year for Inoreader subscriptions.
+Scalability Issues: Limited to 30 Telegram channels per account.
+Complex Workflow: Data had to be sent via webhooks to N8N for translation (using DeepL) and then pushed back to Telegram, adding unnecessary steps and potential points of failure.
+
+### The Solution:
+I developed a custom Python script that:
+
+Directly fetches Telegram channel data (no more Inoreader dependency).
+Translates content using DeepL within the same script.
+Formats and archives the translated content back to Telegram, ready for use.
+
+### Key Benefits:
+
+Cost Savings: Eliminated €768/year in Inoreader fees.
+Scalability: No more 30-channel limits; I can add as many Telegram channels as needed.
+Simplified Workflow: Direct integration between Telegram, DeepL, and archiving—no intermediate tools required.
+Full Control: Custom code allows for easy adjustments and future improvements.
+
+### Result:
+By removing Inoreader from the workflow, I’ve reduced costs, increased flexibility, and streamlined the entire process—all while maintaining the same functionality.
 
 # Tabs {.tabset}
 
