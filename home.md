@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2025-08-28T19:42:00.333Z
+date: 2025-08-28T19:46:48.702Z
 tags: tools, osint, ntfy, n8n, telegram, automation, translation, videos
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -56,12 +56,6 @@ dateCreated: 2023-07-01T12:21:50.978Z
 ### [NewsWire](https://rss.osintukraine.com/)
 
 News tracker about relevant web sources about promoting Ukraine and the War in Ukraine.
-
-
-### [Video Downloader](https://save.osintukraine.com/)
-
-Use this tool to download video's from hundreds of different platforms using the URL as source.
-
 
 ---
 
