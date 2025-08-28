@@ -2,7 +2,7 @@
 title: Donate
 description: Contribute to OSINTukraine by any donation you can
 published: true
-date: 2025-08-28T15:17:00.928Z
+date: 2025-08-28T16:21:47.506Z
 tags: costs, transparency, donation
 editor: markdown
 dateCreated: 2023-07-02T19:03:50.420Z
@@ -63,8 +63,12 @@ Thank you for standing with us and for your belief in the importance of this wor
 > August 28th 2025
 {.is-info}
 
+## Bank Transfer
+You can support us by making a bank transfer to: 
+> DE53 1001 1001 2627 3144 76
 
-## Give with Paypal or Kofi
+
+## Give with Paypal or Kofi/Credit Card
 
 > [One Time Donation via Paypal](https://www.paypal.com/paypalme/osintukraine) 
 {.is-info}
