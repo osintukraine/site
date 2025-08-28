@@ -2,7 +2,7 @@
 title: Donate
 description: Contribute to OSINTukraine by any donation you can
 published: true
-date: 2025-05-30T10:01:04.376Z
+date: 2025-08-28T14:51:23.009Z
 tags: costs, transparency, donation
 editor: markdown
 dateCreated: 2023-07-02T19:03:50.420Z
@@ -31,7 +31,7 @@ dateCreated: 2023-07-02T19:03:50.420Z
 > May 30th 2025
 {.is-info}
 
-> Projects costs are stable but we have only 4 months of expenses secured, as of May 30th 2025
+> We are actively seeking for donations as we have run out of budget to operate the project, we have secured one month worth of budjet (260€ / month) and we are looking for more donation !
 {.is-warning}
 
 
@@ -40,5 +40,7 @@ dateCreated: 2023-07-02T19:03:50.420Z
 > [One Time Donation via Paypal](https://www.paypal.com/paypalme/osintukraine) 
 {.is-info}
 
+> [Kofi Page to donate](https://ko-fi.com/cyberbenb)
+{.is-info}
 
 <iframe id='kofiframe' src='https://ko-fi.com/cyberbenb/?hidefeed=false&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='1712' title='cyberbenb'></iframe>
