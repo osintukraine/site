@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2025-01-14T23:11:19.103Z
+date: 2025-08-28T19:42:00.333Z
 tags: tools, osint, ntfy, n8n, telegram, automation, translation, videos
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -23,7 +23,7 @@ dateCreated: 2023-07-01T12:21:50.978Z
 > As you can notice, this is the same data represented in different ways, it might feel a lot, but the goal here is to go around some limitations of the project and providing the ability to search/filter and better explore the overall collection.
 {.is-info}
 
-> All Services running smooth ! 09-12-2024
+> All Services running smooth ! 28-08-2025
 {.is-success}
 
 
