@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2025-08-28T20:31:35.040Z
+date: 2025-08-28T20:31:57.931Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -35,7 +35,7 @@ If you want to help keep this project alive, here are the real costs ⬇️
 ## Total Costs
 All included : 
 
-Per year: **€3,598.08 **  
+Per year: **€3,598.08**  
 Per month: **€299.84**  
 
 ## Servers
