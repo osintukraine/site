@@ -2,7 +2,7 @@
 title: Donate
 description: Contribute to OSINTukraine by any donation you can
 published: true
-date: 2025-08-28T14:51:23.009Z
+date: 2025-08-28T15:16:19.551Z
 tags: costs, transparency, donation
 editor: markdown
 dateCreated: 2023-07-02T19:03:50.420Z
@@ -12,27 +12,54 @@ dateCreated: 2023-07-02T19:03:50.420Z
 
 ## Type of costs : 
 
-- Aggregation of Telegram data
-- Storage Boxes
-- Hosting & Computation Servers
+~~- Aggregation of Telegram data~~
+- Hetzner Storage Boxes
+- Hosting & Computation/Automation Servers
 - Maintenance of the archive
 - Cold Storage costs
 
 > we're now archiving even more than before, thanks for your continued support !
 {.is-info}
 
-> open a new Storage box to host the Russian Telegram data we archive from a selection of 100+ Telegram channels, if 4 people give a recurring donation of 10 € we can archive data for another 2 years !
-{.is-success}
+## Support the OSINT Ukraine Archive
+Since February 24, 2022, the OSINT Ukraine project has been preserving and sharing thousands of hours of open-source intelligence from the war in Ukraine. Our archive is a vital resource for researchers, journalists, and human rights organizations, ensuring that the truth remains accessible to all.
+
+## Why Your Support Matters
+Our archive is at risk. For over three years, we’ve maintained this project—first through personal funds and the help of a few close friends, and later with the support of donors like you. But now, our budget is exhausted.
+Main costs:
+
+Servers & Data Storage: We’ve already filled three 20TB storage units and will need a fourth in the coming months.
+Annual Budget: €3,168 (down from €3,954.32, thanks to cost-cutting efforts)
+Monthly Need: €264
+
+## What we’ve achieved together:
+
+Over 1,200 hours of unpaid work in 2022, and ongoing maintenance ever since.
+A transparent, publicly accessible archive of sources from across the conflict.
+A resource used by journalists, researchers, and human rights organizations worldwide.
+
+## How You Can Help
+Every donation, no matter the size, makes a difference. Your support ensures that this work can continue without losing years of precious data.
+Donate Now
 
 
-> 8 euro per month allow us to pay for one month of Telegram aggregation, 96 euro allow us to aggregate 30 telegram channels for a year !
-{.is-success}
+## For Recurring Donors
+If you’re already a recurring donor, thank you. Your stable contributions are the backbone of this project, keeping our servers running and our data safe. Without you, we wouldn’t be able to maintain this archive.
 
-> May 30th 2025
-{.is-info}
+## Transparency
+We believe in full transparency. You can review our costs and the channels we archive here:
 
-> We are actively seeking for donations as we have run out of budget to operate the project, we have secured one month worth of budjet (260€ / month) and we are looking for more donation !
+> Check the transparency page to see how we use your donations : 
+Sources: https://osintukraine.com/en/sources
+Transparency: https://osintukraine.com/en/transparency
 {.is-warning}
+
+## Thank You
+Thank you for standing with us and for your belief in the importance of this work. Together, we can ensure that this vital resource remains available for years to come.
+
+
+> August 28th 2025
+{.is-info}
 
 
 ## Give with Paypal or Kofi
