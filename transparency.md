@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2025-08-28T10:02:36.013Z
+date: 2025-08-28T20:31:35.040Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -27,15 +27,19 @@ My personal recommendation goes to **ComeBackAlive** and **Prytula Foundation**.
 
 If you want to help keep this project alive, here are the real costs ⬇️  
 
+> Pricing updated to 2025
+{.is-info}
+
+
 # Tabs {.tabset}
 ## Total Costs
 All included : 
 
-Per year: **3,168 €**  
-Per month: **264 €**  
+Per year: **€3,598.08 **  
+Per month: **€299.84**  
 
 ## Servers
-### Server – €160/month
+### Server – €143.23/month
 
 **VPS 1**  
 24 Core "AMD EPYC 7282 16-Core Processor"  
@@ -45,15 +49,15 @@ Per month: **264 €**
 
 **VPS 2**  
 10 Core "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz"  
-67.42 GB RAM  
+67.42 GB RAM	
 
 ✅ **donations to help are welcome**  
 
 **Purpose : hosting, computation, scraping and automation workflows, project management tools.**  
 
 ## Telegram Video Storage
-### Storage – €1260 / Year
-#### 105 € per month (incl. 21% VAT)
+### Storage – €1632 / Year
+#### 136 € per month (incl. 21% VAT)
 
 We pay to keep past years’ video archives online. This is critical: once deleted, this unique data cannot be recovered.  
 
