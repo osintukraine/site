@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2025-08-28T20:31:57.931Z
+date: 2025-08-28T20:55:20.532Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -27,7 +27,7 @@ My personal recommendation goes to **ComeBackAlive** and **Prytula Foundation**.
 
 If you want to help keep this project alive, here are the real costs ⬇️  
 
-> Pricing updated to 2025
+> Pricing updated to 2025 (August 2025)
 {.is-info}
 
 
