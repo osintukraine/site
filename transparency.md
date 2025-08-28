@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2025-08-28T09:53:38.272Z
+date: 2025-08-28T10:01:14.133Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -10,69 +10,79 @@ dateCreated: 2023-07-01T12:37:02.630Z
 
 # Costs / Transparency / Contribute
 
-Crowdfunding costs  
-Since 2022, all the costs have been covered by personal funds and/or friends/supporters donations.  
-  
-We try to avoid to crowdfund publicly because there is no reason to divest funds that could Help Ukraine but a few times a year we do raise funds to keep this project alive.  
-  
-If you really want to contribute, Donate to  
-[Verified Charities](https://standforukraine.com/)  
-  
-My Personal recommendation goes to ComeBackAlive and Prytula Foundation.
+## Why Donations Are Needed
 
+Since 2022, the project has been sustained thanks to my own funds and the help of a few close friends and supporters.  
+That budget is now exhausted.  
+
+To keep the archive alive, we urgently need contributions.  
+The main costs are **servers** and the **storage of terabytes of historical data** that cannot be lost.  
+
+I’ve always tried to avoid fundraising because every euro could instead go directly to Ukraine. But this archive has become a long-term commitment, and without outside help, it cannot continue.  
+
+If you prefer, please consider donating to  
+[Verified Charities](https://standforukraine.com/)  
+
+My personal recommendation goes to **ComeBackAlive** and **Prytula Foundation**.  
+
+If you want to help keep this project alive, here are the real costs ⬇️  
 
 # Tabs {.tabset}
 ## Total Costs
 All included : 
 
-Per year: €3,954.32
-Per month: €329.53
+Per year: **3,168 €**  
+Per month: **264 €**  
 
 ## Servers
 ### Server – €160/month
 
-VPS 1
+**VPS 1**  
+24 Core "AMD EPYC 7282 16-Core Processor"  
+126.61 GB RAM  
 
-24 Core "AMD EPYC 7282 16-Core Processor"
-126.61 GB RAM 
+➡️ This server is still **looking for a core sponsor**  
 
-this server is looking for a core sponsor 
+**VPS 2**  
+10 Core "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz"  
+67.42 GB RAM  
 
-VPS 2
-10 Core "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz"
-67.42 GB RAM
+✅ **donations to help are welcome**  
 
-this server costs is already secured but donations to help welcome ✅
-
-**Purpose : hosting, computation, scrapping and automation workflows, project management tools.**  
+**Purpose : hosting, computation, scraping and automation workflows, project management tools.**  
 
 ## Telegram Video Storage
 ### Storage – €1260 / Year
-#### 105€ per month
-includes 21% VAT
+#### 105 € per month (incl. 21% VAT)
 
-- 20 TB – 2022-202x - Video Storage Ukraine 40€ per month (looking for a sponsor)
-- 20 TB – 2022-2024 - Archive Russian Video 40 € per month (looking for a sponsor)
-- 20 TB - 2024-202x - Russian Data 40 € per month ✅ (secured for a year)
+We pay to keep past years’ video archives online. This is critical: once deleted, this unique data cannot be recovered.  
+
+- 20 TB – 2022-202x - Video Storage Ukraine → **40 €/month (needs sponsor)**  
+- 20 TB – 2022-2024 - Archive Russian Video → **40 €/month (needs sponsor)**  
+- 20 TB – 2025-202x - Russian Data → **40 €/month ** (needs sponsor)**
+
+Without continuous funding, old archives risk being lost.  
+
 ## CDN
-
-Content Delivery Network : 20 € / month
-includes 21% VAT
+Content Delivery Network: **20 €/month**  
+(incl. 21% VAT)  
 
 # Tabs {.tabset}
 
 ## Time
 
-The Project started on the 24th of February 2022 and have been operating ever since at the rate of an estimation of 10h/day, every day for 7 month straight, until a burnout led me to take a pause.
+The Project started on **24 February 2022** and has been running ever since.  
 
-Depending on the daily hours given to move the project forward, this is more than 1200h of work from February to September 2022, from a conservative estimation.
+- 2022: ~10h/day for 7 months straight, until burnout forced a pause (~1200h of unpaid work).  
+- 2023: switched to a “marathon pace,” balancing daily work and recruiting volunteers for Version 2.  
+- 2024–2025: maintaining the archive, fixing automation issues, verifying integrity, and doing general maintenance every week.  
 
-Since 2023 I’m trying to adapt for a marathon and finding balance to make the project sustainable and finding volunteers to bring this project to its Version 2 while keeping the current iteration afloat and operational, the amount of work range from a few minutes every day to a few hours.
+Your support ensures that this work can continue without losing years of precious data.  
 
-Since 2024 I'm spending a few hours per week to maintain the archive, fix issues with automation, verify the integrity of the system and do general maintenance work.
+---
 
+👉 [One Time Donation via Paypal](https://www.paypal.com/paypalme/osintukraine)  
 
-[One Time Donation via Paypal](https://www.paypal.com/paypalme/osintukraine) 
 
 ## Donate
 
