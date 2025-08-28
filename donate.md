@@ -2,7 +2,7 @@
 title: Donate
 description: Contribute to OSINTukraine by any donation you can
 published: true
-date: 2025-08-28T15:16:19.551Z
+date: 2025-08-28T15:17:00.928Z
 tags: costs, transparency, donation
 editor: markdown
 dateCreated: 2023-07-02T19:03:50.420Z
@@ -26,11 +26,13 @@ Since February 24, 2022, the OSINT Ukraine project has been preserving and shari
 
 ## Why Your Support Matters
 Our archive is at risk. For over three years, we’ve maintained this project—first through personal funds and the help of a few close friends, and later with the support of donors like you. But now, our budget is exhausted.
-Main costs:
+
+## Main costs:
 
 Servers & Data Storage: We’ve already filled three 20TB storage units and will need a fourth in the coming months.
-Annual Budget: €3,168 (down from €3,954.32, thanks to cost-cutting efforts)
-Monthly Need: €264
+
+- Annual Budget: €3,168 (down from €3,954.32, thanks to cost-cutting efforts)
+- Monthly Need: €264
 
 ## What we’ve achieved together:
 
