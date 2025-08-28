@@ -2,7 +2,7 @@
 title: Donate
 description: Contribute to OSINTukraine by any donation you can
 published: true
-date: 2025-08-28T20:33:03.475Z
+date: 2025-08-28T20:52:59.972Z
 tags: costs, transparency, donation
 editor: markdown
 dateCreated: 2023-07-02T19:03:50.420Z
@@ -31,7 +31,7 @@ Our archive is at risk. For over three years, we’ve maintained this project—
 
 Servers & Data Storage: We’ve already filled three 20TB storage units and will need a fourth in the coming months.
 
-- Annual Budget: €3,598.08 / year (down from €3,954.32, thanks to cost-cutting efforts)
+- Annual Budget: €3,598.08 / year (down from €4,270, thanks to cost-cutting efforts)
 - Monthly Need: €299.84 / month
 
 ## What we’ve achieved together:
