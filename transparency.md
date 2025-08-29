@@ -2,7 +2,7 @@
 title: Transparency
 description: Transparency, costs and donations to sustain the project
 published: true
-date: 2025-08-28T21:02:57.861Z
+date: 2025-08-29T12:35:25.137Z
 tags: costs, crowdfunding, kofi, donate, transparency
 editor: markdown
 dateCreated: 2023-07-01T12:37:02.630Z
@@ -68,7 +68,7 @@ We pay to keep past years’ video archives online. This is critical: once delet
 Without continuous funding, old archives risk being lost.  
 
 ## CDN
-Content Delivery Network: **20 €/month**  
+Content Delivery Network: **25 €/month**  
 (incl. 21% VAT) 
 
 ## Costs Reduction
