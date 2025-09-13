@@ -2,7 +2,7 @@
 title: About
 description: About OSINTukraine project
 published: true
-date: 2025-09-13T15:34:34.036Z
+date: 2025-09-13T15:34:57.965Z
 tags: ukraine, self-defense, nafo, russia is a terrorist state
 editor: markdown
 dateCreated: 2023-07-01T12:30:32.140Z
@@ -31,7 +31,7 @@ dateCreated: 2023-07-01T12:30:32.140Z
 > 9.  **Pressure Western Governments** **and allies** to Officially designate **Russia as a Terrorist State.**
 > 10.  **Weapons for Ukraine** because a genocidal war from a Terrorist State does not get stopped by wishful thinking for peace.
 > 11. 2025 - Escalation in the Skies: Europe’s Wake-Up Call in a New Era of Hybrid Warfare https://benborges.xyz/2025/09/13/escalation-in-the-skies-europes.html
-{.is-info}
+{.is-warning}
 
 ## How
 > This first iteration evolved into the current set of [tools displayed on the front-page](https://osintukraine.com/), basically pushing the translations to different Discords, Telegram and [Mastodon](https://embed.osintukraine.com) and other platforms with the intent to facilitate access, searching and archiving for **different reasons** : 
