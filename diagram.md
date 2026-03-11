@@ -2,7 +2,7 @@
 title: Diagram
 description: Diagram of how the OSINTurkaine automation is currently setup
 published: true
-date: 2025-01-14T23:05:09.574Z
+date: 2026-03-11T09:07:20.995Z
 tags: n8n, automation, python, nocodb, rss
 editor: markdown
 dateCreated: 2023-07-02T09:30:31.826Z
@@ -10,7 +10,11 @@ dateCreated: 2023-07-02T09:30:31.826Z
 
 # Tabs {.tabset}
 
-## Current design 2025
+## OSINTukraine v2
+[Click here to use V2](https://v2.osintukraine.com)
+![osint-pipeline-architecture-2026-03-11.png](/osint-pipeline-architecture-2026-03-11.png)
+
+## old design 2025
 
 
 ```kroki
