@@ -1,8 +1,8 @@
 ---
 title: Search
 description: Research the Archive in different ways
-published: true
-date: 2024-12-15T14:46:07.042Z
+published: false
+date: 2026-03-11T09:08:17.317Z
 tags: osint, telegram, media, search
 editor: markdown
 dateCreated: 2023-07-04T10:22:58.940Z
