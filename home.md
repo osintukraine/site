@@ -2,7 +2,7 @@
 title: OSINTukraine tools
 description: OSINT tools to archive, document and debunk the Russian War against Ukraine
 published: true
-date: 2026-03-11T08:59:33.364Z
+date: 2026-03-11T09:02:04.773Z
 tags: tools, osint, ntfy, n8n, telegram, automation, translation, videos
 editor: markdown
 dateCreated: 2023-07-01T12:21:50.978Z
@@ -12,22 +12,9 @@ dateCreated: 2023-07-01T12:21:50.978Z
 > OSINT tools to archive, document and debunk the Russian War against Ukraine
 > This project is a Telegram Archive, a News aggregator & publishing engine designed to support Ukraine and keep Ukraine information in the News cycle. 
 
-
-> A few people have demonstrated interest for this archive to keep going, aggregations costs for Russian & Ukrainian Telegram channels have been paid of for another year, we're still looking for help to keep the project afloat. [donate](/donate)
-{.is-success}
-
-> we're looking for storage costs sponsorship for the next year 3x40€ / month for 3 baskets of 20TB storage disks. 
-{.is-success}
-
-
-> As you can notice, this is the same data represented in different ways, it might feel a lot, but the goal here is to go around some limitations of the project and providing the ability to search/filter and better explore the overall collection.
+> You will be redirected to https://v2.osintukraine.com in 5 seconds
 {.is-info}
 
-> All Services running smooth ! 28-08-2025
-{.is-success}
-
-
-> Redeploying the video-only archive, 🇺🇦 is done, 🇷🇺 is done! 
 
 ![osintukraine-diagram.svg](/osintukraine-diagram.svg)
 
@@ -75,5 +62,5 @@ Looking for developers with experience manipulating JSON data flows and experien
 > Status \- Automated translation 🟢 - Automated publication 🟢 - Automated media download 🟢 - Video Playback 🟢 - Image Display 🟢
 {.is-success}
 
-<kbd>OSINTukraine © 2022-2023-2024-2025</kbd> <kbd> Status <a href="https://status.ukrainewararchive.eu/status/uptime
+<kbd>OSINTukraine © 2022-2023-2024-2025-2026</kbd> <kbd> Status <a href="https://status.ukrainewararchive.eu/status/uptime
 " target="_blank"><u>Uptime</u></a> </kbd>
